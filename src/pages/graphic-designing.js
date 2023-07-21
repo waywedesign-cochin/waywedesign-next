@@ -125,13 +125,13 @@ const GraphicDesigning = () => {
                     include:
                   </p>
                 </div>
-                <div class="service-details__benefits">
-                  <div class="row">
+                <div className="service-details__benefits">
+                  <div className="row">
                     <div cl ass="col-xl-6">
-                      <p class="service-details__benefits-text">
+                      <p className="service-details__benefits-text">
                         <ul>
                           <li>
-                            <h6 class="service_list">Poster Design</h6>
+                            <h6 className="service_list">Poster Design</h6>
                             <p>
                               Our posters are designed to grab the attention of
                               your target audience and convey your message
@@ -141,7 +141,7 @@ const GraphicDesigning = () => {
                             </p>
                           </li>
                           <li>
-                            <h6 class="service_list">Brochure Design</h6>
+                            <h6 className="service_list">Brochure Design</h6>
                             <p>
                               Our brochures are designed to give a comprehensive
                               overview of your products and services. We create
@@ -151,7 +151,7 @@ const GraphicDesigning = () => {
                             </p>
                           </li>
                           <li>
-                            <h6 class="service_list">Visiting Card Design</h6>
+                            <h6 className="service_list">Visiting Card Design</h6>
                             <p>
                               Our visiting cards are designed to make a lasting
                               impression on your clients and customers. We
@@ -161,7 +161,7 @@ const GraphicDesigning = () => {
                             </p>
                           </li>
                           <li>
-                            <h6 class="service_list">Logo Design</h6>
+                            <h6 className="service_list">Logo Design</h6>
                             <p>
                               Our logos are designed to reflect the unique
                               identity of your brand. We create logos that are

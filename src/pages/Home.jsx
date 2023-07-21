@@ -8,6 +8,7 @@ import BlogHome from '@/Components/Home/BlogHome'
 import HomeCta from '@/Components/Home/HomeCta'
 import ToolsUsed from '@/Components/Home/ToolsUsed'
 import BannerVideo from '@/Components/Home/BannerVideo'
+import { motion } from "framer-motion";
 
 const Home = () => {
   return (

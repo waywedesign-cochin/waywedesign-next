@@ -47,7 +47,7 @@ const LatestPost =()=>{
             <h3 className="sidebar__title">Latest Posts</h3>
             <ul className="sidebar__post-list list-unstyled">
                 {posts.map((blog,index)=>{
-                              const slugLink = `https://waywedesign.com/${blog.slug}`;
+                              const slugLink = `/${blog.slug}`;
 
                         return(
                             <li key={index}>

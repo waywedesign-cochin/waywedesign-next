@@ -3,7 +3,11 @@ import { useRouter } from 'next/router';
 import { request } from 'graphql-request';
 import { RichText } from '@graphcms/rich-text-react-renderer';
 import ServiceSideMenu from '@/Components/ServiceSideMenu';
-// import LatestPost from '@/components/LatestPost';
+import Menu from '@/Components/Navbar';
+import Footer from '@/Components/Footer';
+import LatestPost from '@/Components/LatestPost';
+import { motion } from "framer-motion";
+
 
 const BlogDetail = () => {
   const ptag = {
@@ -45,7 +49,13 @@ const BlogDetail = () => {
     fetchPost();
   }, [slug]);
   return (
-    <>    {blog.coverPhoto && blog.coverPhoto.url && (
+    <motion.div
+    initial={{ opacity: 0, x: 100 }}
+    animate={{ opacity: 1, x: 0 }}
+    exit={{ opacity: 0, x: 100 }}
+    transition={{ duration: 1 }}>    
+    <Menu/>
+    {blog?.coverPhoto && blog.coverPhoto.url && (
   <section className="news-details">
   <div className="container">
     <div className="row">
@@ -93,7 +103,7 @@ const BlogDetail = () => {
               <button type="submit"><i className="icon-magnifying-glass" /></button>
             </form> */}
           </div>
-         {/* <LatestPost/> */}
+         <LatestPost/>
           <ServiceSideMenu/>
           {/* <div className="sidebar__single sidebar__tags">
             <h3 className="sidebar__title">Tags</h3>
@@ -112,11 +122,12 @@ const BlogDetail = () => {
   </div>
 </section>
 )}
+<Footer/>
 
-</>
+</motion.div>
 
 
   )
 }
 
-export default BlogDeatil
+export default BlogDetail

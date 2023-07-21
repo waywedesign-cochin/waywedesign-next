@@ -1,14 +1,16 @@
 import React from 'react'
 import Link from 'next/link'
-import ctashape from "../../images/shapes/cta-two-shape-1.png"
-import Image from 'next/image'
+import Image from 'next/image';
+import shape from '../../images/shapes/shape.png'
 const HomeCta = () => {
   return (
     <div>
          {/*CTA One Start*/}
         <section className="cta-two">
   <div className="cta-two__container">
-    <div className="cta-two-shape-1"><Image src={ctashape} alt="cta shape two" /></div>
+    <div className="cta-two-shape-1">
+      <Image src={shape} alt="cta shape two" />
+      </div>
     <div className="container">
       <div className="row">
         <div className="col-xl-12">

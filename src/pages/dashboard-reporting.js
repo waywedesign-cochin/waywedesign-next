@@ -67,27 +67,27 @@ const DashboardReporting = () => {
                     ARE:
                   </p>
                 </div>
-                <div class="service-details__benefits">
-                  <div class="row">
+                <div className="service-details__benefits">
+                  <div className="row">
                     <div cl ass="col-xl-6">
-                      <div class="service-details__benefits-text">
-                        <p class="service-details__benefits-text">
+                      <div className="service-details__benefits-text">
+                        <p className="service-details__benefits-text">
                           <ul>
                             <li>
-                              <h6 class="service_list">
+                              <h6 className="service_list">
                                 Tracking business movements/trends
                               </h6>
                             </li>
                             <li>
-                              <h6 class="service_list">
+                              <h6 className="service_list">
                                 Info graphic representation of data
                               </h6>
                             </li>
                             <li>
-                              <h6 class="service_list">Insight monitoring</h6>
+                              <h6 className="service_list">Insight monitoring</h6>
                             </li>
                             <li>
-                              <h6 class="service_list">
+                              <h6 className="service_list">
                                 Faster decision making
                               </h6>
                             </li>

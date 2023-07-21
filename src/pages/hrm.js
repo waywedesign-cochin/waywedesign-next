@@ -136,14 +136,14 @@ const Hrm = () => {
                     candidate needs within the mentioned budget.
                   </p>
                 </div>
-                <div class="service-details__benefits">
-                  <div class="row">
+                <div className="service-details__benefits">
+                  <div className="row">
                     <div cl ass="col-xl-6">
-                      <div class="service-details__benefits-text">
-                        <h4 class="service-details__benefits-title">
+                      <div className="service-details__benefits-text">
+                        <h4 className="service-details__benefits-title">
                           Professional Staffing
                         </h4>
-                        <p class="service-details__benefits-text">
+                        <p className="service-details__benefits-text">
                           Industries across the globe resort to different
                           strategies when it comes to attracting the right
                           talent. As the economy is growing, there is also a
@@ -156,10 +156,10 @@ const Hrm = () => {
                           fulfillment.
                         </p>
                         <br />
-                        <h4 class="service-details__benefits-title">
+                        <h4 className="service-details__benefits-title">
                           Outsourcing
                         </h4>
-                        <p class="service-details__benefits-text">
+                        <p className="service-details__benefits-text">
                           We have seen a paradigm shift in traditional staffing
                           solutions where companies are currently on the lookout
                           for more economical ways of staffing, particularly
@@ -185,7 +185,7 @@ const Hrm = () => {
                         </p>
                         <ol>
                             <li>
-                              <h6 class="service_list">SOURCING</h6>
+                              <h6 className="service_list">SOURCING</h6>
                               <p>
                                 Our team's top-notch networking and large pool
                                 of candidates for IT and related services will
@@ -194,7 +194,7 @@ const Hrm = () => {
                               </p>
                             </li>
                             <li>
-                              <h6 class="service_list">
+                              <h6 className="service_list">
                                 SCREENING, FILTERING AND SHORLISTING
                               </h6>
                               <p>
@@ -210,7 +210,7 @@ const Hrm = () => {
                               </p>
                             </li>
                             <li>
-                              <h6 class="service_list">
+                              <h6 className="service_list">
                                 SCHEDULING AN INTERVIEW
                               </h6>
                               <p>
@@ -228,7 +228,7 @@ const Hrm = () => {
 
                 <div className="pb-3">
                   <h3 className="service-details__title ">FAQ</h3>
-                  <p class="service-details__benefits-text">
+                  <p className="service-details__benefits-text">
                     Are you looking for a way to attract talent and efficiently
                     staff your organization without additional expense and
                     tedious efforts? Are you searching for better ways to manage

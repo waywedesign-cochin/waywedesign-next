@@ -6,7 +6,7 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 import  Link  from 'next/link';
 const Menu = () => {
   return (
-    <div class="full_width_nav">
+    <div className="full_width_nav">
       <header className="main-header clearfix">
         <div className="main-header__top clearfix">
           <div className="main-header__top-inner clearfix">
@@ -272,7 +272,7 @@ const Menu = () => {
                         <Link href="/contact">Contact Us</Link>
                       </li>
                       <li>
-                        <button className="btn btn-primary"><Link class="getquotelink" href="/contact">Get  Quote</Link></button>
+                        <button className="btn btn-primary"><Link className="getquotelink" href="/contact">Get  Quote</Link></button>
                       </li>
                       {/* <li style={{border:"1px solid blue",backgroundColor:"blue",height:'80px'}}>
                         <Link href="/contact">Get A Quote</Link>
@@ -360,8 +360,8 @@ const Menu = () => {
         </div>
         {/* /.mobile-nav__content */}
       </div>
-      <Link href="#" data-target="html" class="scroll-to-target scroll-to-top">
-        <i class="fa fa-angle-up"></i>
+      <Link href="#" data-target="html" className="scroll-to-target scroll-to-top">
+        <i className="fa fa-angle-up"></i>
       </Link>
     </div>
   );

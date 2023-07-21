@@ -36,7 +36,7 @@ const PartnerSlider = () => {
                     {counterOn && <CountUp start={0} end={10} duration={2} delay={0}/>}
                     +
                   </h1>
-                  <h4 class="text-white">Services</h4>
+                  <h4 className="text-white">Services</h4>
                 </div>
               </div>
               <div className="col-md-3 py-md-0 py-3  col-6 text-center counter-col">

@@ -107,7 +107,7 @@ const MobileAppDevelopment = () => {
                         <Card.Header>{item.title}</Card.Header>
                         <Card.Body>
                           <blockquote className="blockquote mb-0">
-                            <p class="text-justify">{item.desc}</p>
+                            <p className="text-justify">{item.desc}</p>
                           </blockquote>
                         </Card.Body>
                       </Card>

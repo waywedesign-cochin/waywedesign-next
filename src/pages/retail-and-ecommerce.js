@@ -105,7 +105,7 @@ const RetailAndEcommerce = () => {
                     for online promotion, offering:
                   </p>
                   <Image width="100%"
-                    class="text-center"
+                    className="text-center"
                     src={retailecommercesecond}
                     alt="RETAIL AND ECOMMERCE  OFFERING"
                   />
@@ -133,7 +133,7 @@ const RetailAndEcommerce = () => {
                        <Card.Header className="text-center">{item.title}</Card.Header>
                        <Card.Body>
                          <blockquote className="blockquote mb-0">
-                           <p class="text-justify">{item.desc}</p>
+                           <p className="text-justify">{item.desc}</p>
                            
                          </blockquote>
                        </Card.Body>

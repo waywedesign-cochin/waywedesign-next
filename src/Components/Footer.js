@@ -103,7 +103,7 @@ const Footer = () => {
                   >
                     <div className="footer-widget__column footer-widget__contact">
                       <h3 className="footer-widget__title">Contact</h3>
-                      <h5 class="text-white">India</h5>
+                      <h5 className="text-white">India</h5>
                       <p className="footer-widget__contact-text " style={{textAlign:"left"}}>
                       Way WeDesign,
                       47/1403A,Ivees, MRERA-69, Chalikkavattom, Vennala
@@ -136,7 +136,7 @@ const Footer = () => {
                         </li>
                       </ul>
                       <br></br>
-                      <h5 class="text-white">UAE</h5>
+                      <h5 className="text-white">UAE</h5>
                       <p className="footer-widget__contact-text">
                       Dusseldorf Business Point,
 Al Barsha 1, Dubai, United Arab Emirates

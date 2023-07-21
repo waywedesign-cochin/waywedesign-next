@@ -8,7 +8,7 @@ const BlogCard = ({ item }) => {
         <div className="row">
           {item.map((items, index) => {
             // Construct the slug link for each item
-            const slugLink = `https://localhost:3000/${items.slug}`;
+            const slugLink = `/blog/${items.slug}`;
            
 
             return (

@@ -102,8 +102,8 @@ const IotDevelopment = () => {
                     systems-based products with high accuracy.
                   </p>
                 </div>
-                <div class="service-details__benefits">
-                  <div class="row">
+                <div className="service-details__benefits">
+                  <div className="row">
                     <div cl ass="col-xl-6">
                     <div className="service-details__benefits-text">
   <ul>

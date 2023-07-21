@@ -71,7 +71,7 @@ const AssessementPlatforms = () => {
                     platform include:
                   </p>
                   <Image
-                    class="text-center"
+                    className="text-center"
                     src={assesmentplatformtwo}
                     alt="assesment-platform includes"
                   />
