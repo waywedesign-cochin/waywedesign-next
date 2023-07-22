@@ -1,11 +1,11 @@
 import Menu from "@/Components/Navbar";
-import Breadcrumbs from "@/components/Breadcrumbs";
-import ServiceSideMenu from "@/components/ServiceSideMenu";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import hrmService from "../images/resources/hrm-service.jpg";
 import Footer from "@/Components/Footer";
 import Head from "next/head";
+import Breadcrumbs from "@/Components/Breadcrumbs";
+import ServiceSideMenu from "@/Components/ServiceSideMenu";
 
 const Outsourcing= () => {
   return (
