@@ -1,11 +1,11 @@
-import Breadcrumbs from "@/components/Breadcrumbs";
-import ServiceSideMenu from "@/components/ServiceSideMenu";
-import Menu from "@/components/Navbar";
-import Footer from "@/components/Footer";
 import { motion } from "framer-motion";
 import Head from 'next/head'
 import videoproduction from "../images/resources/video-production.jpg"
 import Image from 'next/image'
+import Menu from "@/Components/Navbar";
+import Breadcrumbs from "@/Components/Breadcrumbs";
+import ServiceSideMenu from "@/Components/ServiceSideMenu";
+import Footer from "@/Components/Footer";
 
 const VideoProduction = () => {
   return (
