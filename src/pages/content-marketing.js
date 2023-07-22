@@ -3,7 +3,7 @@ import Card from "react-bootstrap/Card";
 import  Link  from "next/link";
 import  Image  from "next/image";
 import  Head  from "next/head";
-import  contentDevelopmentImage  from "../images/resources/content-development.jpg";
+import  contentDevelopmentImage  from "../images/resources/Content-development.jpg";
 import Menu from "@/Components/Navbar";
 import Breadcrumbs from "@/Components/Breadcrumbs";
 import AccordionFaq from "@/Components/Accordion";

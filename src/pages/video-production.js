@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import Head from 'next/head'
-import videoproduction from "../images/resources/video-production.jpg"
+import videoproduction from "../images/resources/Video-production.jpg"
 import Image from 'next/image'
 import Menu from "@/Components/Navbar";
 import Breadcrumbs from "@/Components/Breadcrumbs";

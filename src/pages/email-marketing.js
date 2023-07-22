@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import emailMarketingImage from "../images/resources/email-marketing.jpg"
+import emailMarketingImage from "../images/resources/Email-marketing.jpg"
 import Menu from "@/Components/Navbar";
 import Breadcrumbs from "@/Components/Breadcrumbs";
 import AccordionFaq from "@/Components/Accordion";
