@@ -1,12 +1,11 @@
-import Breadcrumbs from "@/components/Breadcrumbs";
-import ServiceSideMenu from "@/components/ServiceSideMenu";
 import { motion } from "framer-motion";
-import AccordionFaq from "@/components/Accordion";
 import Head from "next/head";
 import Menu from "@/Components/Navbar";
 import Footer from "@/Components/Footer";
 import Image from "next/image";
 import uiux from "../images/resources/UI-UX design.jpg";
+import Breadcrumbs from "@/Components/Breadcrumbs";
+import ServiceSideMenu from "@/Components/ServiceSideMenu";
 
 
 const UiuxDesign= () => {
@@ -42,6 +41,7 @@ const UiuxDesign= () => {
       title: " Why is UI/UX design important?",
       answer:"UI/UX design is important because it helps to create a positive user experience, which can increase user engagement, drive customer loyalty, and ultimately lead to higher conversion rates."
     },
+
 
     {
       eventkey:6,
