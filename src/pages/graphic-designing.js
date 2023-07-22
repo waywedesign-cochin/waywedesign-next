@@ -1,12 +1,13 @@
-import Breadcrumbs from "@/components/Breadcrumbs";
-import ServiceSideMenu from "@/components/ServiceSideMenu";
-import AccordionFaq from "@/components/Accordion";
 import {motion} from 'framer-motion'
 import Head from "next/head";
 import graphicdesignbanner from "../images/resources/graphic-design-banner.jpg";
 import Image from "next/image";
-import Menu from "@/Components/Navbar";
-import Footer from "@/Components/Footer";
+import Menu from '@/Components/Navbar';
+import Breadcrumbs from '@/Components/Breadcrumbs';
+import AccordionFaq from '@/Components/Accordion';
+import ServiceSideMenu from '@/Components/ServiceSideMenu';
+import Footer from '@/Components/Footer';
+
 
 
 const GraphicDesigning = () => {
