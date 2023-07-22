@@ -1,11 +1,12 @@
-import Breadcrumbs from "@/components/Breadcrumbs";
-import ServiceSideMenu from "@/components/ServiceSideMenu";
-import Footer from "@/components/Footer";
-import Menu from "@/components/Navbar";
 import  Head from "next/head";
 import  Image from "next/image";
 import  dashboardrepimg from "../images/resources/dashboard-reporting.jpg";
 import { motion } from "framer-motion";
+import Menu from "@/Components/Navbar";
+import Breadcrumbs from "@/Components/Breadcrumbs";
+import ServiceSideMenu from "@/Components/ServiceSideMenu";
+import Footer from "@/Components/Footer";
+
 
 const DashboardReporting = () => {
   return (
@@ -105,6 +106,7 @@ const DashboardReporting = () => {
           </div>
         </div>
       </section>
+      <Footer/>
     </motion.div>
   );
 };

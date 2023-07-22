@@ -1,14 +1,13 @@
-import Menu from "@/Components/Navbar";
-import AccordionFaq from "@/components/Accordion";
-import Breadcrumbs from "@/components/Breadcrumbs";
-
-import ServiceSideMenu from "@/components/ServiceSideMenu";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import academyImage from "../images/resources/digital-marketing-academy.jpg";
 import Link from "next/link";
 import Footer from "@/Components/Footer";
 import Head from "next/head";
+import Menu from "@/Components/Navbar";
+import Breadcrumbs from "@/Components/Breadcrumbs";
+import AccordionFaq from "@/Components/Accordion";
+import ServiceSideMenu from "@/Components/ServiceSideMenu";
 
 const digitalMarketingAcademy = () => {
   const MarketingAcademyFaq = [
