@@ -1,12 +1,11 @@
 import React, { useRef }  from "react";
-import Breadcrumbs from "@/components/Breadcrumbs";
-import Menu from "@/components/Navbar";
-import Footer from "@/components/Footer";
-
 import { motion } from "framer-motion";
 import emailjs from '@emailjs/browser';
 import Head from "next/head";
 import Link from "next/link";
+import Breadcrumbs from "@/Components/Breadcrumbs";
+import Footer from "@/Components/Footer";
+import Menu from "@/Components/Navbar";
 
 
 

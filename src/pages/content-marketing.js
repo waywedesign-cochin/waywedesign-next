@@ -1,14 +1,13 @@
-import Breadcrumbs from "@/components/Breadcrumbs";
-import ServiceSideMenu from "@/components/ServiceSideMenu";
-import Menu from "@/components/Navbar";
-import Footer from "@/components/Footer";
 import { motion } from "framer-motion";
-import AccordionFaq from "@/components/Accordion";
 import Card from "react-bootstrap/Card";
 import  Link  from "next/link";
 import  Image  from "next/image";
 import  Head  from "next/head";
 import  contentDevelopmentImage  from "../images/resources/content-development.jpg";
+import Menu from "@/Components/Navbar";
+import Breadcrumbs from "@/Components/Breadcrumbs";
+import AccordionFaq from "@/Components/Accordion";
+import ServiceSideMenu from "@/Components/ServiceSideMenu";
 
 const ContentDevelopment = () => {
   const faq = [
