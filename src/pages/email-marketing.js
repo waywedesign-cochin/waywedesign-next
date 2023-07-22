@@ -1,12 +1,13 @@
-import Breadcrumbs from "@/components/Breadcrumbs";
-import ServiceSideMenu from "@/components/ServiceSideMenu";
 import Head from "next/head";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import AccordionFaq from "@/components/Accordion";
 import emailMarketingImage from "../images/resources/email-marketing.jpg"
-import Footer from "@/Components/Footer";
 import Menu from "@/Components/Navbar";
+import Breadcrumbs from "@/Components/Breadcrumbs";
+import AccordionFaq from "@/Components/Accordion";
+import ServiceSideMenu from "@/Components/ServiceSideMenu";
+import Footer from "@/Components/Footer";
+
 
 const EmailMarketing = () => {
   const Faq = [
