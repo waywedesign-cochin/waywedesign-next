@@ -1,13 +1,12 @@
 import React from "react";
-import Breadcrumbs from "@/components/Breadcrumbs";
-import ServiceSideMenu from "@/components/ServiceSideMenu";
-import Menu from "@/components/Navbar";
-import Footer from "@/components/Footer";
-import AccordionFaq from "@/components/Accordion";
 import { motion } from "framer-motion";
 import Head from "next/head";
 import Image from "next/image";
 import cloudImage from "../images/resources/cloud.jpg";
+import Breadcrumbs from "@/Components/Breadcrumbs";
+import AccordionFaq from "@/Components/Accordion";
+import ServiceSideMenu from "@/Components/ServiceSideMenu";
+import Footer from "@/Components/Footer";
 
 const CloudService = () => {
   const CloudServiceData = [

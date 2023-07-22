@@ -1,11 +1,11 @@
 import React,{useEffect,useState} from "react";
-import Breadcrumbs from "@/components/Breadcrumbs";
 import { motion } from "framer-motion";
-import BlogCard from "@/components/BlogCard";
 import {post} from './api/api';
 import Head from "next/head";
 import Menu from "@/Components/Navbar";
 import Footer from "@/Components/Footer";
+import Breadcrumbs from "@/Components/Breadcrumbs";
+import BlogCard from "@/Components/BlogCard";
 const Blog = () => {
   const [posts, setPosts] = useState();
   const[loading, setLoading] = useState(true);
