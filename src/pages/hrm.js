@@ -6,6 +6,8 @@ import Menu from "@/Components/Navbar";
 import Breadcrumbs from "@/Components/Breadcrumbs";
 import AccordionFaq from "@/Components/Accordion";
 import ServiceSideMenu from "@/Components/ServiceSideMenu";
+import { motion } from "framer-motion";
+
 
 const Hrm = () => {
   const HrmFaq = [

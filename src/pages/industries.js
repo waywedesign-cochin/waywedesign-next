@@ -1,6 +1,7 @@
+
+import Breadcrumbs from "@/Components/Breadcrumbs";
 import Footer from "@/Components/Footer";
 import Menu from "@/Components/Navbar";
-import Breadcrumbs from "@/components/Breadcrumbs";
 import { motion } from "framer-motion";
 import Head from 'next/head';
 
