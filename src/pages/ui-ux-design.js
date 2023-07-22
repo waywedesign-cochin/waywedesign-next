@@ -6,6 +6,7 @@ import Image from "next/image";
 import uiux from "../images/resources/UI-UX design.jpg";
 import Breadcrumbs from "@/Components/Breadcrumbs";
 import ServiceSideMenu from "@/Components/ServiceSideMenu";
+import AccordionFaq from "@/Components/Accordion";
 
 
 const UiuxDesign= () => {

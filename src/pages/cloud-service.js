@@ -7,6 +7,7 @@ import Breadcrumbs from "@/Components/Breadcrumbs";
 import AccordionFaq from "@/Components/Accordion";
 import ServiceSideMenu from "@/Components/ServiceSideMenu";
 import Footer from "@/Components/Footer";
+import Menu from "@/Components/Navbar";
 
 const CloudService = () => {
   const CloudServiceData = [
