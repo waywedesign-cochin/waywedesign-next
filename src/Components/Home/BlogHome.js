@@ -72,11 +72,11 @@ const BlogHome = () => {
                    
                   </ul>
                   <h3 className="news-one__title">
-                    <Link href={`https://waywedesign.com/${post.slug}`}>{post.title}</Link>
+                    <Link href={`/blog/${post.slug}`}>{post.title}</Link>
                   </h3>
                   <p className="news-one__text">{post.smalldesc}</p>
                   <div className="news-one__read-more">
-                    <Link href={`https://waywedesign.com/${post.slug}`} className="news-one__read-more-btn">
+                    <Link href={`/blog/${post.slug}`} className="news-one__read-more-btn">
                       Read More
                     </Link>
                   </div>

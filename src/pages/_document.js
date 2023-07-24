@@ -18,6 +18,7 @@ export default function Document() {
     rel="stylesheet"/>
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" rel="stylesheet"></link>
 
       </Head>
       <Script
@@ -27,6 +28,7 @@ export default function Document() {
       />
       <Script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"/>
       <body>
+        
         <Main />
         <NextScript />
       </body>

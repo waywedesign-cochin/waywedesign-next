@@ -9,10 +9,12 @@ import HomeCta from '@/Components/Home/HomeCta'
 import ToolsUsed from '@/Components/Home/ToolsUsed'
 import BannerVideo from '@/Components/Home/BannerVideo'
 import { motion } from "framer-motion";
+import MobileMenu from '@/Components/MobileMenu'
 
 const Home = () => {
   return (
     <>
+    <MobileMenu/>
         <BannerVideo/>
         <PartnerSlider/>
         <FeatureOne/>

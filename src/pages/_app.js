@@ -1,6 +1,7 @@
 import '@/styles/globals.css'
 import '@/styles/responsive.css'
 import '@/styles/CardBangalore.css'
+import '@/styles/NavStyle.css'
 import '@/vendors/animate/animate.min.css'
 import '@/vendors/animate/custom-animate.css'
 import '@/vendors/fontawesome/css/all.min.css'
