@@ -1,18 +1,5 @@
-.dropdown-menu li {
-    position: relative;
-    }
-    .dropdown-menu .dropdown-submenu {
-    display: none;
-    position: absolute;
-    left: 50%;
-    top: -7px;
-    }
-    .dropdown-menu .dropdown-submenu-left {
-    right: 100%;
-    left: auto;
-    }
-    .dropdown-menu > li:hover > .dropdown-submenu {
+.dropdown-item {
     display: block;
-    }
-
- 
+    width: 100%;
+    padding: 6px 10px;
+}

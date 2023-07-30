@@ -6793,9 +6793,9 @@ li::marker{
       .MDBNavbar{
           display: block;
       }
-      .full_width_nav{
+      /* .full_width_nav{
           display: none!important;
-      }
+      } */
   }
 
   .owl-carousel-item,.owl-carousel-new h4 {
@@ -7182,7 +7182,7 @@ p{
 }
 .dubai{
   padding: 70px 0px 20px 0px;
-  /* background: url(../background-images/sun-tornado.svg); */
+  background: url(../background-images/sun-tornado.svg);
   background-size: cover;
 
 }

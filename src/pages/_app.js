@@ -19,6 +19,7 @@ import '@/vendors/jquery-ui/jquery-ui.css'
 
 
 
+
 export default function App({ Component, pageProps }) {
   return <Component {...pageProps} />
 }

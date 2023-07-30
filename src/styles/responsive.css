@@ -1043,6 +1043,7 @@
     .main-slider__nav-two .swiper-button-next {
         margin-right: 80px;
     }
+    
 
 
 
@@ -1171,7 +1172,9 @@
     .main-menu-wrapper__logo {
         margin-right: 100px;
     }
-
+    .mobilemenu{
+        display: none;
+    }
 
 
 }
@@ -1195,6 +1198,9 @@
 
     .main-menu-two .mobile-nav__toggler:hover {
         color: var(--thm-black);
+    }
+    .mobilemenu{
+        display: none;
     }
 
 
