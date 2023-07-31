@@ -1,6 +1,5 @@
 import React from 'react'
 import  Link  from 'next/link'
-import logo from '../images/logo.png'
 
 const Footer = () => {
   return (
@@ -26,7 +25,7 @@ const Footer = () => {
                       <div className="footer-widget__about-logo">
                         <Link href="/">
                           <img width="130px"
-                            src="	https://waywedesign.com/static/media/logo.0246eede34e149467296.png"
+                            src="/assets/images/logo.png"
                             alt="logo"
                           />
                         </Link>
@@ -205,7 +204,7 @@ P.O.BOX: 5003517
           <div className="logo-box">
             <a href="index.html" aria-label="logo image">
               <img
-                src={logo}
+                src='/assets/images/logo.png'
                 width={155}
                 alt="logo"
               />

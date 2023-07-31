@@ -3,16 +3,88 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-
 function Menu() {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
-      <Container>
+    <div>
+       <div className="main-header__top clearfix">
+          <div className="main-header__top-inner clearfix">
+            <div className="main-header__top-left">
+              <ul className="list-unstyled main-header__top-address">
+                <li>
+                  <div className="icon">
+                    <span className="icon-pin" />
+                  </div>
+                  <div className="text">
+                      <a  href="https://goo.gl/maps/ag2TbuBVZkZ3oT9s5" target="blank">
+                    <p>Way WeDesign, India</p>
+                    </a>
+                  </div>
+                </li>
+                <li>
+                  <div className="icon">
+                    <span className="icon-email" />
+                  </div>
+                  <div className="text">
+                    <p>
+                      <a href="mailto:contact@waywedesign.com">
+                        contact@waywedesign.com
+                      </a>
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div className="main-header__top-right">
+              {/* <div className="main-header__top-right-text">
+          <p><span>Now Hiring:</span> Are you a driven and motivated 1st Line IT Support Engineer?</p>
+        </div> */}
+              <div className="main-header__top-right-social">
+                <Link target={"_blank"} href="https://wa.me/+917994643673">
+                  <i className="fab fa-whatsapp" />
+                </Link>
+                <Link
+                  target={"_blank"}
+                  href="https://www.instagram.com/waywedesign/"
+                >
+                  <i className="fab fa-instagram" />
+                </Link>
+
+                <Link
+                  target={"_blank"}
+                  href="https://www.linkedin.com/company/13701254/"
+                >
+                  <i className="fab fa-linkedin" />
+                </Link>
+                <Link
+                  target={"_blank"}
+                  href="https://www.behance.net/waywedesign"
+                >
+                  <i className="fab fa-behance" />
+                </Link>
+                <Link target={"_blank"} href="https://twitter.com/waywedesign">
+                  <i className="fab fa-twitter" />
+                </Link>
+                <Link
+                  target={"_blank"}
+                  href="https://www.facebook.com/contact.waywedesign/"
+                >
+                  <i className="fab fa-facebook" />
+                </Link>
+                <Link href="https://in.pinterest.com/WayWeDesign/">
+                          <i className="fab fa-pinterest-p" />
+                        </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+    <Navbar  sticky="top" expand="lg" className="bg-body-tertiary">
+      
+      <Container style={{backgroundColor:"#fff",height:"100px"}}>
         <Navbar.Brand href="/">
           <img
             className=""
             width="150px"
-            src="https://waywedesign.com/static/media/logo-wwd.4e2615278b2f75eca268.png"
+            src="/assets/images/logo-wwd.png"
             alt=""
           />
         </Navbar.Brand>
@@ -25,7 +97,7 @@ function Menu() {
             <Nav.Link>
               <Link href="/about">About</Link>
             </Nav.Link>
-            <NavDropdown title="Our Services" id="basic-nav-dropdown">
+            <NavDropdown className="main-dropdown" title="Our Services" id="basic-nav-dropdown">
              
               <NavDropdown title="Software & Platform" id="basic-nav-dropdown">
               <NavDropdown.Item>
@@ -121,6 +193,7 @@ function Menu() {
         </Navbar.Collapse>
       </Container>
     </Navbar>
+    </div>
   );
 }
 

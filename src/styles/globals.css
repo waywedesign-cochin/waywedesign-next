@@ -603,19 +603,32 @@ canvas {
   position: relative;
 }
 
-.main-menu .main-menu__list>li+li,
-.stricky-header .main-menu__list>li+li {
+.nav-link a {
+  margin-left: 45px;
+}
+.main-dropdown{
   margin-left: 45px;
 }
 @media only screen and (max-width : 1250px)  {
-  .main-menu .main-menu__list>li>a,
-.stricky-header .main-menu__list>li>a {
+ .nav-link a {
   font-size: 13px !important;
   
 }
 }
-.main-menu .main-menu__list>li>a,
-.stricky-header .main-menu__list>li>a {
+.navbar {
+  padding:0px;
+  height:100px;
+}
+.nav-link a {
+  font-size: 16px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  color: var(--thm-gray);
+  position: relative;
+  transition: all 500ms ease;
+}
+.main-dropdown {
   font-size: 16px;
   font-weight: 500;
   display: flex;
@@ -625,8 +638,21 @@ canvas {
   transition: all 500ms ease;
 }
 
-.main-menu .main-menu__list>li>a::before,
-.stricky-header .main-menu__list>li>a::before {
+.nav-link a::before {
+  content: '';
+  width: 10px;
+  height: 2px;
+  border-radius: 0px;
+  background-color: var(--thm-primary);
+  position: absolute;
+  top: 50%;
+  bottom: 0px;
+  left: -20px;
+  transition: transform 500ms ease;
+  transform: scale(0) translateY(-50%);
+  z-index: -1;
+}
+.main-dropdown::before {
   content: '';
   width: 10px;
   height: 2px;
@@ -641,18 +667,19 @@ canvas {
   z-index: -1;
 }
 
-.main-menu .main-menu__list>li.current>a,
-.main-menu .main-menu__list>li:hover>a,
-.stricky-header .main-menu__list>li.current>a,
-.stricky-header .main-menu__list>li:hover>a {
+.nav-link:hover>a {
+  color: var(--thm-black);
+  text-shadow: 0 0 1px currentColor;
+}
+.main-dropdown:hover{
   color: var(--thm-black);
   text-shadow: 0 0 1px currentColor;
 }
 
-.main-menu .main-menu__list>li.current>a::before,
-.main-menu .main-menu__list>li:hover>a::before,
-.stricky-header .main-menu__list>li.current>a::before,
-.stricky-header .main-menu__list>li:hover>a::before {
+.nav-link:hover>a::before {
+  transform: scale(1) translateY(-50%);
+}
+.main-dropdown:hover>.main-dropdown::before {
   transform: scale(1) translateY(-50%);
 }
 
@@ -660,7 +687,7 @@ canvas {
   background-color: var(--thm-extra);
 }
 
-.main-menu .main-menu__list>li:hover>a::before {
+.nav-link:hover>a::before {
   background-color: var(--thm-extra);
 }
 

@@ -21,7 +21,7 @@ const DiscoverMore = () => {
                     </Link>
                     <div className="share-the-joy__shape-1">
                       <img
-                        src="../../images/shapes/share-the-joy-shape-1.png"
+                        src="/assets/images/share-the-joy-shape-1.png"
                         alt="joy shape"
                       />
                     </div>

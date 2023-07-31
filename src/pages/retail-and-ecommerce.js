@@ -104,7 +104,7 @@ const RetailAndEcommerce = () => {
                     current limits. Our platform serves as your ultimate tool
                     for online promotion, offering:
                   </p>
-                  <Image width="100%"
+                  <Image 
                     className="text-center"
                     src={retailecommercesecond}
                     alt="RETAIL AND ECOMMERCE  OFFERING"
