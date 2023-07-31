@@ -19,6 +19,7 @@ export default function Document() {
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" rel="stylesheet"></link>
+  <link rel="shortcut icon" href="/assets/images/logo.png" />
 
       </Head>
       <Script
