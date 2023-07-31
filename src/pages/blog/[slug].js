@@ -8,6 +8,7 @@ import Footer from '@/Components/Footer';
 import LatestPost from '@/Components/LatestPost';
 import { motion } from "framer-motion";
 import MobileMenu from '@/Components/MobileMenu';
+import Head from 'next/head';
 
 
 const BlogDetail = () => {
@@ -42,6 +43,7 @@ const BlogDetail = () => {
                 raw
               }
               smalldesc
+               
             }
           }`
       );
@@ -49,6 +51,8 @@ const BlogDetail = () => {
     };
     fetchPost();
   }, [slug]);
+  const hasMeta = blog && blog.meta;
+
   return (
     <motion.div
     initial={{ opacity: 0, x: 100 }}
@@ -57,7 +61,35 @@ const BlogDetail = () => {
     transition={{ duration: 1 }}>    
     <Menu/>
     <MobileMenu />
+    
+    
+        <Head>
+        <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <link rel="icon" href="./assets/images/logo.png" />
+  <link rel="apple-touch-icon" href="./assets/images/logo.png" />
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
 
+  <title> {blog && blog.title}</title>
+  <meta   name="description" content={blog && blog.smalldesc} />
+  <meta   name="robots" content="index, follow" />
+  <meta   name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+  <meta   name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+  <link   rel="canonical" href="https://waywedesign.com/ui-ux-design" />
+  <meta   property="og:locale" content="en_US" />
+  <meta   property="og:type" content="website" />
+  <meta   property="og:title" content= {blog && blog.title}/>
+  <meta   property="og:description" content={blog &&blog.smalldesc} />
+  <meta   property="og:url" content={blog && `https://waywedesign.com/blog/${blog.slug}`} />
+  <meta   property="og:site_name" content="WayWeDesign"  />
+  <meta   property="article:publisher" content="https://www.facebook.com/waywedesign" />
+  <meta   property="article:modified_time" content="2023-06-05T08:16:17+00:00" />
+  <meta   name="twitter:card" content="summary_large_image" />
+  <meta   name="twitter:creator" content="@waywedesign" />
+  <meta   name="twitter:site" content="@waywedesign" />
+        </Head>
+     
     {blog?.coverPhoto && blog.coverPhoto.url && (
   <section className="news-details">
   <div className="container">
