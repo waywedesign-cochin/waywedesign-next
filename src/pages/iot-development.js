@@ -7,6 +7,7 @@ import Breadcrumbs from "@/Components/Breadcrumbs";
 import AccordionFaq from "@/Components/Accordion";
 import ServiceSideMenu from "@/Components/ServiceSideMenu";
 import Footer from "@/Components/Footer";
+import MobileMenu from "@/Components/MobileMenu";
 
 
 const IotDevelopment = () => {
@@ -56,6 +57,8 @@ const IotDevelopment = () => {
     >
       <Head>
         <Menu/>
+        <MobileMenu />
+
       <title>IOT Development Service providing comany| IOT Development Services</title>
        
        <meta   name="description" content="Way WeDesign is a popular IoT development company that helps new businesses and enterprises around the world establish innovative IoT Development Services." />

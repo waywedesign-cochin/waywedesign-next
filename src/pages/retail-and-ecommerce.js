@@ -9,6 +9,7 @@ import retailecommerce from "../images/resources/retail-and-ecommerce.jpg"
 import retailecommercesecond from "../images/resources/retail-and-ecommerce-two.jpg"
 import Menu from "@/Components/Navbar";
 import Footer from "@/Components/Footer";
+import MobileMenu from "@/Components/MobileMenu";
 
 
 const RetailAndEcommerce = () => {
@@ -68,6 +69,8 @@ const RetailAndEcommerce = () => {
       </Head>
       
         <Menu/>
+        <MobileMenu />
+
       <Breadcrumbs
         pageurl="retail-and-ecommerce"
         subtitle="RETAIL AND ECOMMERCE"

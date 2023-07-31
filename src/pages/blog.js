@@ -6,6 +6,8 @@ import Menu from "@/Components/Navbar";
 import Footer from "@/Components/Footer";
 import Breadcrumbs from "@/Components/Breadcrumbs";
 import BlogCard from "@/Components/BlogCard";
+import  MobileMenu  from '@/Components/MobileMenu';
+
 const Blog = () => {
   const [posts, setPosts] = useState();
   const[loading, setLoading] = useState(true);
@@ -26,6 +28,8 @@ const Blog = () => {
       transition={{ duration: 1 }}
     >
         <Menu/>
+        <MobileMenu />
+
       <Head>
         <title>Blog - Way WeDesign</title>
         <meta name="description" content="Blog" />

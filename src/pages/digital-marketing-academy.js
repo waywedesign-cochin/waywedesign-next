@@ -8,6 +8,7 @@ import Menu from "@/Components/Navbar";
 import Breadcrumbs from "@/Components/Breadcrumbs";
 import AccordionFaq from "@/Components/Accordion";
 import ServiceSideMenu from "@/Components/ServiceSideMenu";
+import  MobileMenu  from '@/Components/MobileMenu';
 
 const digitalMarketingAcademy = () => {
   const MarketingAcademyFaq = [
@@ -62,6 +63,8 @@ const digitalMarketingAcademy = () => {
       transition={{ duration: 1 }}
     >
         <Menu/>
+        <MobileMenu />
+
       <Head>
       <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />

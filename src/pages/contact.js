@@ -6,6 +6,7 @@ import Link from "next/link";
 import Breadcrumbs from "@/Components/Breadcrumbs";
 import Footer from "@/Components/Footer";
 import Menu from "@/Components/Navbar";
+import  MobileMenu  from '@/Components/MobileMenu';
 
 
 
@@ -43,6 +44,8 @@ const Contact = () => {
         <meta name="description" content="Contact Us" />
       </Head>
       <Menu/>
+      <MobileMenu />
+
       <Breadcrumbs pageurl="contact" subtitle="Contact" />
       {/*Page Header End*/}
       {/*Contact Page Start*/}

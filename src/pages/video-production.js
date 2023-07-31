@@ -6,6 +6,7 @@ import Menu from "@/Components/Navbar";
 import Breadcrumbs from "@/Components/Breadcrumbs";
 import ServiceSideMenu from "@/Components/ServiceSideMenu";
 import Footer from "@/Components/Footer";
+import MobileMenu from "@/Components/MobileMenu";
 
 const VideoProduction = () => {
   return (
@@ -53,6 +54,8 @@ const VideoProduction = () => {
         <meta name="twitter:site" content="@waywedesign.com" />
       </Head>
         <Menu/>
+        <MobileMenu />
+
       <Breadcrumbs pageurl="video-production" subtitle="Video Production" />
 
       <section className="service-details">

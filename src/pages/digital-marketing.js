@@ -9,6 +9,7 @@ import GlobalPresence from "@/Components/GlobalPresence";
 import DigitalMarketingServices from "@/Components/DigitalMarketingServices";
 import Menu from "@/Components/Navbar";
 import Footer from "@/Components/Footer";
+import  MobileMenu  from '@/Components/MobileMenu';
 
 const DigitalMarketing = () => {
  
@@ -67,7 +68,8 @@ const DigitalMarketing = () => {
   <meta   name="twitter:creator" content="@waywedesign" />
   <meta   name="twitter:site" content="@waywedesign" />
       </Head>
-      
+      <MobileMenu />
+
     <Menu/>
       <Breadcrumbs pageurl="digital-marketing" subtitle="Digital Marketing Services" />
 

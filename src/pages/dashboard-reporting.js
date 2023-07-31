@@ -6,6 +6,7 @@ import Menu from "@/Components/Navbar";
 import Breadcrumbs from "@/Components/Breadcrumbs";
 import ServiceSideMenu from "@/Components/ServiceSideMenu";
 import Footer from "@/Components/Footer";
+import  MobileMenu  from '@/Components/MobileMenu';
 
 
 const DashboardReporting = () => {
@@ -21,6 +22,8 @@ const DashboardReporting = () => {
         <meta name="description" content="dashBoard reporting" />
       </Head>
     <Menu/>
+    <MobileMenu />
+
       <Breadcrumbs
         pageurl="dashboard-reporting"
         subtitle="DASHBOARD REPORTING"

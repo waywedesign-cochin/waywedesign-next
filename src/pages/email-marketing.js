@@ -7,6 +7,7 @@ import Breadcrumbs from "@/Components/Breadcrumbs";
 import AccordionFaq from "@/Components/Accordion";
 import ServiceSideMenu from "@/Components/ServiceSideMenu";
 import Footer from "@/Components/Footer";
+import  MobileMenu  from '@/Components/MobileMenu';
 
 
 const EmailMarketing = () => {
@@ -104,6 +105,8 @@ const EmailMarketing = () => {
      </script>
       </Head>
       <Menu/>
+      <MobileMenu />
+{/* Breadcrumb */}
 
       <Breadcrumbs pageurl="email-marketing" subtitle="EMAIL MARKETING" />
 

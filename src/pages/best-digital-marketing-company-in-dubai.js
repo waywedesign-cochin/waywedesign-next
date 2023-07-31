@@ -6,6 +6,7 @@ import Menu from '@/Components/Navbar'
 import hero from "../images/Business Plan-bro.svg"
 import Image from 'next/image'
 import seoSetting from "../images/banner-digital-marketing-dubai.png"
+import  MobileMenu  from '@/Components/MobileMenu';
 
 const DigitalMarketingAgencyDubai = () => {
 
@@ -51,6 +52,8 @@ const DigitalMarketingAgencyDubai = () => {
   return (
     <>   
     <Menu/>
+    <MobileMenu />
+
      <section className="dubai" >
        
         <div className="container " >

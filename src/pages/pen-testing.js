@@ -10,6 +10,7 @@ import Menu from "@/Components/Navbar";
 import ServiceSideMenu from "@/Components/ServiceSideMenu";
 import PenTestingWhyChoose from "@/Components/PenTestingWhyChoose";
 import ServiceWithoutLink from "@/Components/SeviceWithoutLink";
+import MobileMenu from "@/Components/MobileMenu";
 
 const PenTesting = () => {
   const penTestingService = [
@@ -103,6 +104,8 @@ const PenTesting = () => {
         
       </Head>
         <Menu/>
+        <MobileMenu />
+
       <Breadcrumbs pageurl="pen-testing" subtitle="PEN TESTING" />
 
       <section className="service-details">

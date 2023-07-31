@@ -7,6 +7,7 @@ import uiux from "../images/resources/UI-UX design.jpg";
 import Breadcrumbs from "@/Components/Breadcrumbs";
 import ServiceSideMenu from "@/Components/ServiceSideMenu";
 import AccordionFaq from "@/Components/Accordion";
+import MobileMenu from "@/Components/MobileMenu";
 
 
 const UiuxDesign= () => {
@@ -85,6 +86,8 @@ const UiuxDesign= () => {
   <meta   name="twitter:site" content="@waywedesign" />
     </Head>
     <Menu/>
+    <MobileMenu />
+
     <Breadcrumbs pageurl="ui-ux-design" subtitle="UI UX Design" />
 
     <section className="service-details">

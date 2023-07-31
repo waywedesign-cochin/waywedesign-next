@@ -4,6 +4,7 @@ import Footer from "@/Components/Footer";
 import Menu from "@/Components/Navbar";
 import { motion } from "framer-motion";
 import Head from 'next/head';
+import  MobileMenu  from '@/Components/MobileMenu';
 
 const Industries = () => {
   const IndustrieServices = [
@@ -99,6 +100,8 @@ const Industries = () => {
       transition={{ duration: 1 }}
     >
         <Menu/>
+        <MobileMenu />
+
       <Head>
         <title>Industries - Way WeDesign</title>
         <meta name="description" content="Industries" />

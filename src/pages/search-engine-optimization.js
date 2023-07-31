@@ -8,6 +8,7 @@ import seoBanner from "../images/resources/seo-banner.jpg"
 import Head from "next/head";
 import Image from "next/image";
 import Footer from "@/Components/Footer";
+import MobileMenu from "@/Components/MobileMenu";
 
 
 const SEO = () => {
@@ -71,6 +72,8 @@ const SEO = () => {
        <meta   name="twitter:site" content="@waywedesign" />
       </Head>
       <Menu/>
+      <MobileMenu />
+
 
       <Breadcrumbs
         pageurl="search-engine-optimization"

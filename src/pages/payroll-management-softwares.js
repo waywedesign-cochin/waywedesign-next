@@ -7,6 +7,7 @@ import Breadcrumbs from "@/Components/Breadcrumbs";
 import Image from "next/image";
 import ServiceSideMenu from "@/Components/ServiceSideMenu";
 import payrollmanagement from "../images/resources/payroll-management.jpg"
+import MobileMenu from "@/Components/MobileMenu";
 
 const PayrollManagementSoftwares = () => {
   return (
@@ -37,6 +38,8 @@ const PayrollManagementSoftwares = () => {
        <meta   name="twitter:site" content="@waywedesign" />
       </Head>
       <Menu/>
+      <MobileMenu />
+
 
       <Breadcrumbs
         pageurl=" payroll-management-softwares"

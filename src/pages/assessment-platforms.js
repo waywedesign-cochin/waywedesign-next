@@ -9,6 +9,8 @@ import Image from "next/image";
 import assementplatform from "../images/resources/assesment-platform-banner.jpg"
 import assesmentplatformtwo from "../images/resources/ASSESSMENTPLATFORMS-two.jpg"
 
+import  MobileMenu  from '@/Components/MobileMenu';
+
 const AssessementPlatforms = () => {
   return (
     <motion.div
@@ -22,7 +24,8 @@ const AssessementPlatforms = () => {
         <meta name="description" content="Assessment Platform" />
       </Head>
       <Menu/>
-      
+      <MobileMenu />
+
 
       <Breadcrumbs
         pageurl="assessement-platforms"

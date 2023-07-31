@@ -7,6 +7,7 @@ import Head from "next/head";
 import  Breadcrumbs  from '@/Components/Breadcrumbs';
 import  Menu  from '@/Components/Navbar';
 import  Footer  from '@/Components/Footer';
+import  MobileMenu  from '@/Components/MobileMenu';
 
 
 const Careers = () => {
@@ -44,6 +45,8 @@ const Careers = () => {
       transition={{ duration: 1 }}
     >
         <Menu/>
+        <MobileMenu />
+
       <Head>
         <title>Careers - Way WeDesign</title>
         <meta name="description" content="Careers" />

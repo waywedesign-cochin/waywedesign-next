@@ -10,6 +10,7 @@ import SoftwareDevelopmentIconsSection from "@/Components/SoftwareDevelopmentIco
 import SingleService from "@/Components/SingleService";
 import Menu from '@/Components/Navbar'
 import Footer from '@/Components/Footer'
+import MobileMenu from "@/Components/MobileMenu";
 const SoftwareDevelopmentPlatform = () => {
   const MarketingServices = [
     {
@@ -168,6 +169,8 @@ const DevelopmentSolutions =[
       </Head>
 
         <Menu/>
+        <MobileMenu />
+
       <Breadcrumbs
         pageurl="software-development-platform"
         subtitle="SOFTWARE & PLATFORM DEVELOPMENT"

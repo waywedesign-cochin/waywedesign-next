@@ -7,6 +7,7 @@ import Menu from '@/Components/Navbar';
 import Footer from '@/Components/Footer';
 import Breadcrumbs from '@/Components/Breadcrumbs';
 import ServiceSideMenu from '@/Components/ServiceSideMenu';
+import MobileMenu from '@/Components/MobileMenu';
 
 const ProfessionalStaffing= () => {
   return (
@@ -20,6 +21,8 @@ const ProfessionalStaffing= () => {
       <title>Professional Staffing - Way WeDesign</title>
       <meta name="description" content="Professional Staffing" />
     </Head>
+    <MobileMenu />
+
     <Menu/>
     <Breadcrumbs pageurl="professional-staffing" subtitle="Professional Staffing" />
 

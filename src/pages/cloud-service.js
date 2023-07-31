@@ -8,6 +8,7 @@ import AccordionFaq from "@/Components/Accordion";
 import ServiceSideMenu from "@/Components/ServiceSideMenu";
 import Footer from "@/Components/Footer";
 import Menu from "@/Components/Navbar";
+import  MobileMenu  from '@/Components/MobileMenu';
 
 const CloudService = () => {
   const CloudServiceData = [
@@ -77,6 +78,7 @@ const CloudService = () => {
   <meta   name="twitter:site" content="@waywedesign" />
       </Head>
       <Menu/>
+      <MobileMenu />
 
       <Breadcrumbs pageurl="cloud-service" subtitle="Cloud Service" />
 

@@ -7,6 +7,7 @@ import Breadcrumbs from '@/Components/Breadcrumbs';
 import AccordionFaq from '@/Components/Accordion';
 import ServiceSideMenu from '@/Components/ServiceSideMenu';
 import Footer from '@/Components/Footer';
+import MobileMenu from '@/Components/MobileMenu';
 
 
 
@@ -103,6 +104,8 @@ const GraphicDesigning = () => {
      </script>
       </Head>
       <Menu/>
+      <MobileMenu />
+
       <Breadcrumbs pageurl="graphic-designing" subtitle="GRAPHIC DESIGNING" />
 
       <section className="service-details">

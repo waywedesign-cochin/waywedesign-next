@@ -5,6 +5,7 @@ import AboutSlider from '@/Components/Home/AboutSlider'
 import Footer from '@/Components/Footer'
 import { motion } from "framer-motion";
 import Head from 'next/head'
+import  MobileMenu  from '@/Components/MobileMenu';
 
 
 const About = () => {
@@ -78,6 +79,8 @@ const About = () => {
 </script>
       </Head>
         <Menu/>
+        <MobileMenu />
+
         <Breadcrumbs  pageurl="about" subtitle="About"/>
         <KnowAbout />
         <AboutSlider/>

@@ -8,6 +8,7 @@ import WebTools from '@/Components/WebTools';
 import webBanner from "../images/resources/web-development-page-banner.jpg"
 import Image from 'next/image';
 import Footer from '@/Components/Footer';
+import MobileMenu from '@/Components/MobileMenu';
 const WebDevelopment = () => {
   return (
     <motion.div
@@ -37,6 +38,8 @@ const WebDevelopment = () => {
     </Head>
 
     <Menu/>
+    <MobileMenu />
+
     <Breadcrumbs  pageurl="web-development" subtitle="WEB DEVELOPMENT"/>
     <section className="service-details">
         <div className="container">

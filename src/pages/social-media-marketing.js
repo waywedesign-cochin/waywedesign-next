@@ -8,6 +8,7 @@ import ServiceSideMenu from "@/Components/ServiceSideMenu";
 import seoBanner from "../images/resources/seo-banner.jpg"
 import Head from "next/head";
 import Image from "next/image";
+import MobileMenu from "@/Components/MobileMenu";
 const SMM = () => {
   const SmmFaq = [
     {
@@ -71,6 +72,9 @@ const SMM = () => {
 
       </Head>
         <Menu/>
+
+        <MobileMenuu />
+
       <Breadcrumbs
         pageurl="social-media-marketing"
         subtitle="SOCIAL MEDIA MARKETING "

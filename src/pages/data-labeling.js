@@ -7,6 +7,7 @@ import { motion } from "framer-motion";
 import Head from "next/head";
 import Image from "next/image";
 import datalabeling from "../images/resources/data-labeling.jpg";
+import  MobileMenu  from '@/Components/MobileMenu';
 
 const DataLabelingAndClassification = () => {
   return (
@@ -22,6 +23,7 @@ const DataLabelingAndClassification = () => {
                     to suit every enterprise" />
       </Head>
       <Menu/>
+      <MobileMenu />
 
       <Breadcrumbs
         pageurl="data-labeling"

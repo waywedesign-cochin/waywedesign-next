@@ -7,6 +7,7 @@ import Breadcrumbs from "@/Components/Breadcrumbs";
 import AccordionFaq from "@/Components/Accordion";
 import ServiceSideMenu from "@/Components/ServiceSideMenu";
 import { motion } from "framer-motion";
+import MobileMenu from "@/Components/MobileMenu";
 
 
 const Hrm = () => {
@@ -112,6 +113,8 @@ const Hrm = () => {
 
       </Head>
         <Menu/>
+        <MobileMenu />
+
 
       <Breadcrumbs pageurl="hrm" subtitle="HRM" />
 

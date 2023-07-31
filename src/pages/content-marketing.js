@@ -8,6 +8,7 @@ import Menu from "@/Components/Navbar";
 import Breadcrumbs from "@/Components/Breadcrumbs";
 import AccordionFaq from "@/Components/Accordion";
 import ServiceSideMenu from "@/Components/ServiceSideMenu";
+import  MobileMenu  from '@/Components/MobileMenu';
 
 const ContentDevelopment = () => {
   const faq = [
@@ -153,6 +154,7 @@ const ContentDevelopment = () => {
      </script>
       </Head>
       <Menu/>
+      <MobileMenu />
 
       <Breadcrumbs
         pageurl="content-marketing"

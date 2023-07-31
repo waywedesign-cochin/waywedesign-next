@@ -10,6 +10,7 @@ import googleads from "../images/resources/google-ads.jpg";
 import { Card } from "react-bootstrap";
 import Image from "next/image";
 import Link from "next/link";
+import MobileMenu from "@/Components/MobileMenu";
 
 
 
@@ -86,6 +87,8 @@ const GoogleAds = () => {
       transition={{ duration: 1 }}
     >
         <Menu/>
+        <MobileMenu />
+
       <Head>
       <title>Google Ads(Google AdWords) Management | Google Ads Agency</title>
        

@@ -8,6 +8,7 @@ import Menu from "@/Components/Navbar";
 import Footer from "@/Components/Footer";
 import Image from "next/image";
 import mobileappimage from '../images/resources/mobile-app-development.jpg'
+import MobileMenu from "@/Components/MobileMenu";
 
 
 const MobileAppDevelopment = () => {
@@ -66,6 +67,8 @@ const MobileAppDevelopment = () => {
        <meta   name="twitter:site" content="@waywedesign" />
       </Head>
         <Menu/>
+        <MobileMenu />
+
 
       <Breadcrumbs
         pageurl="mobile-app-development"

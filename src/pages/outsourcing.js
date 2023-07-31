@@ -6,6 +6,7 @@ import Footer from "@/Components/Footer";
 import Head from "next/head";
 import Breadcrumbs from "@/Components/Breadcrumbs";
 import ServiceSideMenu from "@/Components/ServiceSideMenu";
+import MobileMenu from "@/Components/MobileMenu";
 
 const Outsourcing= () => {
   return (
@@ -20,6 +21,8 @@ const Outsourcing= () => {
       <meta name="description" content="Outsourcing" />
     </Head>
     <Menu/>
+    <MobileMenu />
+
     <Breadcrumbs pageurl="outsourcing" subtitle="Outsourcing" />
 
     <section className="service-details">

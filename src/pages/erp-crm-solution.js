@@ -8,6 +8,7 @@ import ServiceSideMenu from "@/Components/ServiceSideMenu";
 import payrollmanagement from "../images/resources/payroll-management.jpg"
 import Accordion from "react-bootstrap/Accordion";
 import erpsolutions from "../images/resources/erpcrmsolution.jpg"
+import MobileMenu from "@/Components/MobileMenu";
 const ErpCrmSolution= () => {
   return (
     <motion.div
@@ -21,6 +22,8 @@ const ErpCrmSolution= () => {
       <meta name="description" content="Erp Crm Solution" />
     </Head>
    <Menu/>
+   <MobileMenu />
+
     <Breadcrumbs pageurl="erp-crm-solution" subtitle="Erp Crm Solution" />
 
     <section className="service-details">
