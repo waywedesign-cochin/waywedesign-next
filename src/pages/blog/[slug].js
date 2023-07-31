@@ -7,6 +7,7 @@ import Menu from '@/Components/Navbar';
 import Footer from '@/Components/Footer';
 import LatestPost from '@/Components/LatestPost';
 import { motion } from "framer-motion";
+import MobileMenu from '@/Components/MobileMenu';
 
 
 const BlogDetail = () => {
@@ -55,6 +56,8 @@ const BlogDetail = () => {
     exit={{ opacity: 0, x: 100 }}
     transition={{ duration: 1 }}>    
     <Menu/>
+    <MobileMenu />
+
     {blog?.coverPhoto && blog.coverPhoto.url && (
   <section className="news-details">
   <div className="container">

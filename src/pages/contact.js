@@ -196,8 +196,8 @@ const Contact = () => {
                   <div className="contact-details__content">
                     <p className="contact-details__sub-title">Send Email</p>
                     <h4>
-                      <a href="mailto:needhelp@company.com">
-                        Contact@waywedesign.com
+                      <a href="mailto:contact@waywedesign.com">
+                        contact@waywedesign.com
                       </a>
                     </h4>
                   </div>
@@ -211,7 +211,7 @@ const Contact = () => {
                   <div className="contact-details__content">
                     <p className="contact-details__sub-title">Call Anytime</p>
                     <h4>
-                      <a href="tel:+91799 464 3673">+91 799 464 3673</a>
+                      <a href="tel:+917994643673">+91 799 464 3673</a>
                     </h4>
                   </div>
                 </div>

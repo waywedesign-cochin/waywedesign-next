@@ -8,6 +8,7 @@ import Head from "next/head";
 import  Breadcrumbs  from '@/Components/Breadcrumbs';
 import  Menu  from '@/Components/Navbar';
 import  Footer  from '@/Components/Footer';
+import MobileMenu from '@/Components/MobileMenu';
 
 const JobDetails = () => {
 
@@ -54,6 +55,8 @@ const JobDetails = () => {
       <meta name="description" content="Careers" />
     </Head>
     <Menu/>
+    <MobileMenu />
+
 {jobPost&&     <Breadcrumbs pageurl={link} subtitle={jobPost.jobTitle} />
 }
     {jobPost && jobPost.jobDescription && (
