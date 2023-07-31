@@ -73,7 +73,7 @@ const SMM = () => {
       </Head>
         <Menu/>
 
-        <MobileMenuu />
+        <MobileMenu />
 
       <Breadcrumbs
         pageurl="social-media-marketing"
