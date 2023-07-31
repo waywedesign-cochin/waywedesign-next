@@ -3,7 +3,7 @@ import Head from "next/head";
 import Menu from "@/Components/Navbar";
 import Footer from "@/Components/Footer";
 import Image from "next/image";
-import uiux from "../images/resources/UI-UX design.jpg";
+import uiux from "../images/resources/UI-UXdesign.jpg";
 import Breadcrumbs from "@/Components/Breadcrumbs";
 import ServiceSideMenu from "@/Components/ServiceSideMenu";
 import AccordionFaq from "@/Components/Accordion";
