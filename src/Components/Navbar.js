@@ -79,7 +79,7 @@ function Menu() {
         </div>
     <Navbar  sticky="top" expand="lg" className="bg-body-tertiary">
       
-      <Container style={{backgroundColor:"#fff",height:"100px"}}>
+      <Container className="navabr-container" >
         <Navbar.Brand href="/">
           <img
             className=""
