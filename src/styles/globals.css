@@ -42,6 +42,9 @@
 .gutter-y-30 {
   --bs-gutter-y: 30px;
 }
+/* *{
+  overflow-x: hidden;
+} */
 
 body {
   font-family: var(--thm-font);
@@ -49,7 +52,7 @@ body {
   font-size: 18px;
   line-height: 34px;
   font-weight: 500;
-  overflow-x: hidden;
+  
 }
 
 body.locked {
@@ -2104,7 +2107,8 @@ background: linear-gradient(17deg, rgba(24,143,244,1) 0%, rgba(12,76,144,1) 48%,
   background-image: url("../background-images/service-background.png");
   background-size: cover;
   background-position: center;
-  padding: 120px 0 210px;
+  padding: 120px 0 210px 0px;
+  overflow:hidden;
 }
 
 .services-one .row {
@@ -5041,6 +5045,7 @@ background: linear-gradient(38deg, rgba(24,143,244,1) 0%, rgba(12,93,160,1) 48%,
   position: relative;
   display: block;
   z-index: 2;
+  overflow-x:hidden;
 }
 
 .cta-two__container {
