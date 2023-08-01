@@ -35,9 +35,7 @@
   .nav-link a {
     margin-left: 45px;
   }
-  .main-dropdown{
-    margin-left: 45px;
-  }
+  
   @media only screen and (max-width : 1250px)  {
    .nav-link a {
     font-size: 13px !important;
@@ -298,10 +296,11 @@
     transition:  1s ease;
 
 }
-.dropdown-toggle{
-  font-size: 13px;
-}
+
 .dropdown-item{
   padding:0px;
-  font-size: 13px;
+}
+.nav-link {
+  display: block;
+  padding: 0px;
 }

@@ -21,12 +21,12 @@ function MobileMenu() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
-            <Nav.Link>
+            <Nav>
               <Link href="/">Home</Link>
-            </Nav.Link>
-            <Nav.Link>
+            </Nav>
+            <Nav>
               <Link href="/about">About</Link>
-            </Nav.Link>
+            </Nav>
             <NavDropdown className="main-dropdown" title="Our Services" id="basic-nav-dropdown">
              
               <NavDropdown  title="software-development-platform" id="basic-nav-dropdown">
@@ -107,18 +107,18 @@ function MobileMenu() {
           
            
             
-            <Nav.Link>
+            <Nav>
               <Link href="/industries">Industries</Link>
-            </Nav.Link>
-            <Nav.Link>
+            </Nav>
+            <Nav>
               <Link href="/careers">Careers</Link>
-            </Nav.Link>
-            <Nav.Link>
+            </Nav>
+            <Nav>
               <Link href="/blog">Blog</Link>
-            </Nav.Link>
-            <Nav.Link>
+            </Nav>
+            <Nav>
               <Link href="/contact">Contact</Link>
-            </Nav.Link>
+            </Nav>
           </Nav>
         </Navbar.Collapse>
       </Container>
