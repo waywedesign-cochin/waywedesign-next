@@ -108,9 +108,10 @@ const RetailAndEcommerce = () => {
                     for online promotion, offering:
                   </p>
                   <Image 
-                    className="text-center"
+                    className="text-center retailecommercesecond"
                     src={retailecommercesecond}
                     alt="RETAIL AND ECOMMERCE  OFFERING"
+                    width="100%"
                   />
                                     <h3 className="service-details__title">Ecommerce Services
 </h3>                   
