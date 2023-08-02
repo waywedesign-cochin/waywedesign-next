@@ -76,7 +76,7 @@ const BlogDetail = () => {
   <meta   name="robots" content="index, follow" />
   <meta   name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
   <meta   name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-  <link   rel="canonical" href="https://waywedesign.com/ui-ux-design" />
+  <link   rel="canonical" href={blog && `https://waywedesign.com/blog/${blog.slug}`} />
   <meta   property="og:locale" content="en_US" />
   <meta   property="og:type" content="website" />
   <meta   property="og:title" content= {blog && blog.title}/>
