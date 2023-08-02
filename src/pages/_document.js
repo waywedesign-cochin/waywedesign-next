@@ -26,7 +26,7 @@ export default function Document() {
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
           rel="stylesheet"
         ></link>
-        <link rel="shortcut icon" href="/assets/images/logo.png" />
+        <link rel="icon" href="/assets/images/logo.png" />
         <link rel="shortcut icon" href="/images/favicon.ico" />
         <link
           rel="apple-touch-icon"
