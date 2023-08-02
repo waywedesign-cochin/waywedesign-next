@@ -11,8 +11,8 @@ const MainPage = () => {
       <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#000000" />
-  <link rel="icon" href="./assets/images/logo.png" />
-  <link rel="apple-touch-icon" href="./assets/images/logo.png" />
+  <link rel="icon" href="/assets/images/logo.png" />
+  <link rel="apple-touch-icon" href="/assets/images/logo.png" />
   <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
 
   <title>  ITES and Digital Marketing Services | Best Digital Marketing Company Kochi</title>
