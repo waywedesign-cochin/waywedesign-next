@@ -7353,4 +7353,8 @@ p{
  }
 
 
- 
+ .faq-one-accrodion .accrodion, .service-details__faq {
+    border: none;
+    }
+    .accordion-item:last-of-type .accordion-collapse {
+      border: none;}
