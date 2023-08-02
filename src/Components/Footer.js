@@ -81,16 +81,16 @@ const Footer = () => {
                           <Link href="/web-development">Web Development</Link>
                         </li>
                         <li>
-                          <Link href="cloud-service">Cloud Service</Link>
+                          <Link href="/cloud-service">Cloud Service</Link>
                         </li>
                         <li>
-                          <Link href="hrm">HRM</Link>
+                          <Link href="/hrm">HRM</Link>
                         </li>
                         <li>
-                          <Link href="ui-ux-design">UI UX Design</Link>
+                          <Link href="/ui-ux-design">UI UX Design</Link>
                         </li>
                         <li>
-                          <Link href="digital-marketing-academy">Digital Academy</Link>
+                          <Link href="/digital-marketing-academy">Digital Academy</Link>
                         </li>
                       </ul>
                      
@@ -179,7 +179,7 @@ P.O.BOX: 5003517
                       <div className="site-footer__bottom-right">
                         <ul className="list-unstyled site-footer__bottom-menu">
                           <li>
-                            <Link href="terms-and-conditions">Terms &amp; Condition</Link>
+                            <Link href="/terms-and-conditions">Terms &amp; Condition</Link>
                           </li>
                           
                           
