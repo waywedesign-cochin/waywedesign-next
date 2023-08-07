@@ -59,7 +59,7 @@ const CloudService = () => {
   <link rel="apple-touch-icon" href="./assets/images/logo.png" />
   <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
 
-  <title> Cloud Services |Cloud Services Providers |Way WeDesign </title>
+  <title> Cloud Services | Cloud Services Providers |Way WeDesign </title>
   <meta   name="description" content="Looking for custom cloud services? Cover all your cloud services needs with Way WeDesign." />
   <meta   name="robots" content="index, follow" />
   <meta   name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
