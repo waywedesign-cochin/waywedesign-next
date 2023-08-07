@@ -83,7 +83,7 @@ const Menu = () => {
         <div className="main-menu-wrapper__logo">
                   <Navbar.Brand>
                     <Link href="/">
-                      <img width="170px" src="https://waywedesign.com/static/media/logo-wwd.4e2615278b2f75eca268.png" alt="logo" />
+                      <img width="170px" src="/assets/images/logo-wwd.png" alt="logo" />
                     </Link>
                   </Navbar.Brand>
                 </div>

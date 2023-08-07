@@ -70,17 +70,19 @@ const BlogDetail = () => {
   <link rel="apple-touch-icon" href="./assets/images/logo.png" />
   <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
 
-  <title> {blog && blog.title}</title>
-  <meta   name="description" content={blog && blog.smalldesc} />
+  <title> {blog ? (blog.title):("")}</title>
+  <meta   name="description" content={blog ? (blog.smalldesc):("")} />
   <meta   name="robots" content="index, follow" />
   <meta   name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
   <meta   name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+
   <link   rel="canonical" href={blog && `https://waywedesign.com/blog/${blog.slug}`} />
+
   <meta   property="og:locale" content="en_US" />
   <meta   property="og:type" content="website" />
-  <meta   property="og:title" content= {blog && blog.title}/>
-  <meta   property="og:description" content={blog &&blog.smalldesc} />
-  <meta   property="og:url" content={blog && `https://waywedesign.com/blog/${blog.slug}`} />
+  <meta   property="og:title" content= {blog ? (blog.title):("")}/>
+  <meta   property="og:description" content={blog ? (blog.smalldesc):("")} />
+  <meta   property="og:url" content={blog ? (`https://waywedesign.com/blog/${blog.slug}`):("")} />
   <meta   property="og:site_name" content="WayWeDesign"  />
   <meta   property="article:publisher" content="https://www.facebook.com/waywedesign" />
   <meta   property="article:modified_time" content="2023-06-05T08:16:17+00:00" />
