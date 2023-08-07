@@ -89,6 +89,44 @@ const BlogDetail = () => {
   <meta   name="twitter:card" content="summary_large_image" />
   <meta   name="twitter:creator" content="@waywedesign" />
   <meta   name="twitter:site" content="@waywedesign" />
+  <script type="application/ld+json">
+{
+`{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Way WeDesign",
+  "image": "https://waywedesign.com/assets/images/logo-wwd.png",
+  "@id": "",
+  "url": "https://waywedesign.com/",
+  "telephone": "+91 7994643673",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Chalikkavattom",
+    "addressLocality": " Kochi",
+    "postalCode": "682028",
+    "addressCountry": "IN"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude":  9.98737,
+    "longitude": 76.32234
+  },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday"
+    ],
+    "opens": "10:00",
+    "closes": "18:00"
+  } 
+}`
+}
+</script>
         </Head>
      
     {blog?.coverPhoto && blog.coverPhoto.url && (
