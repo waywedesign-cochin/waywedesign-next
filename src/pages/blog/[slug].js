@@ -145,7 +145,7 @@ const BlogDetail = () => {
             <ul className="list-unstyled news-details__meta">
               <li><a href="news-details.html"><i className="far fa-user-circle" /> by {blog.author.name}</a></li>
             </ul>
-            <h3 className="news-details__title" >{blog.title}</h3>
+            <h1 className="news-details__title" >{blog.title}</h1>
             {/* <p className="news-details__text-1"  >{blog.content.text}</p> */}
             <RichText style={ptag} content={blog.content.raw.children}/>
           </div>
