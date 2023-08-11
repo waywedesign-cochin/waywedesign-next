@@ -84,6 +84,7 @@ const BlogDetail = () => {
   <meta   property="og:description" content={blog ? (blog.smalldesc):("")} />
   <meta   property="og:url" content={blog ? (`https://waywedesign.com/blog/${blog.slug}`):("")} />
   <meta   property="og:site_name" content="WayWeDesign"  />
+  <meta   property="og:image" content={blog ? (blog.smalldesc):("")}  />
   <meta   property="article:publisher" content="https://www.facebook.com/waywedesign" />
   <meta   property="article:modified_time" content="2023-06-05T08:16:17+00:00" />
   <meta   name="twitter:card" content="summary_large_image" />
