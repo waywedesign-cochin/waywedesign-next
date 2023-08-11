@@ -4,7 +4,7 @@ import Footer from "@/Components/Footer"
 import GlobalPresence from "@/Components/GlobalPresence"
 import MobileMenu from "@/Components/MobileMenu"
 import Menu from "@/Components/Navbar"
-import Head from 'next/head'
+import Head from "next/head"
 const DigitalMarketingBangalore = () => {
 
     const Data=[

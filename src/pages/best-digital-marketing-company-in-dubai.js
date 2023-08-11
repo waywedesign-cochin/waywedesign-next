@@ -5,9 +5,9 @@ import GlobalPresence from '@/Components/GlobalPresence'
 import Menu from '@/Components/Navbar'
 import hero from "../images/Business Plan-bro.svg"
 import Image from 'next/image'
-import Head from 'next/head'
 import seoSetting from "../images/banner-digital-marketing-dubai.png"
 import  MobileMenu  from '@/Components/MobileMenu';
+import Head from 'next/head'
 
 const DigitalMarketingAgencyDubai = () => {
 
