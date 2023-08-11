@@ -17,38 +17,20 @@ const VideoProduction = () => {
       transition={{ duration: 1 }}
     >
       <Head>
-        <title>Video Production - Way WeDesign</title>
-        <meta name="description" content="video Production Company in Kochi" />
+        <title> Professional Video Production Company | Video Production</title>
+        <meta name="description" content="Enhance your brand with a professional video production company, Way WeDesign. We Provides the best Video Production Services in creative and affrodable way." />
         <meta name="robots" content="index, follow" />
-        <meta
-          name="googlebot"
-          content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
-        />
-        <meta
-          name="bingbot"
-          content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
-        />
+        <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
+        <meta  name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
         <link rel="canonical" href="https://waywedesign.com/video-production" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Video Production" />
-        <meta
-          property="og:description"
-          content="video Production Company in Kochi"
-        />
-        <meta
-          property="og:url"
-          content="https://waywedesign.com/video-production"
-        />
-        <meta property="og:site_name" content="waywedesign.com" />
-        <meta
-          property="article:publisher"
-          content="https://www.facebook.com/waywedesign.com/"
-        />
-        <meta
-          property="article:modified_time"
-          content="2020-09-01T08:16:17+00:00"
-        />
+        <meta property="og:title" content="Professional Video Production Company | Video Production" />
+        <meta property="og:description" content="Enhance your brand with a professional video production company, Way WeDesign. We Provides the best Video Production Services in creative and affrodable way."/>
+        <meta property="og:url" content="https://waywedesign.com/video-production"/>
+        <meta property="og:site_name" content="waywedesign.com" /> 
+        <meta property="article:publisher" content="https://www.facebook.com/waywedesign.com/" />
+        <meta property="article:modified_time" content="2020-09-01T08:16:17+00:00"/>
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:creator" content="@waywedesign.com" />
         <meta name="twitter:site" content="@waywedesign.com" />
