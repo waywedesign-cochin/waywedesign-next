@@ -64,7 +64,6 @@ const BlogDetail = () => {
     
     
         <Head>
-        <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#000000" />
   <link rel="icon" href="./assets/images/logo.png" />
@@ -76,18 +75,59 @@ const BlogDetail = () => {
   <meta   name="robots" content="index, follow" />
   <meta   name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
   <meta   name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-  <link   rel="canonical" href={blog ? (`https://waywedesign.com/blog/${blog.slug}`):("")} />
+
+  <link   rel="canonical" href={blog && `https://waywedesign.com/blog/${blog.slug}`} />
+
   <meta   property="og:locale" content="en_US" />
   <meta   property="og:type" content="website" />
   <meta   property="og:title" content= {blog ? (blog.title):("")}/>
   <meta   property="og:description" content={blog ? (blog.smalldesc):("")} />
   <meta   property="og:url" content={blog ? (`https://waywedesign.com/blog/${blog.slug}`):("")} />
+  <meta property="og:image" content={blog ? (blog.coverPhoto.url):("")} />
   <meta   property="og:site_name" content="WayWeDesign"  />
   <meta   property="article:publisher" content="https://www.facebook.com/waywedesign" />
   <meta   property="article:modified_time" content="2023-06-05T08:16:17+00:00" />
   <meta   name="twitter:card" content="summary_large_image" />
   <meta   name="twitter:creator" content="@waywedesign" />
   <meta   name="twitter:site" content="@waywedesign" />
+  <script type="application/ld+json">
+{
+`{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Way WeDesign",
+  "image": "https://waywedesign.com/assets/images/logo-wwd.png",
+  "@id": "",
+  "url": "https://waywedesign.com/",
+  "telephone": "+91 7994643673",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Chalikkavattom",
+    "addressLocality": " Kochi",
+    "postalCode": "682028",
+    "addressCountry": "IN"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude":  9.98737,
+    "longitude": 76.32234
+  },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday"
+    ],
+    "opens": "10:00",
+    "closes": "18:00"
+  } 
+}`
+}
+</script>
         </Head>
      
     {blog?.coverPhoto && blog.coverPhoto.url && (
@@ -106,7 +146,7 @@ const BlogDetail = () => {
             <ul className="list-unstyled news-details__meta">
               <li><a href="news-details.html"><i className="far fa-user-circle" /> by {blog.author.name}</a></li>
             </ul>
-            <h3 className="news-details__title" >{blog.title}</h3>
+            <h1 className="news-details__title" >{blog.title}</h1>
             {/* <p className="news-details__text-1"  >{blog.content.text}</p> */}
             <RichText style={ptag} content={blog.content.raw.children}/>
           </div>

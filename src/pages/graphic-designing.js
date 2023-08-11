@@ -70,7 +70,7 @@ const GraphicDesigning = () => {
        "@context": "https://schema.org",
        "@type": "LocalBusiness",
        "name": "Way WeDesign",
-       "image": "https://waywedesign.com/static/media/logo.0246eede34e149467296.png",
+       "image": "https://waywedesign.com/assets/images/logo-wwd.png",
        "@id": "",
        "url": "https://waywedesign.com/",
        "telephone": "+91 7994643673",
