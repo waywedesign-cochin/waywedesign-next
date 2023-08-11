@@ -5,6 +5,7 @@ import GlobalPresence from '@/Components/GlobalPresence'
 import Menu from '@/Components/Navbar'
 import hero from "../images/Business Plan-bro.svg"
 import Image from 'next/image'
+import Head from 'next/head'
 import seoSetting from "../images/banner-digital-marketing-dubai.png"
 import  MobileMenu  from '@/Components/MobileMenu';
 
@@ -50,7 +51,26 @@ const DigitalMarketingAgencyDubai = () => {
     ]
     
   return (
-    <>   
+    <>  
+     <Head>
+        <title> Best Digital Marketing Company in Dubai | IT/ITES Providers</title>
+        <meta name="description" content="Looking for the best digital marketing company in Dubai? Look no further! Our team of experts is here increase your website traffic  and your online presence." />
+        <meta name="robots" content="index, follow" />
+        <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
+        <meta  name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+        <link rel="canonical" href="https://waywedesign.com/best-digital-marketing-company-in-dubai" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Best Digital Marketing Company in Dubai | IT/ITES Providers" />
+        <meta property="og:description" content="Looking for the best digital marketing company in Dubai? Look no further! Our team of experts is here increase your website traffic  and your online presence."/>
+        <meta property="og:url" content="https://waywedesign.com/best-digital-marketing-company-in-dubai"/>
+        <meta property="og:site_name" content="waywedesign.com" /> 
+        <meta property="article:publisher" content="https://www.facebook.com/waywedesign.com/" />
+        <meta property="article:modified_time" content="2020-09-01T08:16:17+00:00"/>
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:creator" content="@waywedesign.com" />
+        <meta name="twitter:site" content="@waywedesign.com" />
+      </Head> 
     <Menu/>
     <MobileMenu />
 

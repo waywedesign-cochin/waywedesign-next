@@ -59,16 +59,16 @@ const CloudService = () => {
   <link rel="apple-touch-icon" href="./assets/images/logo.png" />
   <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
 
-  <title> Cloud Services | Cloud Services Providers |Way WeDesign </title>
-  <meta   name="description" content="Looking for custom cloud services? Cover all your cloud services needs with Way WeDesign." />
+  <title> #1 Cloud Service Provider in Kochi, Kerala | AWS, Microsoft Azure </title>
+  <meta   name="description" content="Top cloud service providing company in Kochi, India. We offer cloud computing, hosting, designing, deployment & migration. Trust us for Azure, AWS & GCP solutions." />
   <meta   name="robots" content="index, follow" />
   <meta   name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
   <meta   name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
   <link   rel="canonical" href="https://waywedesign.com/cloud-service" />
   <meta   property="og:locale" content="en_US" />
   <meta   property="og:type" content="website" />
-  <meta   property="og:title" content="Cloud Services |Cloud Services Providers |Way WeDesign" />
-  <meta   property="og:description" content="Looking for custom cloud services? Cover all your cloud services needs with Way WeDesign." />
+  <meta   property="og:title" content="#1 Cloud Service Provider in Kochi, Kerala | AWS, Microsoft Azure" />
+  <meta   property="og:description" content="Top cloud service providing company in Kochi, India. We offer cloud computing, hosting, designing, deployment & migration. Trust us for Azure, AWS & GCP solutions." />
   <meta   property="og:url" content="https://waywedesign.com/cloud-service" />
   <meta   property="og:site_name" content="WayWeDesign" />
   <meta   property="article:publisher" content="https://www.facebook.com/waywedesign" />

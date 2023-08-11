@@ -4,7 +4,7 @@ import Footer from "@/Components/Footer"
 import GlobalPresence from "@/Components/GlobalPresence"
 import MobileMenu from "@/Components/MobileMenu"
 import Menu from "@/Components/Navbar"
-
+import Head from 'next/head'
 const DigitalMarketingBangalore = () => {
 
     const Data=[
@@ -43,7 +43,27 @@ const DigitalMarketingBangalore = () => {
     ]
   
   return (
-    <>   
+    <> 
+     <Head>
+        <title> Best Digital Marketing Company in Bangalore | IT/ITES Providers </title>
+        <meta name="description" content="Looking for the best digital marketing company in Bangalore? Look no further! Our team of experts is here to take your online presence to new heights" />
+        <meta name="robots" content="index, follow" />
+        <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
+        <meta  name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+        <link rel="canonical" href="https://waywedesign.com/best-digital-marketing-company-bangalore" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content=" Best Digital Marketing Company in Bangalore | IT/ITES Providers" />
+        <meta property="og:description" content="Looking for the best digital marketing company in Bangalore? Look no further! Our team of experts is here to take your online presence to new heights"/>
+        <meta property="og:url" content="https://waywedesign.com/best-digital-marketing-company-bangalore"/>
+        <meta property="og:site_name" content="waywedesign.com" /> 
+        <meta property="article:publisher" content="https://www.facebook.com/waywedesign.com/" />
+        <meta property="article:modified_time" content="2020-09-01T08:16:17+00:00"/>
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:creator" content="@waywedesign.com" />
+        <meta name="twitter:site" content="@waywedesign.com" />
+      </Head>
+      
     <Menu/>
     <MobileMenu/>
      <section className="bangalore" >
