@@ -45,6 +45,7 @@ export default function Document() {
           sizes="16x16"
           href="/assets/images/logo.png"
         />
+        <meta name="google-site-verification" content="tUSjSG5cKEEoSYRw3pzopqO5qXM9iN7MLA2-vQqUY6I" />
       </Head>
       <Script
         src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
