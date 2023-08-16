@@ -60,7 +60,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       />
       <Script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js" />
       <body>
-      
+      <noscript dangerouslySetInnerHTML={{ __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-537W3XM"
+height="0" width="0" style="display:none;visibility:hidden"></iframe>`}}></noscript>
         <Main />
         <NextScript />
       </body>
