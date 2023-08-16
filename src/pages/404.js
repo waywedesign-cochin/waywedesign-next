@@ -10,11 +10,12 @@ export default function Custom404() {
     <MobileMenu />
 
     <div className="container text-center">
-        <div>
-        <img width="50%" src="/assets/images/404.png" alt="" />
+        
+        <div >
+        <img style={{marginTop:"100px"}} width="50%" src="/assets/images/404.png" alt="" />
 
         </div>
-        <Link style={{marginBottom:"10px",position:'relative',bottom:'50px'}} href="/" className="about-one__btn thm-btn">
+        <Link  href="/" className="about-one__btn thm-btn mb-2">
                   Back to Home
                 </Link>
     </div>
