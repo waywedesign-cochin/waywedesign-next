@@ -6,14 +6,14 @@ export default function Document() {
     <Html lang="en">
       <Head>
         {/* Google tag (gtag.js) */}
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-7007M491Z3"></script>
-<Script>
-  window.dataLayer = window.dataLayer || []
-  function gtag(){dataLayer.push(arguments)}
-  gtag('js', new Date());
+        {/* <!-- Google Tag Manager --> */}
+        <script dangerouslySetInnerHTML={{ __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-537W3XM');`}}></script>
 
-  gtag('config', 'G-7007M491Z3');/</Script>
-        {/* Google tag (gtag.js) */}
+        {/* <!-- End Google Tag Manager --> */}
 
         <link
           href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
@@ -55,7 +55,10 @@ export default function Document() {
           sizes="16x16"
           href="/assets/images/logo.png"
         />
-        <meta name="google-site-verification" content="tUSjSG5cKEEoSYRw3pzopqO5qXM9iN7MLA2-vQqUY6I" />
+        <meta
+          name="google-site-verification"
+          content="tUSjSG5cKEEoSYRw3pzopqO5qXM9iN7MLA2-vQqUY6I"
+        />
       </Head>
       <Script
         src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
@@ -64,10 +67,10 @@ export default function Document() {
       />
       <Script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js" />
       <body>
-      {/* <!-- Google Tag Manager (noscript) --> */}
+        {/* <!-- Google Tag Manager (noscript) --> */}
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-537W3XM"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  {/* <!-- End Google Tag Manager (noscript) --> */}
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+{/* <!-- End Google Tag Manager (noscript) --> */}
         <Main />
         <NextScript />
       </body>
