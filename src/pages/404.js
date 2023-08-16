@@ -12,7 +12,7 @@ export default function Custom404() {
     <div className="container text-center">
         
         <div >
-        <img style={{marginTop:"100px"}} width="50%" src="/assets/images/404.png" alt="" />
+        <img style={{marginTop:"100px"}} class="error" src="/assets/images/404.png" alt="" />
 
         </div>
         <Link  href="/" className="about-one__btn thm-btn mb-2">
