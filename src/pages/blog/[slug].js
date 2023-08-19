@@ -36,8 +36,8 @@ const BlogDetail = ({ blog }) => {
   <link rel="apple-touch-icon" href="./assets/images/logo.png" />
   <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
 
-  <title> {blog && (blog.title)}</title>
-  <meta   name="description" content={blog && (blog.smalldesc)} />
+  <title> {blog && blog.title}</title>
+  <meta   name="description" content={blog && blog.smalldesc} />
   <meta   name="robots" content="index, follow" />
   <meta   name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
   <meta   name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
