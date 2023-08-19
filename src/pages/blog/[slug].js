@@ -30,8 +30,72 @@ const BlogDetail = ({ blog }) => {
       <MobileMenu />
 
       <Head>
-        {/* Your meta tags here */}
-      </Head>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <link rel="icon" href="./assets/images/logo.png" />
+  <link rel="apple-touch-icon" href="./assets/images/logo.png" />
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+  <title> {blog ? (blog.title):("")}</title>
+  <meta   name="description" content={blog ? (blog.smalldesc):("")} />
+  <meta   name="robots" content="index, follow" />
+  <meta   name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+  <meta   name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+
+  <link   rel="canonical" href={blog && `https://waywedesign.com/blog/${blog.slug}`} />
+
+  <meta   property="og:locale" content="en_US" />
+  <meta   property="og:type" content="website" />
+  <meta   property="og:title" content= {blog ? (blog.title):("")}/>
+  <meta   property="og:description" content={blog ? (blog.smalldesc):("")} />
+  <meta   property="og:url" content={blog ? (`https://waywedesign.com/blog/${blog.slug}`):("")} />
+  <meta   property="og:site_name" content="WayWeDesign"  />
+  <meta   property="og:image" content={blog?.coverPhoto && blog.coverPhoto.url ? (blog.coverPhoto.url):("")}  />
+  <meta   property="article:publisher" content="https://www.facebook.com/waywedesign" />
+  <meta   property="article:modified_time" content="2023-06-05T08:16:17+00:00" />
+  <meta   name="twitter:card" content="summary_large_image" />
+  <meta   name="twitter:creator" content="@waywedesign" />
+  <meta   name="twitter:site" content="@waywedesign" />
+  <script type="application/ld+json">
+{
+`{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Way WeDesign",
+  "image": "https://waywedesign.com/assets/images/logo-wwd.png",
+  "@id": "",
+  "url": "https://waywedesign.com/",
+  "telephone": "+91 7994643673",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Chalikkavattom",
+    "addressLocality": " Kochi",
+    "postalCode": "682028",
+    "addressCountry": "IN"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude":  9.98737,
+    "longitude": 76.32234
+  },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday"
+    ],
+    "opens": "10:00",
+    "closes": "18:00"
+  } 
+}`
+}
+</script>
+        </Head>
+     
 
       {blog?.coverPhoto && blog.coverPhoto.url && (
        <section className="news-details">
