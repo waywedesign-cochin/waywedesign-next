@@ -47,12 +47,12 @@ const BlogDetail = ({ blog }) => {
   <meta   property="og:locale" content="en_US" />
   <meta   property="og:type" content="website" />
   <meta   property="og:title" content={blog.title}/>
-  <meta   property="og:description" content={blog && (blog.smalldesc)} />
+  <meta   property="og:description" content={blog && blog.smalldesc} />
   <meta   property="og:url" content={blog && (`https://waywedesign.com/blog/${blog.slug}`)} />
   <meta   property="og:site_name" content="WayWeDesign"  />
   <meta   property="og:image" content={blog?.coverPhoto && blog.coverPhoto.url && (blog.coverPhoto.url)}  />
   <meta   property="article:publisher" content="https://www.facebook.com/waywedesign" />
-  <meta   property="article:modified_time" content="2023-06-05T08:16:17+00:00" />
+  <meta   property="article:modified_time" content={blog.datePublished} />
   <meta   name="twitter:card" content="summary_large_image" />
   <meta   name="twitter:creator" content="@waywedesign" />
   <meta   name="twitter:site" content="@waywedesign" />
