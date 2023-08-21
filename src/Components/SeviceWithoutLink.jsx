@@ -17,9 +17,9 @@ const ServiceWithoutLink = (props) => {
                     <span className="icon-conversation" />
                   </div> */}
                   <h3 className="services-one__title">
-                    <Link href={`/${props.link}`}>
+                   
                      {props.serviceTitle}
-                    </Link>
+                    
                   </h3>
                   <p className="services-one__text">
                    {props.serviceDesc}
