@@ -80,8 +80,8 @@ const BlogDetail = ({ blog }) => {
       "url": "https://waywedesign.com/assets/images/logo-wwd.png"
     }
   },
-  "datePublished": "2023-08-15",
-  "dateModified": "2023-08-21"
+  "datePublished": {blog.datePublished},
+  "dateModified": {blog.datePublished}
 }`}
 </script>
 
