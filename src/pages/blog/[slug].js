@@ -56,44 +56,35 @@ const BlogDetail = ({ blog }) => {
   <meta   name="twitter:card" content="summary_large_image" />
   <meta   name="twitter:creator" content="@waywedesign" />
   <meta   name="twitter:site" content="@waywedesign" />
-  <script type="application/ld+json">
-{
-`{
+ <script type="application/ld+json">
+{`{
   "@context": "https://schema.org",
-  "@type": "LocalBusiness",
-  "name": "Way WeDesign",
-  "image": "https://waywedesign.com/assets/images/logo-wwd.png",
-  "@id": "",
-  "url": "https://waywedesign.com/",
-  "telephone": "+91 7994643673",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "Chalikkavattom",
-    "addressLocality": " Kochi",
-    "postalCode": "682028",
-    "addressCountry": "IN"
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://waywedesign.com/blog/${blog.slug}"
   },
-  "geo": {
-    "@type": "GeoCoordinates",
-    "latitude":  9.98737,
-    "longitude": 76.32234
+  "headline": "${blog.title}",
+  "description": "${blog && blog.smalldesc}",
+  "image": "${blog?.coverPhoto && blog.coverPhoto.url}",
+  "author": {
+    "@type": "Organization",
+    "name": "WayWeDesign",
+    "url": "https://waywedesign.com/"
   },
-  "openingHoursSpecification": {
-    "@type": "OpeningHoursSpecification",
-    "dayOfWeek": [
-      "Monday",
-      "Tuesday",
-      "Wednesday",
-      "Thursday",
-      "Friday",
-      "Saturday"
-    ],
-    "opens": "10:00",
-    "closes": "18:00"
-  } 
-}`
-}
+  "publisher": {
+    "@type": "Organization",
+    "name": "Way WeDesign",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://waywedesign.com/assets/images/logo-wwd.png"
+    }
+  },
+  "datePublished": "2023-08-15",
+  "dateModified": "2023-08-21"
+}`}
 </script>
+
         </Head>
      
 
