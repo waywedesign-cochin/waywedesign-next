@@ -142,7 +142,7 @@ const digitalMarketingAcademy = () => {
                     digital marketing.
                   </p>
                   <br></br>
-                  <Link className="about-one__btn thm-btn" target="_blank" href="https://waywedesign.com/digital-marketing-course/">View More</Link>
+                  <Link className="about-one__btn thm-btn" target="_blank" href="https://waywedesignacademy.in/">View More</Link>
                 </div>
 
                 <div className="py-5">
