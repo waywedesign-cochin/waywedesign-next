@@ -5097,7 +5097,7 @@ background: linear-gradient(38deg, rgba(24,143,244,1) 0%, rgba(12,93,160,1) 48%,
   text-align: left;
 }
 
-.page-header__inner h1 {
+.page-header__inner h2 {
   font-size: 50px;
   color: var(--thm-base);
   line-height: 50px;
