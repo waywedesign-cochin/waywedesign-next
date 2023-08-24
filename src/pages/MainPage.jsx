@@ -75,6 +75,7 @@ const MainPage = () => {
   } 
 }`
 }
+
 </script>
       </Head>
       <Menu/>
