@@ -16,7 +16,7 @@ const Breadcrumbs = (props) => {
         <li><span>/</span></li>
         <li>{props.pageurl}</li>
       </ul>
-      <h2 className="text-white">{props.subtitle}</h2>
+      <h2 className="text-white fw-bold">{props.subtitle}</h2>
     </div>
   </div>
 </section>
