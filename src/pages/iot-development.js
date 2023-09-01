@@ -56,8 +56,7 @@ const IotDevelopment = () => {
       transition={{ duration: 1 }}
     >
       <Head>
-        <Menu/>
-        <MobileMenu />
+        
 
       <title>IOT Development Service providing comany| IOT Development Services</title>
        
@@ -78,7 +77,8 @@ const IotDevelopment = () => {
        <meta   name="twitter:creator" content="@waywedesign" />
        <meta   name="twitter:site" content="@waywedesign" />
       </Head>
-      
+      <Menu/>
+        <MobileMenu />
       <Breadcrumbs pageurl="iot-evelopment" subtitle="IOT DEVELOPMENT" />
 
       <section className="service-details">
