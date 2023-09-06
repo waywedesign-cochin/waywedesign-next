@@ -1,5 +1,7 @@
 import React from 'react'
 import  Link  from 'next/link'
+import Image from 'next/image'
+import logo from '../images/logo.png'
 
 const Footer = () => {
   return (
@@ -24,8 +26,8 @@ const Footer = () => {
                     <div className="footer-widget__column footer-widget__about">
                       <div className="footer-widget__about-logo">
                         <Link href="/">
-                          <img width="130px"
-                            src="/assets/images/logo.png"
+                          <Image  width="150" height="150"
+                            src={logo}
                             alt="logo"
                           />
                         </Link>
