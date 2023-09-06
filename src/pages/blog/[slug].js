@@ -8,6 +8,7 @@ import MobileMenu from '@/Components/MobileMenu';
 import Footer from '@/Components/Footer';
 import ServiceSideMenu from '@/Components/ServiceSideMenu';
 import LatestPost from '@/Components/LatestPost';
+import Script from 'next/script';
 
 const BlogDetail = ({ blog }) => {
   const ptag = {
@@ -56,7 +57,7 @@ const BlogDetail = ({ blog }) => {
   <meta   name="twitter:card" content="summary_large_image" />
   <meta   name="twitter:creator" content="@waywedesign" />
   <meta   name="twitter:site" content="@waywedesign" />
- <script type="application/ld+json">
+ <Script type="application/ld+json">
 {`{
   "@context": "https://schema.org",
   "@type": "BlogPosting",
@@ -83,7 +84,7 @@ const BlogDetail = ({ blog }) => {
   "datePublished": {blog.datePublished},
   "dateModified": {blog.datePublished}
 }`}
-</script>
+</Script>
 
         </Head>
      
