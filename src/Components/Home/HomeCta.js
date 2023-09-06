@@ -9,7 +9,7 @@ const HomeCta = () => {
         <section className="cta-two">
   <div className="cta-two__container">
     <div className="cta-two-shape-1">
-      <Image src={shape} alt="cta shape two" />
+      {/* <Image src={shape} alt="cta shape two" /> */}
       </div>
     <div className="container">
       <div className="row">
