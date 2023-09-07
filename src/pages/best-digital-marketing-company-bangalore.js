@@ -100,7 +100,7 @@ const DigitalMarketingBangalore = () => {
     </section>
     <section className="py-5">
         <div className="container">
-            <h1 className="text-center section-title__title pb-5">Business Growth  : The Power of Digital Marketing</h1>
+            <h2 className="text-center section-title__title pb-5">Business Growth  : The Power of Digital Marketing</h2>
             <p className="text-dark">Digital marketing plays a crucial role in the success of businesses in today's digital age. Here are some key reasons why digital marketing is important for your business:</p>
             <div className="row">
                 {
