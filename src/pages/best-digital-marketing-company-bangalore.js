@@ -45,7 +45,7 @@ const DigitalMarketingBangalore = () => {
   return (
     <> 
      <Head>
-        <title> Best Digital Marketing Company in Bangalore | IT/ITES Providers </title>
+        <title> Best Digital Marketing Company in Bangalore, India | IT/ITES Providers </title>
         <meta name="description" content="Looking for the best digital marketing company in Bangalore? Look no further! Our team of experts is here to take your online presence to new heights" />
         <meta name="robots" content="index, follow" />
         <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
