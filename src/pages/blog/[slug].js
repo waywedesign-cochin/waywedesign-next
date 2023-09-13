@@ -81,8 +81,8 @@ const BlogDetail = ({ blog }) => {
       "url": "https://waywedesign.com/assets/images/logo-wwd.png"
     }
   },
-  "datePublished": {blog.datePublished},
-  "dateModified": {blog.datePublished}
+  "datePublished": "${new Date(blog.datePublished).toISOString()}",
+  "dateModified": "${new Date(blog.datePublished).toISOString()}"
 }`}
 </script>
 
