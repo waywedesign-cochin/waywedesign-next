@@ -57,34 +57,35 @@ const BlogDetail = ({ blog }) => {
   <meta   name="twitter:card" content="summary_large_image" />
   <meta   name="twitter:creator" content="@waywedesign" />
   <meta   name="twitter:site" content="@waywedesign" />
- <Script type="application/ld+json">
-{`{
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://waywedesign.com/blog/${blog.slug}"
-  },
-  "headline": "${blog.title}",
-  "description": "${blog && blog.smalldesc}",
-  "image": "${blog?.coverPhoto && blog.coverPhoto.url}",
-  "author": {
-    "@type": "Organization",
-    "name": "WayWeDesign",
-    "url": "https://waywedesign.com/"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Way WeDesign",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://waywedesign.com/assets/images/logo-wwd.png"
-    }
-  },
-  "datePublished": {blog.datePublished},
-  "dateModified": {blog.datePublished}
-}`}
+  <Script type="application/ld+json">
+  {`{
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://waywedesign.com/blog/${blog.slug}"
+    },
+    "headline": "${blog.title}",
+    "description": "${blog && blog.smalldesc}",
+    "image": "${blog?.coverPhoto && blog.coverPhoto.url}",
+    "author": {
+      "@type": "Organization",
+      "name": "WayWeDesign",
+      "url": "https://waywedesign.com/"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Way WeDesign",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://waywedesign.com/assets/images/logo-wwd.png"
+      }
+    },
+    "datePublished": "${new Date(blog.datePublished).toISOString()}",
+    "dateModified": "${new Date(blog.datePublished).toISOString()}"
+  }`}
 </Script>
+
 
         </Head>
      
