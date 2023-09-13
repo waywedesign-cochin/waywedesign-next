@@ -71,9 +71,10 @@ const DigitalMarketingBangalore = () => {
         <div className="container " >
             <div className="row">
                 <div className="col-md-6  align-self-center order-lg-0 order-1 ">
-                    <h1 className="banner-quote">Your Complete Digital Marketing Partner in Bangalore
+                    <h1 className="banner-quote">Best Digital Marketing Company in Bangalore
 </h1>
-<p className="text-white">Discover the complete range of digital marketing services for your business at Way WeDesign, a premier digital marketing company located in Bangalore</p>
+<p className="text-white">Discover the complete range of digital marketing services for your business at WeDesign, one of the best digital marketing company located in Bangalore
+</p>
 <button  class="thm-btn bangalore-button">Contact Us</button>
                 </div>
                 <div className="col-md-6 self-align-center order-lg-1 order-0">
@@ -89,7 +90,8 @@ const DigitalMarketingBangalore = () => {
                     <img className="seo-settings"  src="/assets/images/settings-image-seo.png" alt="" />
                 </div>
                 <div className="col-md-6">
-                    <h3 className='section-title__title bangalore-title'>Your Complete Digital Marketing Partner in Bangalore
+                    <h3 className='section-title__title bangalore-title'>Your Complete Digital Marketing Company in Bangalore
+
 </h3>
 <p className='text-dark pt-2'>Discover the complete range of digital marketing services for your business at Way WeDesign, a premier digital marketing company located in Bangalore. Our team of experts specialises in crafting effective strategies that integrate marketing, technology, and analytics to align with your business objectives. With a focus on maximising return on investment, we offer comprehensive solutions tailored to your unique digital landscape. From website creation and optimization to social media marketing and digital campaign management, we are your trusted partner in driving online success.
 </p>
