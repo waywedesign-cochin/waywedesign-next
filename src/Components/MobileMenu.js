@@ -15,7 +15,7 @@ function MobileMenu() {
             className=""
             width="150px"
             src="/assets/images/logo-wwd.png"
-            alt=""
+            alt="wwd logo "
           />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

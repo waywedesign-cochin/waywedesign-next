@@ -83,7 +83,7 @@ const Menu = () => {
         <div className="main-menu-wrapper__logo">
                   <Navbar.Brand>
                     <Link href="/">
-                      <img width="170px" src="/assets/images/logo-wwd.png" alt="logo" />
+                      <img width="170px" src="/assets/images/logo-wwd.png" alt="wwd logo" />
                     </Link>
                   </Navbar.Brand>
                 </div>
