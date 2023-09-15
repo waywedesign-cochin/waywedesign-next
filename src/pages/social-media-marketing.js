@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import smmBanner from "../images/resources/social-media-marketing-company.jpeg";
+import smmGif from "../images/resources/smm-company-kochi.gif";
 import AccordionFaq from "@/Components/Accordion";
 import Breadcrumbs from "@/Components/Breadcrumbs";
 import Menu from "@/Components/Navbar";
@@ -136,63 +137,106 @@ const SMM = () => {
                   </p>
                   <Image
                     src={smmBanner}
-                    style={{width:"100%",height:"80vh"}}
+                    style={{width:"100%",height:"70vh"}}
                     alt="SOCIAL MEDIA MARKETING"
                   />
+                  <h2>Why your company needs Social Media Marketing (SMM)? </h2>
                   <p className="service-details__text ">
-                    A global community of 350 million people is using Social
-                    Media. 21% grows by every year. The best way to find your
-                    potential customers is through social media and are you
-                    using Social Media effectively?
-                  </p>{" "}
+                  Social media marketing (SMM) is an effective way to reach customers and create meaningful relationships with them. It allows businesses to create a presence in the digital world, build brand awareness, and develop a loyal customer base. SMM can also help increase website traffic, generate leads, and improve search engine rankings. With the right strategy, SMM can be a powerful tool for any business. 
+                  </p>
                   <p className="service-details__text ">
-                    Social media marketing isn’t difficult, it’s all about the
-                    action, engaging with your audience, and having a
-                    conversation. A crazy world of business is Social Media.
-                    It’s the best live platform to meet the whole world and to
-                    make your business more and more social. We give a shout for
-                    your business to serve the thirsty-consumer community who is
-                    spending 3 hours daily online. Guaranteeing to deliver an
-                    increased Brand Identity, Online reputation, and huge
-                    consumer base. As a reliable social media marketing in
-                    Kochi, we are your short code for a long success. Yes, we
-                    make you learn the art of overpowering a cut-throat online
-                    competition!
-                  </p>{" "}
+                  It's important to have a presence on social media platforms to keep up with the competition and stay connected with current and potential customers. Companies that use SMM can create content that resonates with their target audience, respond quickly to customer inquiries, and promote their products and services to a large and varied audience. SMM also offers the opportunity to gain valuable insights into customer behaviours and preferences, which can help improve campaigns and generate more leads.
+                  </p>
+                  <h3>Key Benefits of Social Media Marketing? </h3>
                   <p className="service-details__text ">
-                    You can trust on Waywedesign for your social media
-                    presentation.{" "}
-                  </p>{" "}
+                  <i class="fa-solid fa-arrow-right"></i> <span className="text-bold ">Enhanced Brand Visibility: </span>Social media platforms like Facebook, Instagram, Twitter, LinkedIn and Threads allow brands to reach a global audience, increasing visibility and recognition.
+                  </p>
                   <p className="service-details__text ">
-                    Social Media Marketing involves reaching out to your
-                    audience through the platforms like Facebook, Instagram
-                    Twitter, Linked In, Pinterest, YouTube and various other
-                    platforms. It has proved to be the most cost-effective and
-                    it makes the communication cool and fast with your
-                    customers. Social Media doesn't only give you a wide
-                    coverage but it also helps in growing visibility, generating
-                    traffic, leads, and conversions. However, most importantly
-                    creating an engagement with your audience is the essential
-                    factor in social media. Discover the best platforms to
-                    invest your money for Ads and increase your sales.
-                  </p>{" "}
+                  <i class="fa-solid fa-arrow-right"></i>  <span className="text-bold ">Engagement and Community Building:  </span>Social media is a powerful tool for brands, enabling direct engagement with their audience, fostering community, trust, and meaningful customer interactions, ultimately leading to brand loyalty and advocacy.</p>
                   <p className="service-details__text ">
-                    Maybe you are wondering what your social media agency is
-                    doing from month-month. At Waywedesign, we collaborate with
-                    your in-house team to ensure your social platforms playing a
-                    major role in building a brand. At the end of the day,
-                    reporting is important when it comes to social media
-                    marketing.
-                  </p>{" "}
+                  <i class="fa-solid fa-arrow-right"></i>  <span className="text-bold ">Targeted Advertising:  </span>Social media platforms enable precise audience targeting, allowing content to be tailored to specific age groups, locations, or interests, thereby maximizing campaign impact.</p>
                   <p className="service-details__text ">
-                    Highlighting your brand through social media will help
-                    improve your company's reputation and goodwill. Our social
-                    media marketing methods usually have 3-6 month targets and
-                    schedules. We tend to work closely with marketing
-                    departments to know whaimport {Head} from 'react-Head'; t
-                    campaigns are being planned and implemented. We will find
-                    which platforms are right for you and we run campaigns at an
-                    affordable rate as well as the precise targeting.
+                  <i class="fa-solid fa-arrow-right"></i>  <span className="text-bold ">Measurable Results: </span>Social Media Marketing success is not a mystery; detailed analytics offer data-driven decisions and constant optimization, unlike traditional marketing methods.</p>
+                  <p className="service-details__text ">
+                  <i class="fa-solid fa-arrow-right"></i>  <span className="text-bold ">Cost-Effective Marketing:  </span>Social Media Marketing offers superior ROI compared to traditional advertising, enabling businesses to reach a wider audience at a lower cost.</p>
+                  <p className="service-details__text ">
+                  <i class="fa-solid fa-arrow-right"></i>   <span className="text-bold ">Staying Ahead of Competitors: </span>In today's competitive market, social media presence is essential for businesses to stay ahead of competitors and stay relevant in the ever-evolving business landscape.</p>
+                  <p className="service-details__text ">
+                  <i class="fa-solid fa-arrow-right"></i>  <span className="text-bold ">Adaptability and Innovation: </span>The right Social Media Marketing partner can help businesses stay ahead of trends and technologies, ensuring long-term growth by staying on top of social media platforms.</p>
+
+
+                  <h2>What do we offer in Social Media Marketing? </h2>
+                  <p className="service-details__text ">
+                  <i class="fa-solid fa-arrow-right"></i> <span className="text-bold ">Strategic Planning: </span>We start by developing a tailored social media strategy that aligns with your business goals. Our team of experts conducts in-depth market research and competitor analysis to identify opportunities and create a roadmap for your success.</p>
+                  <p className="service-details__text ">
+                  <i class="fa-solid fa-arrow-right"></i> <span className="text-bold ">Platform Selection: </span>Not all social media platforms are created equal. We help you choose the right platforms to reach your target audience effectively. Whether it's Facebook, Instagram, Twitter, LinkedIn, or emerging platforms, we've got you covered.</p>
+                  <p className="service-details__text ">
+                  <i class="fa-solid fa-arrow-right"></i> <span className="text-bold ">Content Creation: </span>Engaging content is the cornerstone of social media success. Our team of skilled content creators, graphic designers, and videographers work together to produce eye-catching visuals, compelling copy, and captivating videos that resonate with your audience.</p>
+                  <p className="service-details__text ">
+                  <i class="fa-solid fa-arrow-right"></i> <span className="text-bold ">Community Management: </span>It's vital to create and support an active online community. We manage your social media channels, responding to comments, messages, and reviews promptly, ensuring a positive brand image and strong customer relationships.</p>
+                  <p className="service-details__text ">
+                  <i class="fa-solid fa-arrow-right"></i> <span className="text-bold ">Paid Advertising: </span>Our experts utilize targeted advertising campaigns to boost your visibility and reach the right audience. We continuously optimize ad performance to maximize ROI.</p>
+ <div className="text-center">
+  <Image
+                    src={smmGif}
+                    style={{width:"50%",height:"auto"}}
+                    alt="SOCIAL MEDIA MARKETING gif"
+                  /><br/>
+                  <b className="text-dark">Other SMM companies try to explain no leads... 😅</b>
+ </div>
+                  <p className="service-details__text ">
+                  <i class="fa-solid fa-arrow-right"></i>  <span className="text-bold ">Analytics and Reporting: </span>We provide regular reports and analytics to measure the effectiveness of our social media efforts. This data-driven approach allows us to refine strategies and ensure you get the best results.</p>
+
+
+                   <div className='quotes text-center bg-primary p-3 rounded my-2'>
+                    <h5 className="text-white"><i>“SMM is an effective and low-cost way to promote products and services, build relationships, and reach new customers. Investing in an effective SMM strategy can help businesses maximize their online presence and see a return on their investment.”</i></h5>
+                   </div>
+                   <h3>Why Choose Us as Your Social Media Marketing Company? </h3>
+                  <p className="service-details__text ">
+                  At Way WeDesign, we're not just another social media marketing company; we're your dedicated partners in digital success. We infuse the vibrant culture and spirit of Kerala into every facet of our work, blending creativity, innovation, and a deep market understanding into your social media campaigns.
+                  </p>
+                  <p className="service-details__text ">
+                  Our team of passionate SMM experts lives and breathes social media – not only on Facebook and Instagram but across all social media platforms, including the latest Threads. We thrive on transforming businesses into digital powerhouses. With our customized strategies, we don't just aim to meet your goals; we aspire to exceed them. 
+                  </p>
+                  <p className="service-details__text ">
+                  We don't merely follow trends; we set them – <span className="text-bold">yes, you heard it right.</span>
+                  </p>
+                  <p className="service-details__text ">
+                  When you choose us, you're choosing a seamless blend of cutting-edge technology and personal touch. We're not just about numbers; we're about relationships, engagement, and making your brand resonate with the heart and soul of Kochi. Your success is our success, and together, we'll make waves in the digital ocean.
+                  </p>
+                  <p className="service-details__text ">
+                 <span className="text-bold"> So, why choose us?</span> Because when you do, you're not just choosing a social media marketing company in Kochi; you're choosing a journey to digital excellence, and we can't wait to embark on that journey with you.
+                  </p>
+                  <h3>Case Study: What Makes Us the Best Social Media Marketing Company in Kochi </h3>
+                  <p className="service-details__text ">
+                 <span className="text-bold"> Case Study:</span> Elevating a Matrimony Company in Kerala through Strategic Social Media Marketing (SMM)
+                  </p> 
+                  <p className="service-details__text ">
+                  <span className="text-bold">Client:</span> A budding matrimony startup, born and bred in Kerala, India.
+                  </p>
+                  <p className="service-details__text ">
+                  <span className="text-bold">Challenge:</span>  As SMM experts in Kochi, launching a matrimony platform in a fiercely competitive market with zero prior registrations.
+                  </p>
+                  <p className="service-details__text ">
+                  <span className="text-bold">Solution:</span> 
+                   Our seasoned digital marketing experts, especially experienced in SMM, crafted a tailor-made strategy, with a special focus on Social Media Marketing (SMM), to target the local demographic. By harnessing the power of SMM, we embarked on the journey to establish a robust online presence for the client.
+                  </p>
+                  <p className="service-details__text ">
+                  <span className="text-bold">Results:</span> In just <span className="text-bold">three months</span>, the matrimony platform achieved an impressive milestone, surpassing <span className="text-bold">5000 registrations</span>. Our data-driven SMM approach, coupled with local market insights and strategic execution, played a pivotal role in catapulting them to the forefront of Kerala's matrimony industry.
+
+                  </p>
+                  <h2 className="stroked-text mt-2 ">Transform Your Business: Our Clients Were Once in Your Shoes!</h2>
+                  <p className="service-details__text ">
+                  Unlock the vast potential of Social Media Marketing for your company, whether it's in Kochi, Kerala, or anywhere in this universe.
+                  </p>
+                  <p className="service-details__text ">
+                  If you're reading this, <span class="text-bold fs-2">I am telling you... </span>
+                  </p>
+                  <p className="service-details__text ">
+                  Your search for the <span class="text-bold fs-2"> “Best Social Media Marketing company”</span> ends here!! 
+                  </p>
+                  <p className="service-details__text ">
+                  Let us say it's us... We are The Best Social Media Marketing (SMM) Agency you're looking for, and let us help you replicate this success!
                   </p>
                 </div>
                 <br />

@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap');
 /*--------------------------------------------------------------
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
@@ -47,7 +48,7 @@
 body {
   font-family: var(--thm-font);
   color: var(--thm-gray);
-  font-size: 18px;
+  font-size: 17px;
   line-height: 34px;
   font-weight: 500;
   
@@ -7369,4 +7370,17 @@ p{
       .error{
         width:100%
       }
+      }
+      .text-bold{
+        font-weight:bold;
+        color:#000;
+        
+
+      }
+      .stroked-text{
+        color: black;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #0a58ca;
+  font-weight:800;
       }
