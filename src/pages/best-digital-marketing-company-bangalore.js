@@ -45,8 +45,7 @@ const DigitalMarketingBangalore = () => {
     <>
       <Head>
         <title>
-          {" "}
-          Best Digital Marketing Company in Bangalore, India | IT/ITES Providers{" "}
+                  Best Digital Marketing Company in Bangalore, India | IT/ITES Providers{" "}
         </title>
         <meta
           name="description"
