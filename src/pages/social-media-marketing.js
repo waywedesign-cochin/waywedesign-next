@@ -132,20 +132,20 @@ const SMM = () => {
                 <div className="service-details__sidebar-service">
             <h4 className="service-details__sidebar-title">Table Of Content</h4>
             <ul className="service-details__sidebar-service-list list-unstyled">
-              <li><Link href="#ssm-company">1.Social Media Marketing Company in Kochi, Kerala 
+              <li><Link href="#ssm-company">1. Social Media Marketing Company in Kochi, Kerala 
  <span className="icon-right-arrow" /></Link>
               </li>
-              <li><Link href="#smm-needs">2.Why your company needs Social Media Marketing (SMM)? 
+              <li><Link href="#smm-needs">2. Why your company needs Social Media Marketing (SMM)? 
 <span className="icon-right-arrow" /></Link>
               </li>
-              <li><Link href="#key-benifits">3.Key Benefits of Social Media Marketing? 
+              <li><Link href="#key-benifits">3. Key Benefits of Social Media Marketing? 
 <span className="icon-right-arrow" /></Link>
               </li>
-              <li><Link href="/#offer-in-smm">4.What do we offer in Social Media Marketing? 
+              <li><Link href="/#offer-in-smm">4. What do we offer in Social Media Marketing? 
 <span className="icon-right-arrow" /></Link></li>
-              <li><Link href="#why-choose">5.Why Choose Us as Your Social Media Marketing Company? 
+              <li><Link href="#why-choose">5. Why Choose Us as Your Social Media Marketing Company? 
  <span className="icon-right-arrow" /></Link></li>
-              <li><Link href="#case-study">6.Case Study: What Makes Us the Best Social Media Marketing Company in Kochi  <span className="icon-right-arrow" /></Link></li>
+              <li><Link href="#case-study">6. Case Study: What Makes Us the Best Social Media Marketing Company in Kochi  <span className="icon-right-arrow" /></Link></li>
             </ul>
           </div>
                 {/* table of content */}
