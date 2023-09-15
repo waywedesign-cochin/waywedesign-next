@@ -129,25 +129,7 @@ const SMM = () => {
                     Social Media Marketing Company in Kochi, Kerala
                   </h1>
                 {/* table of content */}
-                <div className="service-details__sidebar-service">
-            <h4 className="service-details__sidebar-title">Table Of Content</h4>
-            <ul className="service-details__sidebar-service-list list-unstyled">
-              <li><Link href="#ssm-company">1. Social Media Marketing Company in Kochi, Kerala 
- <span className="icon-right-arrow" /></Link>
-              </li>
-              <li><Link href="#smm-needs">2. Why your company needs Social Media Marketing (SMM)? 
-<span className="icon-right-arrow" /></Link>
-              </li>
-              <li><Link href="#key-benifits">3. Key Benefits of Social Media Marketing? 
-<span className="icon-right-arrow" /></Link>
-              </li>
-              <li><Link href="/#offer-in-smm">4. What do we offer in Social Media Marketing? 
-<span className="icon-right-arrow" /></Link></li>
-              <li><Link href="#why-choose">5. Why Choose Us as Your Social Media Marketing Company? 
- <span className="icon-right-arrow" /></Link></li>
-              <li><Link href="#case-study">6. Case Study: What Makes Us the Best Social Media Marketing Company in Kochi  <span className="icon-right-arrow" /></Link></li>
-            </ul>
-          </div>
+             
                 {/* table of content */}
                   <p className="service-details__text ">
                     As the leading social media marketing company in Kochi, we
@@ -168,6 +150,25 @@ const SMM = () => {
                     style={{width:"100%",height:"70vh"}}
                     alt="SOCIAL MEDIA MARKETING"
                   /><br/><br/>
+                     <div className="service-details__sidebar-service">
+            <h4 className="service-details__sidebar-title">Table Of Content</h4>
+            <ul className="service-details__sidebar-service-list list-unstyled">
+              <li><Link href="#ssm-company">1. Social Media Marketing Company in Kochi, Kerala 
+ <span className="icon-right-arrow" /></Link>
+              </li>
+              <li><Link href="#smm-needs">2. Why your company needs Social Media Marketing (SMM)? 
+<span className="icon-right-arrow" /></Link>
+              </li>
+              <li><Link href="#key-benifits">3. Key Benefits of Social Media Marketing? 
+<span className="icon-right-arrow" /></Link>
+              </li>
+              <li><Link href="/#offer-in-smm">4. What do we offer in Social Media Marketing? 
+<span className="icon-right-arrow" /></Link></li>
+              <li><Link href="#why-choose">5. Why Choose Us as Your Social Media Marketing Company? 
+ <span className="icon-right-arrow" /></Link></li>
+              <li><Link href="#case-study">6. Case Study: What Makes Us the Best Social Media Marketing Company in Kochi  <span className="icon-right-arrow" /></Link></li>
+            </ul>
+          </div>
                   <h2 id="smm-needs">Why your company needs Social Media Marketing (SMM)? </h2><br/>
                   <p className="service-details__text ">
                   Social media marketing (SMM) is an effective way to reach customers and create meaningful relationships with them. It allows businesses to create a presence in the digital world, build brand awareness, and develop a loyal customer base. SMM can also help increase website traffic, generate leads, and improve search engine rankings. With the right strategy, SMM can be a powerful tool for any business. 
@@ -217,7 +218,7 @@ const SMM = () => {
 
                   <br/>
                    <div className='quotes text-center bg-primary p-3 rounded my-2'>
-                    <h5 className="text-white"><i>“SMM is an effective and low-cost way to promote products and services, build relationships, and reach new customers. Investing in an effective SMM strategy can help businesses maximize their online presence and see a return on their investment.”</i></h5>
+                    <h5 className="text-white">“SMM is an effective and low-cost way to promote products and services, build relationships, and reach new customers. Investing in an effective SMM strategy can help businesses maximize their online presence and see a return on their investment.”</h5>
                    </div><br/>
                    <h3 id="why-choose">Why Choose Us as Your Social Media Marketing Company? </h3><br/>
                   <p className="service-details__text ">
@@ -253,15 +254,15 @@ const SMM = () => {
                   <span className="text-bold">Results:</span> In just <span className="text-bold">three months</span>, the matrimony platform achieved an impressive milestone, surpassing <span className="text-bold">5000 registrations</span>. Our data-driven SMM approach, coupled with local market insights and strategic execution, played a pivotal role in catapulting them to the forefront of Kerala's matrimony industry.
 
                   </p><br/>
-                  <h2 className="stroked-text mt-2 ">Transform Your Business: Our Clients Were Once in Your Shoes!</h2>
+                  <h3 className="stroked-text mt-2 ">Transform Your Business: Our Clients Were Once in Your Shoes!</h3>
                   <br/><p className="service-details__text ">
                   Unlock the vast potential of Social Media Marketing for your company, whether it's in Kochi, Kerala, or anywhere in this universe.
                   </p><br/>
                   <p className="service-details__text ">
-                  If you're reading this, <span class="text-bold fs-2">I am telling you... </span>
+                  If you're reading this, <span class="text-bold fs-4">I am telling you... </span>
                   </p><br/>
                   <p className="service-details__text ">
-                  Your search for the <span class="text-bold fs-2"> “Best Social Media Marketing company”</span> ends here!! 
+                  Your search for the <span class="text-bold fs-4"> “Best Social Media Marketing company”</span> ends here!! 
                   </p><br/>
                   <p className="service-details__text ">
                   Let us say it's us... We are The Best Social Media Marketing (SMM) Agency you're looking for, and let us help you replicate this success!

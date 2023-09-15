@@ -18,7 +18,7 @@
 # Common
 --------------------------------------------------------------*/
 :root {
-  --thm-font: 'Barlow', sans-serif;
+  --thm-font: 'Poppins', sans-serif;
   --thm-reey-font: 'reeyregular';
   --thm-gray: rgb(0, 0, 0);;
   --thm-gray-rgb: 123, 121, 129;
@@ -47,9 +47,9 @@
 body {
   font-family: var(--thm-font);
   color: var(--thm-gray);
-  font-size: 18px;
+  font-size: 16px;
   line-height: 34px;
-  font-weight: 500;
+  font-weight: 400;
   
 }
 
@@ -618,7 +618,7 @@ canvas {
 }
 .main-menu .main-menu__list>li>a,
 .stricky-header .main-menu__list>li>a {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 500;
   display: flex;
   align-items: center;
@@ -1815,14 +1815,14 @@ background: linear-gradient(17deg, rgba(24,143,244,1) 0%, rgba(12,76,144,1) 48%,
 }
 
 .feature-one__text h3 {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
   line-height: 30px;
   margin-bottom: 4px;
 }
 
 .feature-one__text p {
-  font-size: 14px;
+  font-size: 12px;
   margin: 0;
   line-height: 30px;
 }
@@ -7383,6 +7383,7 @@ p{
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #0a58ca;
   font-weight:800;
+  letter-spacing:2px;
       }
       .fa-arrow-right{
         color:#0a58ca
