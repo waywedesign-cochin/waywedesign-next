@@ -10,6 +10,8 @@ import ServiceSideMenu from "@/Components/ServiceSideMenu";
 import Head from "next/head";
 import Image from "next/image";
 import MobileMenu from "@/Components/MobileMenu";
+import  Link  from 'next/link'
+
 const SMM = () => {
   const SmmFaq = [
     {
@@ -111,16 +113,42 @@ const SMM = () => {
 
       <section className="service-details">
         <div className="container">
+          
           <div className="row">
             <div className="col-xl-8 col-lg-7">
+            <div className="service-details__sidebar mt-3">
+         
+        
+        </div>
               <div className="service-details__right">
                 <div className="service-details__img">
                   
                 </div>
                 <div className="service-details__content">
-                  <h1 className="service-details__title">
+                  <h1 id="smm-company" className="service-details__title">
                     Social Media Marketing Company in Kochi, Kerala
                   </h1>
+                {/* table of content */}
+                <div className="service-details__sidebar-service">
+            <h4 className="service-details__sidebar-title">Table Of Content</h4>
+            <ul className="service-details__sidebar-service-list list-unstyled">
+              <li><Link href="#ssm-company">1.Social Media Marketing Company in Kochi, Kerala 
+ <span className="icon-right-arrow" /></Link>
+              </li>
+              <li><Link href="#smm-needs">2.Why your company needs Social Media Marketing (SMM)? 
+<span className="icon-right-arrow" /></Link>
+              </li>
+              <li><Link href="#key-benifits">3.Key Benefits of Social Media Marketing? 
+<span className="icon-right-arrow" /></Link>
+              </li>
+              <li><Link href="/#offer-in-smm">4.What do we offer in Social Media Marketing? 
+<span className="icon-right-arrow" /></Link></li>
+              <li><Link href="#why-choose">5.Why Choose Us as Your Social Media Marketing Company? 
+ <span className="icon-right-arrow" /></Link></li>
+              <li><Link href="#case-study">6.Case Study: What Makes Us the Best Social Media Marketing Company in Kochi  <span className="icon-right-arrow" /></Link></li>
+            </ul>
+          </div>
+                {/* table of content */}
                   <p className="service-details__text ">
                     As the leading social media marketing company in Kochi, we
                     understand the importance of utilizing social media to reach
@@ -140,14 +168,14 @@ const SMM = () => {
                     style={{width:"100%",height:"70vh"}}
                     alt="SOCIAL MEDIA MARKETING"
                   /><br/><br/>
-                  <h2>Why your company needs Social Media Marketing (SMM)? </h2><br/>
+                  <h2 id="smm-needs">Why your company needs Social Media Marketing (SMM)? </h2><br/>
                   <p className="service-details__text ">
                   Social media marketing (SMM) is an effective way to reach customers and create meaningful relationships with them. It allows businesses to create a presence in the digital world, build brand awareness, and develop a loyal customer base. SMM can also help increase website traffic, generate leads, and improve search engine rankings. With the right strategy, SMM can be a powerful tool for any business. 
                   </p><br/>
                   <p className="service-details__text ">
                   It's important to have a presence on social media platforms to keep up with the competition and stay connected with current and potential customers. Companies that use SMM can create content that resonates with their target audience, respond quickly to customer inquiries, and promote their products and services to a large and varied audience. SMM also offers the opportunity to gain valuable insights into customer behaviours and preferences, which can help improve campaigns and generate more leads.
                   </p><br/>
-                  <h3>Key Benefits of Social Media Marketing? </h3><br/>
+                  <h3 id="key-benifits">Key Benefits of Social Media Marketing? </h3><br/>
                   <p className="service-details__text ">
                   <i class="fa-solid fa-arrow-right"></i> <span className="text-bold ">Enhanced Brand Visibility: </span>Social media platforms like Facebook, Instagram, Twitter, LinkedIn and Threads allow brands to reach a global audience, increasing visibility and recognition.
                   </p><br/>
@@ -165,7 +193,7 @@ const SMM = () => {
                   <i class="fa-solid fa-arrow-right"></i>  <span className="text-bold ">Adaptability and Innovation: </span>The right Social Media Marketing partner can help businesses stay ahead of trends and technologies, ensuring long-term growth by staying on top of social media platforms.</p><br/>
 
 
-                  <h2>What do we offer in Social Media Marketing? </h2><br/>
+                  <h2 id="offer-in-smm">What do we offer in Social Media Marketing? </h2><br/>
                   <p className="service-details__text ">
                   <i class="fa-solid fa-arrow-right"></i> <span className="text-bold ">Strategic Planning: </span>We start by developing a tailored social media strategy that aligns with your business goals. Our team of experts conducts in-depth market research and competitor analysis to identify opportunities and create a roadmap for your success.</p><br/>
                   <p className="service-details__text ">
@@ -191,7 +219,7 @@ const SMM = () => {
                    <div className='quotes text-center bg-primary p-3 rounded my-2'>
                     <h5 className="text-white"><i>“SMM is an effective and low-cost way to promote products and services, build relationships, and reach new customers. Investing in an effective SMM strategy can help businesses maximize their online presence and see a return on their investment.”</i></h5>
                    </div><br/>
-                   <h3>Why Choose Us as Your Social Media Marketing Company? </h3><br/>
+                   <h3 id="why-choose">Why Choose Us as Your Social Media Marketing Company? </h3><br/>
                   <p className="service-details__text ">
                   At Way WeDesign, we're not just another social media marketing company; we're your dedicated partners in digital success. We infuse the vibrant culture and spirit of Kerala into every facet of our work, blending creativity, innovation, and a deep market understanding into your social media campaigns.
                   </p><br/>
@@ -207,7 +235,7 @@ const SMM = () => {
                   <p className="service-details__text ">
                  <span className="text-bold"> So, why choose us?</span> Because when you do, you're not just choosing a social media marketing company in Kochi; you're choosing a journey to digital excellence, and we can't wait to embark on that journey with you.
                   </p><br/>
-                  <h3>Case Study: What Makes Us the Best Social Media Marketing Company in Kochi </h3>
+                  <h3 id="case-study">Case Study: What Makes Us the Best Social Media Marketing Company in Kochi </h3>
                   <p className="service-details__text ">
                  <span className="text-bold"> Case Study:</span> Elevating a Matrimony Company in Kerala through Strategic Social Media Marketing (SMM)
                   </p> <br/>
@@ -253,6 +281,7 @@ const SMM = () => {
               </div>
             </div>
             <div className="col-xl-4 col-lg-5">
+           
               <ServiceSideMenu />
             </div>
           </div>
