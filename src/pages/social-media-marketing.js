@@ -205,7 +205,7 @@ const SMM = () => {
                   <i class="fa-solid fa-arrow-right"></i> <span className="text-bold ">Community Management: </span>It's vital to create and support an active online community. We manage your social media channels, responding to comments, messages, and reviews promptly, ensuring a positive brand image and strong customer relationships.</p><br/>
                   <p className="service-details__text ">
                   <i class="fa-solid fa-arrow-right"></i> <span className="text-bold ">Paid Advertising: </span>Our experts utilize targeted advertising campaigns to boost your visibility and reach the right audience. We continuously optimize ad performance to maximize ROI.</p><br/>
- <div className="text-center">
+ <div className="text-center"> 
   <Image
                     src={smmGif}
                     style={{width:"50%",height:"auto"}}
