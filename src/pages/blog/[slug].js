@@ -14,7 +14,15 @@ const BlogDetail = ({ blog }) => {
   const ptag = {
     textAlign: 'justify',
   };
+const shareOnTwitter = () => {
+    const twitterUrl = `https://twitter.com/intent/tweet?url=${encodeURIComponent(slug)}`;
+    window.open(twitterUrl, '_blank');
+  };
 
+  const shareOnLinkedIn = () => {
+    const linkedInUrl = `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(slug)}`;
+    window.open(linkedInUrl, '_blank');
+  };
   const router = useRouter();
   const { slug } = router.query;
 
@@ -116,9 +124,9 @@ const BlogDetail = ({ blog }) => {
                    <a href="#">cyber</a>
                  </p> */}
                  <div className="news-details__social-list">
-                   <a href=""><i className="fab fa-twitter" /></a>
-                   <a href=""><i className="fab fa-facebook" /></a>
-                   <a href=""><i className="fab fa-linkedin-in" /></a>
+                   <a onClick={shareOnTwitter}><i className="fab fa-twitter" /></a>
+                   <a href="#"><i className="fab fa-facebook" /></a>
+                   <a onClick={shareOnLinkedIn}><i className="fab fa-linkedin-in" /></a>
                  </div>
                </div>
                {/* <div className="news-details__pagenation-box">
