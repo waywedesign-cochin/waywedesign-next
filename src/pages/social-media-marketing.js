@@ -147,7 +147,6 @@ const SMM = () => {
                   </p><br/>
                   <Image
                     src={smmBanner}
-                    
                     alt="SOCIAL MEDIA MARKETING"
                   /><br/><br/>
                      <div className="service-details__sidebar-service">
@@ -162,7 +161,7 @@ const SMM = () => {
               <li><Link href="#key-benifits">3. Key Benefits of Social Media Marketing? 
 <span className="icon-right-arrow" /></Link>
               </li>
-              <li><Link href="/#offer-in-smm">4. What do we offer in Social Media Marketing? 
+              <li><Link href="#offer-in-smm">4. What do we offer in Social Media Marketing? 
 <span className="icon-right-arrow" /></Link></li>
               <li><Link href="#why-choose">5. Why Choose Us as Your Social Media Marketing Company? 
  <span className="icon-right-arrow" /></Link></li>
