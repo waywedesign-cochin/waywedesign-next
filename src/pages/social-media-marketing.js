@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import smmBanner from "../images/resources/social-media-marketing-company.jpeg";
+import smmBanner from "../images/resources/social-media-marketing-company.jpg";
 import smmGif from "../images/resources/smm-company-kochi.gif";
 import AccordionFaq from "@/Components/Accordion";
 import Breadcrumbs from "@/Components/Breadcrumbs";
