@@ -208,10 +208,10 @@ const SMM = () => {
  <div className="text-center"> 
   <Image
                     src={smmGif}
-                    style={{width:"50%",height:"auto"}}
+                    style={{width:"70%",height:"auto"}}
                     alt="SOCIAL MEDIA MARKETING gif"
                   /><br/>
-                  <b className="text-dark">Other SMM companies try to explain no leads... 😅</b>
+                  <span className="text-dark">Other SMM companies try to explain no leads... 😅</span>
  </div>
                   <p className="service-details__text ">
                   <i class="fa-solid fa-arrow-right"></i>  <span className="text-bold ">Analytics and Reporting: </span>We provide regular reports and analytics to measure the effectiveness of our social media efforts. This data-driven approach allows us to refine strategies and ensure you get the best results.</p>
