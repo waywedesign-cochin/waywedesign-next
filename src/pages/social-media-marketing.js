@@ -147,7 +147,7 @@ const SMM = () => {
                   </p><br/>
                   <Image
                     src={smmBanner}
-                    style={{width:"100%",height:"70vh"}}
+                    
                     alt="SOCIAL MEDIA MARKETING"
                   /><br/><br/>
                      <div className="service-details__sidebar-service">
