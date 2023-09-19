@@ -185,6 +185,7 @@ const SMM = () => {
                   </p><br/>
                   <Image
                     src={smmBanner}
+                    style={{width:"100%"}}
                     alt="SOCIAL MEDIA MARKETING"
                   /><br/><br/>
                      <div className="service-details__sidebar-service">
@@ -248,7 +249,7 @@ const SMM = () => {
                     style={{width:"70%",height:"auto"}}
                     alt="SOCIAL MEDIA MARKETING gif"
                   /><br/>
-                  <span className="text-dark">Other SMM companies try to explain no leads... 😅</span>
+                  <span className="text-dark " style={{fontSize:"12px"}}>Other SMM companies try to explain no leads... 😅</span>
  </div>
                   <p className="service-details__text ">
                   <i class="fa-solid fa-arrow-right"></i>  <span className="text-bold ">Analytics and Reporting: </span>We provide regular reports and analytics to measure the effectiveness of our social media efforts. This data-driven approach allows us to refine strategies and ensure you get the best results.</p>

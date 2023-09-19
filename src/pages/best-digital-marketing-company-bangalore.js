@@ -102,9 +102,7 @@ const DigitalMarketingBangalore = () => {
                 Best Digital Marketing Company in Bangalore
               </h1>
               <p className="text-white">
-                Discover the complete range of digital marketing services for
-                your business at WeDesign, one of the best digital marketing
-                company located in Bangalore
+              Discover the complete range of digital marketing services for your business at Way WeDesign, one of the best digital marketing company located in Bangalore
               </p>
               <button class="thm-btn bangalore-button">Contact Us</button>
             </div>
@@ -129,7 +127,8 @@ const DigitalMarketingBangalore = () => {
             </div>
             <div className="col-md-6">
               <h2 className="section-title__title bangalore-title">
-                Your Complete Digital Marketing Company in Bangalore
+              Your Complete Digital Marketing Company in Bangalore
+
               </h2>
               <p className="text-dark pt-2">
                 Discover the complete range of digital marketing services for
