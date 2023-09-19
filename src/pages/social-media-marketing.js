@@ -55,12 +55,13 @@ const SMM = () => {
     >
       <Head>
         <title>
-          Social Media Marketing Agency | Social Media Marketing Services
+        The Best Social Media Marketing (SMM) Company in Kochi, Kerala
+
         </title>
 
         <meta
           name="description"
-          content="Social media marketing services,Way WeDesign  is a best  Social Media Markeitng Agency   focused on enhancing brand  visibility through targeted strategies."
+          content="We are the best Social Media Marketing (SMM) Company in Kochi, Kerala. Our SMM experts utilize Google Ads, Facebook & Instagram Ads to help boost your business."
         />
         <meta name="robots" content="index, follow" />
         <meta
@@ -76,24 +77,13 @@ const SMM = () => {
           href="https://waywedesign.com/social-media-marketing"
         />
         <meta property="og:locale" content="en_US" />
-        <meta property="og:type" content="website" />
-        <meta
-          property="og:title"
-          content="Social Media Marketing Agency | Social Media Marketing Services"
-        />
-        <meta
-          property="og:description"
-          content="Social media marketing services,Way WeDesign  is a best  Social Media Markeitng Agency   focused on enhancing brand  visibility through targeted strategies."
-        />
-        <meta
-          property="og:url"
-          content="https://waywedesign.com/social-media-marketing"
-        />
-        <meta property="og:site_name" content="WayWeDesign" />
-        <meta
-          property="article:publisher"
-          content="https://www.facebook.com/waywedesign"
-        />
+        <meta property="og:type" content="Website" />
+        <meta property="og:title" content="Social Media Marketing Company | Google & Meta Ads Services" />
+        <meta property="og:description" content="The most trusted social media marketing company in Kochi. Grow your brand's online presence with our effective strategies. Achieve your marketing goals and lead generation targets with us." />
+        <meta property="og:image" content="https://waywedesign.com/_ipx/w_750,q_75/%2F_next%2Fstatic%2Fmedia%2Fsocial-media-marketing-company.1de353a0.jpg?url=%2F_next%2Fstatic%2Fmedia%2Fsocial-media-marketing-company.1de353a0.jpg&w=750&q=75" />
+        <meta property="og:url" content="https://waywedesign.com/social-media-marketing" />
+        <meta property="og:site_name" content="Way WeDesign" />
+
         <meta
           property="article:modified_time"
           content="2023-06-05T08:16:17+00:00"
@@ -101,6 +91,54 @@ const SMM = () => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:creator" content="@waywedesign" />
         <meta name="twitter:site" content="@waywedesign" />
+        <script type="application/ld+json">
+{`{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "WayWe Design",
+  "image": "https://waywedesign.com/assets/images/logo-wwd.png",
+  "@id": "",
+  "url": "https://waywedesign.com/",
+  "telephone": "7994643673",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "47/1403A,Ivees, MRERA-69, Chalikkavattom, Vennala",
+    "addressLocality": "Kochi, Kerala",
+    "postalCode": "682028",
+    "addressCountry": "IN"
+  }  
+}`}
+</script>
+<script type="application/ld+json">
+{`{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://waywedesign.com/social-media-marketing"
+  },
+  "headline": "Social Media Marketing Company | Google & Meta Ads Services",
+  "description": "The most trusted social media marketing company in Kochi. Grow your brand's online presence with our effective strategies. Achieve your marketing goals and lead generation targets with us.",
+  "image": "https://waywedesign.com/_ipx/w_750,q_75/%2F_next%2Fstatic%2Fmedia%2Fsocial-media-marketing-company.1de353a0.jpg?url=%2F_next%2Fstatic%2Fmedia%2Fsocial-media-marketing-company.1de353a0.jpg&w=750&q=75",  
+  "author": {
+    "@type": "Organization",
+    "name": "Way WeDesign",
+    "url": "https://waywedesign.com/"
+  },  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Way WeDesign",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://waywedesign.com/assets/images/logo-wwd.png"
+    }
+  },
+  "datePublished": "2023-09-11",
+  "dateModified": "2023-09-18"
+}`}
+</script>
+
+
       </Head>
       <Menu />
 

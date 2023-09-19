@@ -128,9 +128,9 @@ const DigitalMarketingBangalore = () => {
               />
             </div>
             <div className="col-md-6">
-              <h3 className="section-title__title bangalore-title">
+              <h2 className="section-title__title bangalore-title">
                 Your Complete Digital Marketing Company in Bangalore
-              </h3>
+              </h2>
               <p className="text-dark pt-2">
                 Discover the complete range of digital marketing services for
                 your business at Way WeDesign, a premier digital marketing
@@ -157,9 +157,9 @@ const DigitalMarketingBangalore = () => {
       </section>
       <section className="py-5">
         <div className="container">
-          <h2 className="text-center section-title__title pb-5">
-            Business Growth : The Power of Digital Marketing
-          </h2>
+          <h3 className="text-center section-title__title pb-5">
+          Business Growth : The Power of Digital Marketing Company 
+          </h3>
           <p className="text-dark">
             Digital marketing plays a crucial role in the success of businesses
             in today's digital age. Here are some key reasons why digital
