@@ -16,9 +16,10 @@ const About = () => {
     exit={{ opacity: 0, x: 100 }}
     transition={{ duration: 1 }}>
       <Head>
-      <title>About Us - Way WeDesign</title>
+      <title>Way WeDesign: Your Trusted Digital Marketing Company in Kochi
+</title>
        
-       <meta   name="description" content="Way WeDesign: Your Trusted Digital Marketing Company in Kochi" />
+       <meta   name="description" content="Way WeDesign - A premier digital marketing company in Kochi offering expert SEO, SMM, Web development, and more. Contact us for exceptional IT/ITES solutions." />
        <meta   name="robots" content="index, follow" />
        <meta   name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
        <meta   name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
