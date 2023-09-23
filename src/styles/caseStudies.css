@@ -1,0 +1,127 @@
+.caseStudy-flex{
+    padding:100px 0px;
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+    gap:2px;
+}
+
+.caseStudy-flex>div{
+    width: 100%;
+    height:400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    transition: all ease-in;
+    overflow: hidden;
+   
+}
+.case-study-card{
+    background-size:cover;
+    background-position:center;
+    transition: all ease-in;
+    position: relative;
+    cursor:pointer;
+
+}
+.one{
+    background-image: url(../background-images/case-studies/laptop.jpg);
+   
+
+}
+.two{
+    background-image: url(../background-images/case-studies/second.jpg);
+   
+
+}
+.three{
+    background-image: url(../background-images/case-studies/third.jpg);
+   
+}
+.four{
+    background-image: url(../background-images/case-studies/laptop.jpg);
+   
+
+}
+
+h2{
+    font-size:54px;
+    mix-blend-mode:luminosity;
+    transition: all ease-in;
+
+}
+p{
+    font-size:18px;
+    transition: all 100ms
+}
+.overlay{
+    position: relative;
+    width:100%;
+    height:100%;
+    /* background-color:rgba(0, 0, 0, 0.562); */
+}
+.center{
+    height:100%;
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    align-items:center;
+    position: relative;
+
+}
+
+.case-study-card:hover .overlay{
+    background-color:rgba(0, 0, 0, 0.562);
+    z-index:2;
+    transition: font-size 0.3s ease;
+
+}
+.case-study-card:hover h2{
+    font-size:34px;
+    transition: font-size 0.3s ease;
+    
+
+}
+.case-study-card:hover p{
+    font-size:13px;
+    transition: all 100ms
+
+}
+.case-study-card:hover .center{
+    z-index: -10;
+
+
+}
+
+.translated-content{
+    width:100%;
+    position: absolute;
+    bottom: 20px;
+    transform: translateY(300px); 
+    transition: transform 0.5s ease; 
+    z-index: 999;
+    margin:0 auto;
+}
+
+.case-study-card:hover .translated-content {
+    transform: translateY(0); 
+}
+
+@keyframes toTop {
+    0%{
+        opacity: 0;
+        transform: translateY(300px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .caseStudy-flex{
+        flex-direction: column;
+        gap: 0;
+    }
+}

@@ -1,6 +1,7 @@
 import '@/styles/globals.css'
 import '@/styles/responsive.css'
 import '@/styles/CardBangalore.css'
+import '@/styles/caseStudies.css'
 import '@/styles/NavStyle.css'
 import '@/vendors/animate/animate.min.css'
 import '@/vendors/animate/custom-animate.css'
@@ -16,6 +17,7 @@ import '@/vendors/reey-font/stylesheet.css'
 import '@/vendors/twentytwenty/twentytwenty.css'
 import '@/vendors/bootstrap-select/css/bootstrap-select.min.css'
 import '@/vendors/jquery-ui/jquery-ui.css'
+import caseStudies from './case-studies';
 
 
 
