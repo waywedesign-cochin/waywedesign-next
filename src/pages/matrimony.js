@@ -6,6 +6,8 @@ import Breadcrumbs from "@/Components/Breadcrumbs";
 import Image from "next/image";
 import smm from "../background-images/case-studies/SMM.png"
 import gads from "../background-images/case-studies/google-ads.png"
+import seo from "../background-images/case-studies/seo.png"
+import chat from "../background-images/case-studies/chat.png"
 import MobileMenu from "@/Components/MobileMenu";
 const Matrimony = () => {
   return (
@@ -40,7 +42,7 @@ const Matrimony = () => {
                   <h3 className="text-center">Client</h3>
                   <br />
                   <p className="service-details__text text-center ">
-                    A Recently Launged Matrimonial site for malayalee  with the mission to increase their Brand Awareness and App Downloads                </p>
+                    A Recently Launged Matrimonial site for Malayalee  with the mission to increase their Brand Awareness and App Downloads                </p>
                   <br />
 
                 </div>
@@ -72,15 +74,23 @@ const Matrimony = () => {
                 <br />
                 <div>
                  <div class="row">
-                 <div className="col-md-2"></div>
-                  <div className="col-md-4 my-2 text-center">
-                    <Image className="caseStudyIcon"  src={smm}/>
-                    <p className="text-center">Organic Social Media Marketing</p>
+                  <div className="col-md-3 my-2 text-center">
+                    <Image className="caseStudyIcon"  src={seo}/>
+                    <p className="text-center">SEO</p>
                   </div>
-                  <div className="col-md-4 my-2 text-center">
+                  <div className="col-md-3 my-2 text-center">
+                    <Image className="caseStudyIcon"  src={smm}/>
+                    <p className="text-center">Social Media Marketing</p>
+                  </div>
+                  <div className="col-md-3 my-2 text-center">
                     <Image className="caseStudyIcon" src={gads}/>
-                    <p className="text-center">Paid Social Media Advertising
-</p><br/>
+                    <p className="text-center">Google Ads
+</p>
+                  </div>
+                  <div className="col-md-3 my-2 text-center">
+                    <Image className="caseStudyIcon" src={chat}/>
+                    <p className="text-center">Chatbot Services
+</p>
                   </div>
                  </div>
                 
@@ -89,7 +99,6 @@ const Matrimony = () => {
             </div>
             
           </div>
-          <h3 className="text-center">SEO    Instagram / Facebook Ads      Google Ads      Chatbot Services</h3>
                   <br/>
                   <h5><b>SEO:</b> Boosting Visibility and Engagement:</h5><br/>
                   <p>Our journey begins with search engine optimization (SEO), a critical element in ensuring our platform reaches the right audience. By optimizing our website and content, we've enhanced its visibility in search engines</p><br/>
@@ -110,26 +119,26 @@ const Matrimony = () => {
 
                     <div className="col-md-3 py-2">
                         <div className="resultCard">
-                          <h3>15%</h3>
-                          <p className="text-center">Growth Rate (Month-over-Month)</p>
+                          <h3>2000+</h3>
+                          <p className="text-center">Registrations</p>
                         </div>
                     </div>
                     <div className="col-md-3 py-2">
                         <div className="resultCard">
-                          <h3>+5.7%</h3>
-                          <p className="text-center">Engagement Rate (Month-over-Month)</p>
+                          <h3>1000+</h3>
+                          <p className="text-center">App Download</p>
                         </div>
                     </div>
                     <div className="col-md-3 py-2">
                         <div className="resultCard">
                           <h3>+137</h3>
-                          <p className="text-center">Highest Number Of Reactions On Facebook</p>
+                          <p className="text-center">Instagram Enagement</p>
                         </div>
                     </div>
                     <div className="col-md-3 py-2">
                         <div className="resultCard">
-                          <h3>$1.19</h3>
-                          <p className="text-center">Best Cost Per Facebook Like</p>
+                          <h3>10 Lakh+</h3>
+                          <p className="text-center">Brand Visibility</p>
                         </div>
                     </div>
 
