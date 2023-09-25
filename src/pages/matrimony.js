@@ -148,7 +148,6 @@ const Matrimony = () => {
                   {/* results  section end */}
                   <br/>
                   <div className="container">
-                  <h3 className="text-center">Registration   App Downloads     Instagram  Enagement      Brand Visibility</h3>
                   <br/>
                   <p><b>Global User Base:</b> Within three months, the app successfully expanded its user base to multiple countries, including India, the United States, Canada, the United Kingdom, and Australia.</p>
                     <br/>
