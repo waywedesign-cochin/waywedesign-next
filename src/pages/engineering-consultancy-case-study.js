@@ -20,14 +20,14 @@ const engineeringConsultancy = () => {
       transition={{ duration: 1 }}
     >
       <Head>
-        <title>Matrimony - Case Study</title>
+        <title>Engineering Consultancy - Case Study</title>
         <meta name="description" content="Erp Crm Solution" />
       </Head>
       <Menu />
       <MobileMenu />
 
-      <Breadcrumbs pageurl="case-study/engineering-consultancy-case-study
-" subtitle="engineering Consultancy" />
+      <Breadcrumbs pageurl="engineering-consultancy-case-study
+" subtitle="Engineering Consultancy" />
 
       <section className="service-details">
         <div className="container">
@@ -53,7 +53,7 @@ const engineeringConsultancy = () => {
                 <h3 className="text-center">Client Background</h3>                <br />
 
                 <p className="service-details__text text-center">Welde Engineering Solutions Pvt. Ltd., an engineering consultancy with 20+ years of experience, excels in delivering high-quality power and alternative energy solutions.
-Objectives
+
 </p>
                 <br />
                 <h3 className="text-center ">Objective</h3>

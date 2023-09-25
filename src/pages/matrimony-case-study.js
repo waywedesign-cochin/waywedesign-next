@@ -24,7 +24,7 @@ const Matrimony = () => {
       <Menu />
       <MobileMenu />
 
-      <Breadcrumbs pageurl="case-study/matrimony" subtitle="matrimony" />
+      <Breadcrumbs pageurl="matrimony-case-study" subtitle="matrimony" />
 
       <section className="service-details">
         <div className="container">
@@ -46,25 +46,25 @@ const Matrimony = () => {
                   <br />
 
                 </div>
-                <h3 className="text-center">Client Background</h3>                <br />
+                <h4 className="text-center">Client Background</h4>                <br />
 
                 <p className="service-details__text text-justify">Our client, a well-known entrepreneur from Trissur, was eager to expand his business ventures. He decided to create a new matrimony app with a focus on connecting Malayalee people worldwide. The goal of the app was to change how people find their life partners. Their main objectives were to get more people to download the app and to make more people aware of the brand.</p>
                 <br />
-                <h3 className="text-center ">Objective</h3>
+                <h4 className="text-center ">Objective</h4>
                 <br />
 
-                <p className="service-details__text text-center">The main objective of the customer was to reach out to all malayees community around the globe.
-                  <br />Drive more  app downloads and become a  well-recognized brand in this field of Matrimonial Sites.
+                <p className="service-details__text text-justify">The main objective of the customer was to reach out to all malayees community around the globe.
+                  Drive more  app downloads and become a  well-recognized brand in this field of Matrimonial Sites.
                 </p>                <br />
 
 
-                <h3 className="text-center">Challenges We Faced</h3><br />
+                <h4 className="text-center">Challenges We Faced</h4><br />
                 <p><b>Brand Awareness: </b>Introducing a new matrimony site exclusively for Malayalees worldwide, including India, UAE, Canada, USA, and Australia, in a highly competitive field with over 100 established competitors is a significant challenge for brand awareness.</p>
                 <p><b>Market Penetration: </b> Establishing a foothold in highly competitive markets with established players required careful planning.</p>
                 <p><b>Brand Consistency: </b> Maintaining brand consistency with its unique identity while remaining relevant to Malayalee culture</p>
 
                 <br />
-                <h3 className="text-center">Solutions</h3>
+                <h4 className="text-center">Solutions</h4>
                 <br />
                 <p><b>Localized Marketing: </b>Customize marketing campaigns for each country by considering the unique cultural characteristics and preferences of Malayalees. </p>
                 <p><b>Country-Specific Features: </b>We can adjust the app's functions to meet the specific requirements of users in each country. For instance, users can set their partner search preferences based on their preferred regions.</p>
