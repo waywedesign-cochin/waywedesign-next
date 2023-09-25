@@ -150,7 +150,6 @@ const Matrimony = () => {
                   <div className="container">
                   <br/>
                   <p><b>Global User Base:</b> Within three months, the app successfully expanded its user base to multiple countries, including India, the United States, Canada, the United Kingdom, and Australia.</p>
-                    <br/>
                     <p><b>App Downloads: </b>The localized marketing strategies led to an increase of 60% in international app downloads.</p>
                     <p><b>Brand Recognition: </b>This matrimony became a recognizable brand in each target country, with a 50% increase in brand mentions and positive reviews on international platforms.</p>
                     </div>
