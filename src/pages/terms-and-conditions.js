@@ -17,12 +17,12 @@ const TermsAndCondition = () => {
        <meta   name="robots" content="index, follow" />
        <meta   name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
        <meta   name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-       <link   rel="canonical" href="https://waywedesign.com/about" />
+       <link   rel="canonical" href="https://waywedesign.com/terms-and-conditions" />
        <meta   property="og:locale" content="en_US" />
        <meta   property="og:type" content="website" />
        <meta   property="og:title" content="ITES and Digital Marketing Services | Digital Marketing Company" />
        <meta   property="og:description" content="Way WeDesign: Your Trusted Digital Marketing Company in KochiWe provide ITES and digital marketing services, including web development, SEO, social media marketing, and more. Contact us today to learn more!" />
-       <meta   property="og:url" content="https://waywedesign.com/about" />
+       <meta   property="og:url" content="https://waywedesign.com/terms-and-conditions" />
        <meta property="og:image" content="https://waywedesign.com/assets/images/logo-wwd.png" />
        <meta property="og:image:width" content="1024" />
        <meta property="og:image:height" content="1024" />
