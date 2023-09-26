@@ -32,8 +32,8 @@ const Footer = () => {
                           />
                         </Link>
                       </div>
-                      <p className="footer-widget__about-text " style={{textAlign:"justify"}}>
-                      Way WeDesign is a leading IT/ITES provider in cochin with 5 + years of proven track record in serving customers worldwide with a passion for business innovation and always striving to take our company to new pinnacles of excellence. At Way WeDesign, we stay current with the latest technology to provide exceptional services. Our investments in advanced facilities and technologies keep us ahead in the industry. Our strong customer relationships have led to high demand for our expertise in Enterprise Mobility, Web Technologies, Internet Marketing, and more. We are dedicated to delivering the best solutions to meet your unique needs and goals.
+                      <p className="footer-widget__about-text " style={{fontSize:"14px",textAlign:"justify"}}>
+                      Way WeDesign, the  best IT/ ITES provider in Cochin, with over 5 years of experience, is dedicated to delivering tecnology-powered solutions globally. Our relentless pursuit of excellence and investment in state-of-the-art resources keep us on technology's leading edge. Strong client relationships drive demand for our services in Enterprise Mobility, Web Technologies, Internet Marketing, and more. We're committed to crafting customized solutions that align with your unique needs and goals.
 
 
                       </p>
