@@ -3255,7 +3255,7 @@ background: linear-gradient(17deg, rgba(24,143,244,1) 0%, rgba(12,76,144,1) 48%,
 .site-footer__top-inner {
   position: relative;
   display: block;
-  padding: 56px 0 120px;
+  padding: 56px 0 35px;
   z-index: 1;
 }
 

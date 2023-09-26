@@ -105,7 +105,7 @@ const Footer = () => {
                     <div className="footer-widget__column footer-widget__contact">
                       <h3 className="footer-widget__title">Contact</h3>
                       <h5 className="text-white">India</h5>
-                      <p className="footer-widget__contact-text " style={{textAlign:"left"}}>
+                      <p className="footer-widget__contact-text " style={{textAlign:"left",fontSize:"14px"}}>
                       Way WeDesign,
                       47/1403A,Ivees, MRERA-69, Chalikkavattom, Vennala
                       Kochi, Kerala
@@ -138,7 +138,7 @@ const Footer = () => {
                       </ul>
                       <br></br>
                       <h5 className="text-white">UAE</h5>
-                      <p className="footer-widget__contact-text">
+                      <p className="footer-widget__contact-text" style={{fontSize:"14px"}}>
                       Dusseldorf Business Point,
 Al Barsha 1, Dubai, United Arab Emirates
 P.O.BOX: 5003517
