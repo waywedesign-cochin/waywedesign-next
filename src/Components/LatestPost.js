@@ -55,7 +55,7 @@ const LatestPost =()=>{
                               <img src={blog.coverPhoto.url} alt="blog cover photo" />
                             </div>
                             <div className="sidebar__post-content">
-                              <h3>
+                              <h3>  
                                 <a className="sidebar__post-content_meta"><i className="far fa-user-circle" />by {blog.author.name}</a>
                                 <Link href={slugLink}>{blog.title}</Link>
                               </h3>

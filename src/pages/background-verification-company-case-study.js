@@ -8,6 +8,11 @@ import web from "../background-images/case-studies/webdevelopment.png"
 import seo from "../background-images/case-studies/seo.png"
 import chat from "../background-images/case-studies/chat.png"
 import MobileMenu from "@/Components/MobileMenu";
+import  Link  from 'next/link';
+import bgcheck from "../background-images/case-studies/backgroun-check.jpg"
+import interior from "../background-images/case-studies/interior-design.jpeg"
+import marriage from "../background-images/case-studies/marriage.png"
+import eng from "../background-images/case-studies/engineering.png"
 const BackgroundVerificationCase = () => {
   return (
     <motion.div
@@ -26,40 +31,43 @@ const BackgroundVerificationCase = () => {
       <MobileMenu />
 
       <Breadcrumbs pageurl="background-verification-company-case-study" subtitle="Background Verification Company" />
-
-      <section className="service-details">
+      <section className="news-details">
+       <div className="container">
+    <div className="row">
+     <div className="col-md-8 col-lg-8">
+     <section className="service-details">
         <div className="container">
           <div className="row">
             <div className="col-xl-12 col-lg-12">
               <div className="">
                 <div className="service-details__img text-center">
-                  {/* <Image
-                    style={{ width: "70%" }}
-                    src={erpsolutions}
+                  <Image
+                    style={{ width: "100%" }}
+                    src={bgcheck}
                     alt="erpcrm solutions"
-                  /> */}
+                  />
                 </div>
                 <div className="service-details__content">
-                  <h3 className="text-center">Client</h3>
+                  <h3 className="text-left">Client</h3>
                   <br />
-                  <p className="service-details__text text-center ">
+                  <p className="service-details__text text-left ">
                   A leading background checks company without any online presence.
 </p>
                   <br />
 
                 </div>
-                <h4 className="text-center">Client Background</h4>                <br />
+                <h4 className="text-left">Client Background</h4>                <br />
 
                 <p className="service-details__text text-justify">Our client is a leading company specializing in providing comprehensive background screening services to businesses and organizations worldwide. With a reputation for accuracy and reliability, they had a strong offline presence but were looking to establish a robust online presence to expand their reach.</p>
                 <br />
-                <h4 className="text-center ">Objective</h4>
+                <h4 className="text-left ">Objective</h4>
                 <br />
 
                 <p className="service-details__text text-justify">The primary objective for the company was to enhance its online visibility, attract quality organic traffic, and establish itself as an authoritative figure in the background verification industry. They aimed to achieve these goals through effective SEO strategies, without the need to spend money on paid ads
 </p>                <br />
 
 
-                <h4 className="text-center">Challenges We Faced</h4><br />
+                <h4 className="text-left">Challenges We Faced</h4><br />
                 <p><b> Low Online Visibility:   </b>BGV company had minimal online presence, making it challenging to compete in the digital landscape.
 </p>
                 <p><b> Keyword Ranking: </b> They were not ranking for relevant keywords, which hindered their ability to reach their target audience.
@@ -69,7 +77,7 @@ const BackgroundVerificationCase = () => {
 </p>
 
                 <br />
-                <h4 className="text-center">Solutions</h4>
+                <h4 className="text-left">Solutions</h4>
                 <br/>
                 <p>Our SEO team devised a comprehensive strategy to address these challenges:
 </p>
@@ -151,6 +159,61 @@ const BackgroundVerificationCase = () => {
                   <br/>
                  
       </section>
+     </div>
+     <div className="col-md-4">
+     <div className="sidebar__single sidebar__post">
+            <h3 className="sidebar__title">Case Studies</h3>
+            <ul className="sidebar__post-list list-unstyled">
+            <li >
+                            <div className="sidebar__post-image">
+                              <Image src={interior} width={50} height={50} alt="blog cover photo" />
+                            </div>
+                            <div className="sidebar__post-content">
+                      
+                              <h3>
+                                <Link href="/interior-design-case-study">Interior Design Case Study</Link>
+                              </h3>
+                            </div>
+                          </li>
+            <li >
+                            <div className="sidebar__post-image">
+                              <Image src={eng} width={50} height={50} alt="blog cover photo" />
+                            </div>
+                            <div className="sidebar__post-content">
+                           
+
+                              <h3>
+                                <Link href="/engineering-consultancy-case-study"> Engineering Consultancy Case Study</Link>
+                              </h3>
+                            </div>
+                          </li>
+            <li >
+                            <div className="sidebar__post-image">
+                              <Image src={marriage} width={50} height={50} alt="blog cover photo" />
+                            </div>
+                            <div className="sidebar__post-content">
+                              <h3>
+                                <Link href="/matrimony-case-study">Matrimony Case Study</Link>
+                              </h3>
+                            </div>
+                          </li>
+            <li >
+                            <div className="sidebar__post-image">
+                              <Image src={bgcheck}  width={50} height={50} alt="blog cover photo" />
+                            </div>
+                            <div className="sidebar__post-content">
+                              <h3>
+                                <Link href="/background-verification-company-case-study">Background Verification Company Case Study</Link>
+                              </h3>
+                            </div>
+                          </li>
+              </ul>
+              
+              </div>
+     </div>
+     </div>
+     </div>
+     </section>
       <Footer />
     </motion.div>
   )

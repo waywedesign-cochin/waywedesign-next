@@ -6,10 +6,14 @@ import Menu from "@/Components/Navbar";
 import Footer from "@/Components/Footer";
 import Breadcrumbs from "@/Components/Breadcrumbs";
 import Image from "next/image";
-import smm from "../background-images/case-studies/SMM.png"
-import gads from "../background-images/case-studies/google-ads.png"
+import bgcheck from "../background-images/case-studies/backgroun-check.jpg"
+import interior from "../background-images/case-studies/interior-design.jpeg"
+import marriage from "../background-images/case-studies/marriage.png"
+import eng from "../background-images/case-studies/engineering.png"
 import web from "../background-images/case-studies/webdevelopment.png"
 import MobileMenu from "@/Components/MobileMenu";
+import  Link  from 'next/link';
+
 const InteriorDesign = () => {
   return (
     <motion.div
@@ -27,35 +31,38 @@ const InteriorDesign = () => {
 
       <Breadcrumbs pageurl="/interiror-design-case-study
 " subtitle="Interior Design" />
-
+      <section className="news-details">
+       <div className="container">
+    <div className="row">
+     <div className="col-md-8 col-lg-8">
       <section className="service-details">
         <div className="container">
           <div className="row">
-            <div className="col-xl-12 col-lg-12">
+            <div className="">
               <div className="">
                 <div className="service-details__img text-justify">
-                  {/* <Image
-                    style={{ width: "70%" }}
-                    src={erpsolutions}
+                  <Image
+                    style={{ width: "100%" }}
+                    src={interior}
                     alt="erpcrm solutions"
-                  /> */}
+                  />
                 </div>
                 <div className="service-details__content">
-                  <h3 className="text-center">Client</h3>
+                  <h3 className="text-left">Client</h3>
                   <br />
-                  <p className="service-details__text text-center ">
+                  <p className="service-details__text text-left ">
                   A progressive company in the field of interior design approached us with a mission of getting more visibility and online presence.
               </p>
                   <br />
 
                 </div>
-                <h3 className="text-center">Client Background</h3>                <br />
+                <h3 className="text-left">Client Background</h3>                <br />
 
                 <p className="service-details__text text-justify">Despite the remarkable nature of their creative endeavors, their presence in the digital realm was virtually non-existent. The absence of a website and an online platform hindered their ability to exhibit their portfolio, engage with prospective clients, and establish their industry expertise.
 
 </p>
                 <br />
-                <h3 className="text-center ">Objective</h3>
+                <h3 className="text-left ">Objective</h3>
                 <br />
 
                 <p className="service-details__text text-justify"><b>Showcase Portfolio and Services:</b> One of the main goals is to showcase a carefully selected collection of finished projects. This enables potential clients to observe the company's work quality and style.         </p>      
@@ -64,7 +71,7 @@ const InteriorDesign = () => {
                           <br />
 
 
-                <h3 className="text-center">Challenges We Faced</h3><br />
+                <h3 className="text-left">Challenges We Faced</h3><br />
                 <p className="text-justify"><b>Limited recognition: </b>Interior design companies that are new to the industry often face challenges in establishing their brand recognition and reputation. It takes time to build trust and credibility in order to gain a foothold in the market.</p>
                 <p className="text-justify"><b>Online presence:</b> Having a strong online presence is essential in the modern digital era. It involves the creation and management of a website and the optimization for search engines.</p>
 
@@ -95,36 +102,80 @@ const InteriorDesign = () => {
                   Designed a responsive website that is mobile-friendly to cater to the increasing number of users accessing websites through smartphones and laptops. The website features user-friendly navigation, high-quality visuals, optimized speed, enhanced security, analytics, and tracking capabilities.</p>
 
         </div>
-                  {/* results  section start */}
-                  <section class=" results">
-                  <div className="container ">
-                    <div class="row">
-                    <h3 className="titleIcon">The Results</h3>
+ {/* results  section start */}
+ <div className="container">
+                    <h3 className="">The Results
+</h3><br/>
 
-                    <div className="col-md-4 py-2">
-                        <div className="newresultCard">
-                          <h3>Online Visibility</h3>
-                          <p className="text-justify">After the launch of the new website and implementation of digital marketing strategies, Reflectionz witnessed a significant boost in its online visibility.</p>
-                        </div>
-                    </div>
-                    <div className="col-md-4 py-2">
-                        <div className="newresultCard">
-                          <h3>Positive client Testimonials</h3>
-                          <p className="text-justify">Reflectionz received an influx of positive client testimonials, which conveyed a profound sense of satisfaction and admiration for their work. The online presence not only successfully attracted clients, but also left them thoroughly delighted.</p>
-                        </div>
-                    </div>
-                    <div className="col-md-4 py-2">
-                        <div className="newresultCard">
-                          <h3>Growth in Client Base</h3>
-                          <p className="text-justify">The enhanced online presence of Reflectionz led to a significant expansion in their clientele. The launch of their website resulted in a remarkable increase in the number of new clients acquired.</p>
-                        </div>
-                    </div>
-                   
 
-                  </div>
-                  </div>
-                  </section>
+<p><b>Online Visibility: </b>After the launch of the new website and implementation of digital marketing strategies, Reflectionz witnessed a significant boost in its online visibility.</p>
+<p><b>Positive client Testimonials: </b> Reflectionz received an influx of positive client testimonials, which conveyed a profound sense of satisfaction and admiration for their work. The online presence not only successfully attracted clients, but also left them thoroughly delighted.</p>
+<p><b>Growth in Client Base: </b> The enhanced online presence of Reflectionz led to a significant expansion in their clientele. The launch of their website resulted in a remarkable increase in the number of new clients acquired.</p>
+
+                 </div>
+                  {/* results  section end */}                
                   
+      </section>
+      
+      </div>
+      <div className="col-md-4">
+     <div className="sidebar__single sidebar__post">
+            <h3 className="sidebar__title">Case Studies</h3>
+            <ul className="sidebar__post-list list-unstyled">
+            <li >
+                            <div className="sidebar__post-image">
+                              <Image src={interior} width={50} height={50} alt="blog cover photo" />
+                            </div>
+                            <div className="sidebar__post-content">
+                      
+                              <h3>
+                                <Link href="/interior-design-case-study">Interior Design Case Study</Link>
+                              </h3>
+                            </div>
+                          </li>
+            <li >
+                            <div className="sidebar__post-image">
+                              <Image src={eng} width={50} height={50} alt="blog cover photo" />
+                            </div>
+                            <div className="sidebar__post-content">
+                           
+
+                              <h3>
+                                <Link href="/engineering-consultancy-case-study"> Engineering Consultancy Case Study</Link>
+                              </h3>
+                            </div>
+                          </li>
+            <li >
+                            <div className="sidebar__post-image">
+                              <Image src={marriage} width={50} height={50} alt="blog cover photo" />
+                            </div>
+                            <div className="sidebar__post-content">
+                              <h3>
+                                <Link href="/matrimony-case-study">Matrimony Case Study</Link>
+                              </h3>
+                            </div>
+                          </li>
+            <li >
+                            <div className="sidebar__post-image">
+                              <Image src={bgcheck}  width={50} height={50} alt="blog cover photo" />
+                            </div>
+                            <div className="sidebar__post-content">
+                              <h3>
+                                <Link href="/background-verification-company-case-study">Background Verification Company Case Study</Link>
+                              </h3>
+                            </div>
+                          </li>
+              </ul>
+              
+              </div>
+      </div>
+      </div>
+      <div>
+
+                
+     </div>
+      </div>
+     
       </section>
       <Footer />
     </motion.div>

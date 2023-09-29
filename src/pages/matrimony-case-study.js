@@ -9,6 +9,12 @@ import gads from "../background-images/case-studies/google-ads.png"
 import seo from "../background-images/case-studies/seo.png"
 import chat from "../background-images/case-studies/chat.png"
 import MobileMenu from "@/Components/MobileMenu";
+import bgcheck from "../background-images/case-studies/backgroun-check.jpg"
+import interior from "../background-images/case-studies/interior-design.jpeg"
+import marriage from "../background-images/case-studies/marriage.png"
+import eng from "../background-images/case-studies/engineering.png"
+import  Link  from 'next/link';
+
 const Matrimony = () => {
   return (
     <motion.div
@@ -25,32 +31,35 @@ const Matrimony = () => {
       <MobileMenu />
 
       <Breadcrumbs pageurl="matrimony-case-study" subtitle="matrimony" />
-
+      <section className="news-details">
+       <div className="container">
+    <div className="row">
+     <div className="col-md-8 col-lg-8">
       <section className="service-details">
         <div className="container">
           <div className="row">
             <div className="col-xl-12 col-lg-12">
               <div className="">
-                <div className="service-details__img text-center">
-                  {/* <Image
-                    style={{ width: "70%" }}
-                    src={erpsolutions}
+                <div className="service-details__img text-left">
+                  <Image
+                    style={{ width: "100%" }}
+                    src={marriage}
                     alt="erpcrm solutions"
-                  /> */}
+                  />
                 </div>
                 <div className="service-details__content">
-                  <h3 className="text-center">Client</h3>
+                  <h3 className="text-left">Client</h3>
                   <br />
-                  <p className="service-details__text text-center ">
+                  <p className="service-details__text text-left ">
                     A Recently Launged Matrimonial site for Malayalee  with the mission to increase their Brand Awareness and App Downloads                </p>
                   <br />
 
                 </div>
-                <h4 className="text-center">Client Background</h4>                <br />
+                <h4 className="text-left">Client Background</h4>                <br />
 
                 <p className="service-details__text text-justify">Our client, a well-known entrepreneur from Trissur, was eager to expand his business ventures. He decided to create a new matrimony app with a focus on connecting Malayalee people worldwide. The goal of the app was to change how people find their life partners. Their main objectives were to get more people to download the app and to make more people aware of the brand.</p>
                 <br />
-                <h4 className="text-center ">Objective</h4>
+                <h4 className="text-left ">Objective</h4>
                 <br />
 
                 <p className="service-details__text text-justify">The main objective of the customer was to reach out to all malayees community around the globe.
@@ -58,13 +67,13 @@ const Matrimony = () => {
                 </p>                <br />
 
 
-                <h4 className="text-center">Challenges We Faced</h4><br />
+                <h4 className="text-left">Challenges We Faced</h4><br />
                 <p><b>Brand Awareness: </b>Introducing a new matrimony site exclusively for Malayalees worldwide, including India, UAE, Canada, USA, and Australia, in a highly competitive field with over 100 established competitors is a significant challenge for brand awareness.</p>
                 <p><b>Market Penetration: </b> Establishing a foothold in highly competitive markets with established players required careful planning.</p>
                 <p><b>Brand Consistency: </b> Maintaining brand consistency with its unique identity while remaining relevant to Malayalee culture</p>
 
                 <br />
-                <h4 className="text-center">Solutions</h4>
+                <h4 className="text-left">Solutions</h4>
                 <br />
                 <p><b>Localized Marketing: </b>Customize marketing campaigns for each country by considering the unique cultural characteristics and preferences of Malayalees. </p>
                 <p><b>Country-Specific Features: </b>We can adjust the app's functions to meet the specific requirements of users in each country. For instance, users can set their partner search preferences based on their preferred regions.</p>
@@ -153,6 +162,63 @@ const Matrimony = () => {
                     <p><b>App Downloads: </b>The localized marketing strategies led to an increase of 60% in international app downloads.</p>
                     <p><b>Brand Recognition: </b>This matrimony became a recognizable brand in each target country, with a 50% increase in brand mentions and positive reviews on international platforms.</p>
                     </div>
+      </section>
+
+
+      </div>
+      <div className="col-lg-4 col-xl-4">
+                  <div className="sidebar__single sidebar__post">
+            <h3 className="sidebar__title">Case Studies</h3>
+            <ul className="sidebar__post-list list-unstyled">
+            <li >
+                            <div className="sidebar__post-image">
+                              <Image src={interior} width={50} height={50} alt="blog cover photo" />
+                            </div>
+                            <div className="sidebar__post-content">
+                      
+                              <h3>
+                                <Link href="/interior-design-case-study">Interior Design Case Study</Link>
+                              </h3>
+                            </div>
+                          </li>
+            <li >
+                            <div className="sidebar__post-image">
+                              <Image src={eng} width={50} height={50} alt="blog cover photo" />
+                            </div>
+                            <div className="sidebar__post-content">
+                           
+
+                              <h3>
+                                <Link href="/engineering-consultancy-case-study"> Engineering Consultancy Case Study</Link>
+                              </h3>
+                            </div>
+                          </li>
+            <li >
+                            <div className="sidebar__post-image">
+                              <Image src={marriage} width={50} height={50} alt="blog cover photo" />
+                            </div>
+                            <div className="sidebar__post-content">
+                              <h3>
+                                <Link href="/matrimony-case-study">Matrimony Case Study</Link>
+                              </h3>
+                            </div>
+                          </li>
+            <li >
+                            <div className="sidebar__post-image">
+                              <Image src={bgcheck}  width={50} height={50} alt="blog cover photo" />
+                            </div>
+                            <div className="sidebar__post-content">
+                              <h3>
+                                <Link href="/background-verification-company-case-study">Background Verification Company Case Study</Link>
+                              </h3>
+                            </div>
+                          </li>
+              </ul>
+              
+              </div>
+                  </div>
+      </div>
+      </div>
       </section>
       <Footer />
     </motion.div>
