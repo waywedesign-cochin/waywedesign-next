@@ -68,11 +68,11 @@ const DigitalMarketingBangalore = () => {
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content=" Best Digital Marketing Company in Bangalore | IT/ITES Providers"
+          content=" Digital Marketing Company in Bangalore | Best Digital Marketing Company in Bangalore"
         />
         <meta
           property="og:description"
-          content="Looking for the best digital marketing company in Bangalore? Look no further! Our team of experts is here to take your online presence to new heights"
+          content="Looking for the best digital marketing company in Bangalore? Way WeDesign, the best digital marketing company in Bangalore with years of Experience"
         />
         <meta
           property="og:url"
@@ -132,8 +132,8 @@ const DigitalMarketingBangalore = () => {
               </h2>
               <p className="text-dark pt-2">
                 Discover the complete range of digital marketing services for
-                your business at Way WeDesign, a premier digital marketing
-                company located in Bangalore. Our team of experts specialises in
+                your business at Way WeDesign, one of the best digital marketing company located in Bangalore. 
+                Our team of experts specialises in
                 crafting effective strategies that integrate marketing,
                 technology, and analytics to align with your business
                 objectives. With a focus on maximising return on investment, we
