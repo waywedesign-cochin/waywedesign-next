@@ -51,11 +51,11 @@ const DigitalMarketing = () => {
   <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
 
   <title>  Best Digital marketing Company in Kochi - Way WeDseign</title>
-  <meta   name="description" content="Way WeDesign is a digital marketing company in Kochi,who offers advanced digital marketing services for your business.Contact Now."/>
+  <meta   name="description" content="Way WeDesign is a digital marketing company in Kochi, who offers advanced digital marketing services for your business.Contact Now."/>
   <meta   name="robots" content="index, follow" />
   <meta   name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
   <meta   name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-  <link   rel="canonical" href="https://waywedesign.com" />
+  <link   rel="canonical" href="https://waywedesign.com/digital-marketing" />
   <meta   property="og:locale" content="en_US" />
   <meta   property="og:type" content="website" />
   <meta   property="og:title" content=" Best Digital marketing Company in Kochi - Way WeDseign" />
