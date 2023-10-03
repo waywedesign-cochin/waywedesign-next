@@ -170,18 +170,7 @@ const SMM = () => {
              
                 {/* table of content */}
                   <p className="service-details__text ">
-                    As the leading social media marketing company in Kochi, we
-                    understand the importance of utilizing social media to reach
-                    your target audience. With the power of SMM, businesses can
-                    create a powerful presence online and build relationships
-                    with their customers. SMM can help you build brand
-                    awareness, increase website traffic, and even increase
-                    sales. Whether you want to reach a global audience or focus
-                    on a niche market, SMM can provide a cost-effective solution
-                    to gain visibility. By utilizing the latest trends and best
-                    practices, We, one of the Best social media marketing
-                    companies in Kochi, Kerala can help you make the most out of
-                    your digital marketing efforts.{" "}
+                  As one of the best social media marketing company in Kochi, we understand the importance of utilizing social media's like Facebook, Instagram, twitter, threads, etc to reach your target audience. With the power of SMM, businesses can create a powerful presence online and build relationships with their customers. SMM can help you build brand awareness, increase website traffic, and even increase sales. Whether you want to reach a global audience or focus on a niche market, SMM can provide a cost-effective solution to gain visibility. By utilizing the latest trends and best practices, We, as one of the best SMM companies in Kochi, Kerala can help you make the most out of your digital marketing efforts..{" "}
                   </p><br/>
                   <Image
                     src={smmBanner}
@@ -209,10 +198,10 @@ const SMM = () => {
           </div>
                   <h2 id="smm-needs">Why your company needs Social Media Marketing (SMM)? </h2><br/>
                   <p className="service-details__text ">
-                  Social media marketing (SMM) is an effective way to reach customers and create meaningful relationships with them. It allows businesses to create a presence in the digital world, build brand awareness, and develop a loyal customer base. SMM can also help increase website traffic, generate leads, and improve search engine rankings. With the right strategy, SMM can be a powerful tool for any business. 
+                  Social media marketing (SMM) is an effective way to reach your prospects and create a good relationships with them. It allows businesses- both B2B and B2C to create a presence in the digital era and helps business to build their brand awareness, and develop a loyal customer base. SMM can also help increase website traffic, generate leads, and improve search engine rankings. With the right strategy, SMM can be a powerful weapon for any business.
                   </p><br/>
                   <p className="service-details__text ">
-                  It's important to have a presence on social media platforms to keep up with the competition and stay connected with current and potential customers. Companies that use SMM can create content that resonates with their target audience, respond quickly to customer inquiries, and promote their products and services to a large and varied audience. SMM also offers the opportunity to gain valuable insights into customer behaviours and preferences, which can help improve campaigns and generate more leads.
+                  It's very important to have a strong presence on every social media platforms to keep up with the competition and stay connected with existing customer and potential prospects. Businesses can use SMM to  make content that connects with their desired audience and reply fast to customer questions, update about new product and services to a broad and diverse group of people. SMM also offers the opportunity to gain valuable insights into customer behaviours and preferences which can help improve campaigns and generate more leads.
                   </p><br/>
                   <h3 id="key-benifits">Key Benefits of Social Media Marketing? </h3><br/>
                   <p className="service-details__text ">
