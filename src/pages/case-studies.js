@@ -8,7 +8,7 @@ import React from "react";
 const caseStudies = () => {
   return (
     <>
-      {" "}
+      
       <Head>
         <title>
           Best Digital Marketing Company in Bangalore, India | IT/ITES Providers{" "}
