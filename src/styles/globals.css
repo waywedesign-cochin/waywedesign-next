@@ -5160,7 +5160,7 @@ background: linear-gradient(38deg, rgba(24,143,244,1) 0%, rgba(12,93,160,1) 48%,
 .service-details {
   position: relative;
   display: block;
-  padding: 50px 0 120px;
+  padding: 0px 0 120px;
 }
 
 .service-details__right {
