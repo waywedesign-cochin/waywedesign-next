@@ -63,7 +63,7 @@ const caseStudies = () => {
         <div className="caseStudy-flex">
           <div className="case-study-card one">
             <div className="overlay text-center">
-              <Link to="/engineering-consultancy-case-study">
+              <Link href="/engineering-consultancy-case-study">
               <div class="center">
                 <h2 className="text-white ">
                   <b>+235%</b>
@@ -82,7 +82,7 @@ const caseStudies = () => {
           </div>
           <div className="case-study-card two">
             <div className="overlay text-center">
-              <Link to="/interior-design-case-study">
+              <Link href="/interior-design-case-study">
               <div class="center">
                 <h2 className="text-white ">
                   <b>+360%</b>
@@ -100,7 +100,7 @@ const caseStudies = () => {
           </div>
           <div className="case-study-card three">
             <div className="overlay text-center">
-              <Link to="/matrimony-case-study">
+              <Link href="/matrimony-case-study">
               <div class="center">
                 <h2 className="text-white ">
                   <b>+137</b>
@@ -118,7 +118,7 @@ const caseStudies = () => {
           </div>
           <div className="case-study-card four">
             <div className="overlay text-center">
-              <Link to="/background-verification-company-case-study">
+              <Link href="/background-verification-company-case-study">
               <div class="center">
                 <h2 className="text-white ">
                   <b>+291%</b>
