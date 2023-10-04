@@ -66,11 +66,13 @@ const caseStudies = () => {
                 <h2 className="text-white ">
                   <b>+235%</b>
                 </h2>
-                <p className="text-white text-center">Website purchase ROAS</p>
+                <p className="text-white text-center">Ad Sales
+</p>
               </div>
               <div className="translated-content">
                 <h5 className="text-white text-center">
-                  <b>Way WeDesign</b>
+                  <b>Engineering Consultancy
+</b>
                 </h5>
               </div>
             </div>
@@ -81,11 +83,12 @@ const caseStudies = () => {
                 <h2 className="text-white ">
                   <b>+360%</b>
                 </h2>
-                <p className="text-white text-center">Organic Trafic</p>
+                <p className="text-white text-center">Website Development
+</p>
               </div>
               <div className="translated-content">
                 <h5 className="text-white text-center">
-                  <b>Way WeDesign</b>
+                  <b>Interior Design</b>
                 </h5>
               </div>
             </div>
@@ -96,11 +99,12 @@ const caseStudies = () => {
                 <h2 className="text-white ">
                   <b>+137</b>
                 </h2>
-                <p className="text-white text-center">Highest Number of Reaction</p>
+                <p className="text-white text-center">Paid Marketing
+</p>
               </div>
               <div className="translated-content">
                 <h5 className="text-white text-center">
-                  <b>Way WeDesign</b>
+                  <b>Matrimony</b>
                 </h5>
               </div>
             </div>
@@ -111,11 +115,12 @@ const caseStudies = () => {
                 <h2 className="text-white ">
                   <b>+291%</b>
                 </h2>
-                <p className="text-white text-center">Ad Sales</p>
+                <p className="text-white text-center">Organic Traffic
+</p>
               </div>
               <div className="translated-content">
                 <h5 className="text-white text-center">
-                  <b>Way WeDesign</b>
+                  <b>Background Verification Company</b>
                 </h5>
               </div>
             </div>
