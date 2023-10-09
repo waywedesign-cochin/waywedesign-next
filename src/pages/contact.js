@@ -40,8 +40,31 @@ const Contact = () => {
       transition={{ duration: 1 }}
     >
       <Head>
-        <title>Contact Us - Way WeDesign</title>
-        <meta name="description" content="Contact Us" />
+      <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <link rel="icon" href="./assets/images/logo.png" />
+  <link rel="apple-touch-icon" href="./assets/images/logo.png" />
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+  <title>Way WeDesign | Kochi | Cochin, Kerala </title>
+  <meta   name="description" content="Looking for the best IT /ITES and digital marketing services for your business. Way WeDesign with five plus years of experience in this field." />
+  <meta   name="robots" content="index, follow" />
+  <meta   name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+  <meta   name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+  <link   rel="canonical" href="https://waywedesign.com/contact" />
+  <meta   property="og:locale" content="en_US" />
+  <meta   property="og:type" content="website" />
+  <meta   property="og:title" content="Way WeDesign | Kochi | Cochin, Kerala" />
+  <meta   property="og:description" content="Looking for the best IT /ITES and digital marketing services for your business. Way WeDesign with five plus years of experience in this field." />
+  <meta   property="og:url" content="https://waywedesign.com/contact" />
+  <meta   property="og:site_name" content="WayWeDesign" />
+  <meta   property="article:publisher" content="https://www.facebook.com/waywedesign" />
+  <meta   property="article:modified_time" content="2023-06-05T08:16:17+00:00" />
+  <meta   name="twitter:card" content="summary_large_image" />
+  <meta   name="twitter:creator" content="@waywedesign" />
+  <meta   name="twitter:site" content="@waywedesign" />
+
       </Head>
       <Menu/>
       <MobileMenu />
