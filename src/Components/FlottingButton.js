@@ -1,22 +1,18 @@
+import Link from 'next/link';
 import React from 'react';
 
 const PhoneIcon = () => {
-  const phoneNumber = '+917994643673'; 
-  const whatsappLink = `https://wa.me/${phoneNumber}`;
-  const handlePhoneClick = () => {
-    window.location.href = `tel:${phoneNumber}`;
-  };
-  const handleWhatsappClick = () => {
-    window.open(whatsappLink, '_blank');
-  };
-
-  return (
+    return (
     <div className="phone-icon-container">
-      <div className="phone-icon" onClick={handlePhoneClick}>
+      <div className="phone-icon" >
+        <Link target="_blank"  href="tel:+917994643673">
         <i className="fas fa-phone"></i>
+        </Link>
       </div>
-      <div className="whatsapp-icon" onClick={handleWhatsappClick}>
+      <div className="whatsapp-icon" >
+        <Link target="_blank" href="https://wa.me/+917994643673">
         <i className="fab fa-whatsapp"></i>
+        </Link>
       </div>
     </div>
   );
