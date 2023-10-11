@@ -5164,6 +5164,7 @@ background: linear-gradient(38deg, rgba(24,143,244,1) 0%, rgba(12,93,160,1) 48%,
 }
 
 .service-details__right {
+  padding-top:20px;
   position: relative;
   display: block;
 }
@@ -7387,4 +7388,44 @@ p{
       }
       .fa-arrow-right{
         color:#0a58ca
+      }
+
+      .phone-icon-container {
+        position: fixed;
+        bottom: 20px;
+        left: 20px;
+        z-index: 9999;
+        display: flex;
+        flex-direction: column;
+      }
+      .phone-icon{
+        transform: rotate(450deg);
+      }
+      .phone-icon, .whatsapp-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        background-color: #333;
+        margin-bottom: 10px;
+        cursor: pointer;
+      }
+      
+      .phone-icon:hover, .whatsapp-icon:hover {
+        background-color: #444;
+      }
+      
+      .phone-icon i, .whatsapp-icon i {
+        color: #fff;
+        font-size: 24px;
+      }
+      
+      .whatsapp-icon {
+        background-color: #25d366;
+      }
+      
+      .whatsapp-icon:hover {
+        background-color: #128c7e;
       }

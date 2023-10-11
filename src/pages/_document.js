@@ -1,5 +1,6 @@
 import { Html, Head, Main, NextScript } from "next/document";
 import Script from "next/script";
+import PhoneIcon from '@/Components/FlottingButton';
 
 export default function Document() {
   return (
@@ -80,6 +81,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe>`}}></noscript>
         <Main />
         <NextScript />
+        <PhoneIcon/>
+
       </body>
     </Html>
   );

@@ -4,6 +4,7 @@ import Menu from '@/Components/Navbar'
 import Footer from '@/Components/Footer'
 import  MobileMenu  from '@/Components/MobileMenu';
 import Head from 'next/head';
+import PhoneIcon from '@/Components/FlottingButton';
 const MainPage = () => {
   return (
     <div>
@@ -82,6 +83,7 @@ const MainPage = () => {
       <MobileMenu />
          <Home/>   
         <Footer/>
+        <PhoneIcon/>
       
     </div>
   )

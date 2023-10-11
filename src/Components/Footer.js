@@ -2,11 +2,13 @@ import React from 'react'
 import  Link  from 'next/link'
 import Image from 'next/image'
 import logo from '../images/logo.png'
+import whatsapp from "../images/whatsapp.png";
 
 const Footer = () => {
   return (
     <div>
          {/*Site Footer One Start*/}
+        
          <footer className="site-footer">
           <div className="site-footer__top">
             <div className="container">
@@ -70,6 +72,9 @@ const Footer = () => {
                     <div className="footer-widget__column footer-widget__links clearfix">
                       <h3 className="footer-widget__title">Links</h3>
                       <ul className="footer-widget__links-list list-unstyled clearfix">
+                        <li>
+                          <Link href="/case-studies">Case Study</Link>
+                        </li>
                         <li>
                           <Link href="/about">About</Link>
                         </li>
