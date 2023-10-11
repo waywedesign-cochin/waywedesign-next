@@ -1,0 +1,67 @@
+.webDevelopmentCompany{
+    background-color: #274bc3;
+    height:90vh;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    background-image: url(../images/h-shape-3.png);
+    background-position:20% center;
+    background-repeat:no-repeat;
+
+}
+
+
+.bannerImagewebDevelopmentCompany{
+    width: 100% !important;
+    height: 100% !important;
+}
+.webDevelopmentCompanyBannerTitle{
+    font-weight:700;
+    font-size:55px;
+}
+
+.webDevelopmentCompanyServiceArea{
+    background-color: #fafafa;
+}
+.webDevelopmentCompanyServiceCard{
+    background-color: #fff;
+    padding:20px;
+}
+.webDevelopmentCompanyServiceCard:hover{
+   box-shadow: 0px 0px 35px 0px rgba(136, 136, 136, 0.27);
+   position: relative;
+   z-index: 10;
+}
+.webDevelopmentCompanyServiceCard:hover .imageBorder{
+    background-color:#274bc37d;
+}
+.webDevelopmentCompanyServiceCardIcon{
+    width:70%;
+    height:70%;
+    /* border-radius:50%; */
+    /* border:1px solid #274bc3; */
+    padding:5px;
+}
+.imageBorder{
+    position:relative;
+    left:30px;
+    border:1px solid #ddd;
+    width:100px;
+    border-radius:50%;
+    height:100px;
+    display:grid;
+    place-items:center;
+}
+
+.br-first{
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+.br-center{
+    border-right: 1px solid #ddd;
+}
+.br-second{
+    border-bottom: 1px solid #ddd;
+}
