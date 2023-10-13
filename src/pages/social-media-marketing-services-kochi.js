@@ -98,7 +98,7 @@ const SmmCompanyKochi = () => {
           <div className="container py-4">
             <div className="row">
               <div className="col-md-6 align-self-center ">
-                <h1 className="text-light  webDevelopmentCompanyBannerTitle">
+                <h1 className="text-light   SmmCompanyBannerTitle">
                 Social Media Marketing Services, Kochi
                 </h1>
                 <p className="text-light">
@@ -131,14 +131,14 @@ const SmmCompanyKochi = () => {
         <section className="py-4">
           <div className="container">
             <div className="row py-3">
-                <div className="col-md-6">
+                <div className="col-md-6 order-sm-1">
                     <h3 className="py-2">We Create and Manage Effective Social Media Marketing Campaigns</h3>
                     <p>
                     Social media is a joint marathon for every brand. We know the best way to run social media marketing for your business. The main motive of Social media marketing is to drive more traffic to the website, engagements and generate leads that can later be transformed into a customer. We have a team of Social Media Management experts and Marketing Professionals to help you with your online space. We will identify the best platforms for your business. The tools we use will provide strategic insights and analytics. As a full-service digital marketing company, Waywedesign will help you build a collective strategy to increase engagement and brand awareness, attracting the right audience with online marketing and advertising.
 
                     </p>
                 </div>
-                <div className="col-md-6 align-self-center text-center">
+                <div className="col-md-6 order-sm-0 align-self-center text-center">
                     <Image style={{width:"100%",height:"100%"}} src={serviceSmm} alt="smm services" />
                 </div>
             </div>
