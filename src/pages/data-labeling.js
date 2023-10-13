@@ -18,9 +18,25 @@ const DataLabelingAndClassification = () => {
     transition={{ duration: 1 }}
   >
       <Head>
-        <title>Data Labeling - Way WeDesign</title>
-        <meta name="description" content=" Our suite of data entry outcomes is detailed and constructed
-                    to suit every enterprise" />
+      <title>Data Labelling: Accurate Data Annotation Services  with WayWeDesign </title>
+        <meta name="description" content="Enhance your AI and ML projects with precise data annotation services at WayWeDesign. Our experts ensure accuracy in data labelling for optimized model training.
+" />
+         <meta   name="robots" content="index, follow" />
+  <meta   name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+  <meta   name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+  <link   rel="canonical" href="https://waywedesign.com/data-labeling" />
+  <meta   property="og:locale" content="en_US" />
+  <meta   property="og:type" content="website" />
+  <meta   property="og:title" content="Data Labelling: Accurate Data Annotation Services  with WayWeDesign" />
+  <meta   property="og:description" content="Enhance your AI and ML projects with precise data annotation services at WayWeDesign. Our experts ensure accuracy in data labelling for optimized model training.
+" />
+  <meta   property="og:url" content="https://waywedesign.com/data-labeling" />
+  <meta   property="og:site_name" content="WayWeDesign" />
+  <meta   property="article:publisher" content="https://www.facebook.com/waywedesign" />
+  <meta   property="article:modified_time" content="2023-06-05T08:16:17+00:00" />
+  <meta   name="twitter:card" content="summary_large_image" />
+  <meta   name="twitter:creator" content="@waywedesign" />
+  <meta   name="twitter:site" content="@waywedesign" />
       </Head>
       <Menu/>
       <MobileMenu />
