@@ -25,7 +25,7 @@ const SeoCompanyKochi = () => {
         <Head>
           <Head>
             <title>
-              Web Designing Company in Cochin | Web Development Company in Kochi{" "}
+             Best Seo Company in Cochin | Seo  Company in Kochi
             </title>
 
             <meta
@@ -43,13 +43,13 @@ const SeoCompanyKochi = () => {
             />
             <link
               rel="canonical"
-              href="https://waywedesign.com/web-development-company-in-kochi"
+              href="https://waywedesign.com/seo-company-in-kochi"
             />
             <meta property="og:locale" content="en_US" />
             <meta property="og:type" content="website" />
             <meta
               property="og:title"
-              content="Best Web Design and Development Company Kochi"
+              content="Best Seo Company Kochi"
             />
             <meta
               property="og:description"

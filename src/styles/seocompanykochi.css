@@ -15,3 +15,22 @@ background: #1a2980;
     
     
 }
+.SmmCompanyKochi{
+   
+background: #1a2980; 
+  background: -webkit-linear-gradient(109.6deg, rgb(41, 125, 182) 3.6%, rgb(77, 58, 151) 51%, rgb(103, 55, 115) 92.9%);
+  ; 
+  background: linear-gradient(109.6deg, rgb(41, 125, 182) 3.6%, rgb(77, 58, 151) 51%, rgb(103, 55, 115) 92.9%);
+  ; 
+    height:90vh;
+        padding-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position:relative;
+        /* background-image: url(../images/h-shape-3.png);
+        background-position:20% center;
+        background-repeat:no-repeat; */
+    
+    
+}
