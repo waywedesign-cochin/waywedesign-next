@@ -47,7 +47,7 @@
 body {
   font-family: var(--thm-font);
   color: var(--thm-gray);
-  font-size: 18px;
+  font-size: 16px;
   line-height: 34px;
   font-weight: 400;
   
@@ -7095,7 +7095,7 @@ button {
 }
 p{
   text-align: justify;
-  font-size: 18px;
+  /* font-size: 18px; */
 }
 
 .global-sec{

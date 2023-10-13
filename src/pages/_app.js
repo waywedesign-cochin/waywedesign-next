@@ -4,6 +4,7 @@ import '@/styles/CardBangalore.css'
 import '@/styles/caseStudies.css'
 import '@/styles/NavStyle.css'
 import '@/styles/webDevelopmentCompany.css'
+import '@/styles/seocompanykochi.css'
 import '@/vendors/animate/animate.min.css'
 import '@/vendors/animate/custom-animate.css'
 import '@/vendors/fontawesome/css/all.min.css'
@@ -19,6 +20,7 @@ import '@/vendors/twentytwenty/twentytwenty.css'
 import '@/vendors/bootstrap-select/css/bootstrap-select.min.css'
 import '@/vendors/jquery-ui/jquery-ui.css'
 import caseStudies from './case-studies';
+import seoCompanyInKochi from './seo-company-in-kochi';
 
 
 

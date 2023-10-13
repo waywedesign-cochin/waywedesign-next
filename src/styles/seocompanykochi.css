@@ -1,0 +1,51 @@
+/* Hero Three */
+.hero-section-three:before {
+    content: '';
+    left: 0;
+    top: 0;
+    width: 480px;
+    height: 480px;
+    border-radius: 50%;
+    text-align: center;
+    position: absolute;
+    filter: blur(250px);
+    background: #ee9a38;
+    transform: translate(-50%, -60%);
+}
+
+.hero-content-three .newsletter-email {
+    max-width: 585px;
+}
+
+.hero-content-three .newsletter-email input {
+    border-color: var(--primary-color);
+    background-color: transparent;
+}
+
+.hero-content-three .newsletter-email button {
+    background: var(--primary-color);
+}
+
+.hero-content-three .newsletter-email button i {
+    font-size: 13px;
+}
+
+.hero-content-three .newsletter-radios .custom-control-input:checked~label::before,
+.newsletter-inner.style-two .newsletter-radios .custom-control-input:checked~label::before {
+    box-shadow: none;
+    background: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.hero-content-three .newsletter-radios .custom-control-input:checked~.custom-control-label::after,
+.newsletter-inner.style-two .newsletter-radios .custom-control-input:checked~.custom-control-label::after {
+    color: white;
+}
+
+.hero-image-three:before {
+    opacity: 0.22;
+    left: 10%;
+    top: 10%;
+    filter: blur(100px);
+    background: var(--primary-color);
+}
