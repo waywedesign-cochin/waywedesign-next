@@ -5,6 +5,8 @@ import React from "react";
 import Head from "next/head";
 import { motion } from "framer-motion";
 import webillustration from "../images/web-illustration.png";
+import websecond from "../images/webdesign-second.jpg";
+import webthird from "../images/webdesign-third.jpg";
 import webicon from "../images/app-development-icon.png";
 import security from "../images/security.png";
 import design from "../images/design.png";
@@ -274,8 +276,8 @@ const webDevelopmentCompanyKochi = () => {
         {/* designing and redesigning  start */}
         <section className="py-4">
           <div className="container">
-            <div className="row">
-              <div className="col-md-6">
+            <div className="row py-2">
+              <div className="col-md-6 py-3 order-1 order-md-0">
                 <h3 className="text-center py-3">Website Designing</h3>
                 <p className="text-justify py-2">
                   Having a high-end website is not enough to attract the
@@ -295,6 +297,17 @@ const webDevelopmentCompanyKochi = () => {
                   combine a great web design, user experience, cutting-edge
                   technology, and integrated web marketing.
                 </p>
+              </div>
+              <div className="col-md-6 order-0 order-md-1">
+              <Image style={{width:"100%",height:"100%",objectFit:"cover"}} src={websecond} alt="smm services" />
+
+              </div>
+             
+            </div>
+            <div className="row py-3">
+            <div className="col-md-6">
+              <Image style={{width:"100%",height:"100%"}} src={webthird} alt="smm services" />
+
               </div>
               <div className="col-md-6">
                 <h3 className="text-center py-3">Web Re-Designing</h3>
