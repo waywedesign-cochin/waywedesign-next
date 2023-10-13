@@ -19,7 +19,8 @@ const WebDevelopment = () => {
   >
     <Head>
     <title>  Web Development Company | Web Development Service | Web Services</title>
-        <meta   name="description" content="Way WeDesign is the best web development company in kochi,Kerala. With years of experience and we provide quality web development services in Ernakulam." />
+        <meta   name="description" content="We are award-wining web design & development company in Kochi, Kerala. We specialize in web design, and SEO-friendly websites with 100% satisfaction.
+" />
         <meta   name="robots" content="index, follow" />
 	      <meta   name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 	      <meta   name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
@@ -27,7 +28,8 @@ const WebDevelopment = () => {
 	      <meta   property="og:locale" content="en_US" />
 	      <meta   property="og:type" content="website" />
 	      <meta   property="og:title" content="Web Development Company | Web Development Service | Web Services" />
-	      <meta   property="og:description" content="Way WeDesign is the best web development company in kochi,Kerala. With years of experience and we provide quality web development services in Ernakulam." />
+	      <meta   property="og:description" content="We are award-wining web design & development company in Kochi, Kerala. We specialize in web design, and SEO-friendly websites with 100% satisfaction.
+" />
 	      <meta   property="og:url" content="https://waywedesign.com/web-development" />
 	      <meta   property="og:site_name" content="waywedesign.com" />
 	      <meta   property="article:publisher" content="https://www.facebook.com/waywedesign.com/" />
