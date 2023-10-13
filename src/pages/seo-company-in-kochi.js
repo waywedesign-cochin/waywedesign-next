@@ -187,14 +187,14 @@ We give a new life to your website, updating just once a month doesn’t help yo
 </h3>
 <p>We can find your website’s current status and we are able to make it on top of Google. We implement our strategy and continue to make changes and develop it to ensure that your goals are met so that you can get maximum ROI. We can create an in-depth analysis which is significant for any SEO. We understand that SEO is the main arena for competition in sales especially in the modern-day so we place the utmost importance on a clean and ethical white hat SEO strategy that will increase traffic and quality leads for your business. No outsourcing or no external work. We are waiting for you.</p>
                
-<div className="col-md-6 align-self-center  ">
+<div className="col-md-6 order-1 order-md-0 align-self-center  ">
 <h3 className="py-2">Hire Waywedesign for your SEO Service Partner
 
 </h3>
              <p>Our SEO services help you create a strong online presence that makes way for customers to your website. Waywedesign is led by an experienced managing team of Digital Marketing veterans that founded the firm on the principle of providing honest and amazing search engine optimization service.  We guarantee that our SEO strategies will deliver real results for our clients. For all your online marketing solutions hire us!
 </p>  
 </div>
-<div className="col-md-6 align-self-center">
+<div className="col-md-6 order-0 order-md-1 align-self-center">
 <Image style={{width:"100%",height:"100%"}} src={seoSecond} alt="smm services" />
 
 </div>
