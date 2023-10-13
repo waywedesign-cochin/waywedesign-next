@@ -7,13 +7,13 @@ import { motion } from "framer-motion";
 import webillustration from "../images/seo-company.png";
 import webicon from "../images/app-development-icon.png";
 import serviceSeo from "../images/seo-service.png";
-import design from "../images/design.png";
-import support from "../images/support.png";
+import seoSide from "../images/seo-side.jpg";
+import seoSecond from "../images/seo-second.jpg";
 import cms from "../images/cms.png";
 import seo from "../images/seo.png";
 import Image from "next/image";
 
-const SeoCompanyKochi = () => {
+const SeoCompanyKochi = () => { 
   return (
     <>
       <motion.div
@@ -144,13 +144,17 @@ const SeoCompanyKochi = () => {
         <section className="py-4">
           <div className="container">
             <div className="row">
-              <div className="col-md-12">
+              <div className="col-md-6">
+              <Image style={{width:"100%",height:"100%"}} src={seoSide} alt="smm services" />
+
+              </div>
+              <div className="col-md-6">
                 <h2 className="text-center py-3 fs-3">BEST SEO COMPANY IN KOCHI THAT PROVIDE THE BEST SEO SERVICES</h2>
                 <p className="text-justify py-2">
                 A customer would purchase a product /service only after researching online, imagine your product or service is not on the top list of Google, Will your product gets sold easily? No right. They only click the website which is listed on top. We help your website ranking top positions in the natural search results. And we only use ethical and white hat SEO methods to secure top positions in search rankings, ensuring that the results are more effective and everlasting. Our SEO company is breaking far away from restrictive service plans and developing absolutely custom digital marketing methods that take you to the front page.
                 </p>
               </div>
-              <div className="col-md-12">
+              <div className="col-md-12 py-3">
                 <h3 className="text-center py-3">Haven't you started yet?
 </h3>
                 <p className="text-justify py-2">
@@ -178,16 +182,22 @@ We give a new life to your website, updating just once a month doesn’t help yo
         {/* designing and redesigning  end */}
         <section>
             <div className="container">
-                <div className="row">
+                <div className="row py-3">
                     <h3>Proven SEO Strategy
 </h3>
 <p>We can find your website’s current status and we are able to make it on top of Google. We implement our strategy and continue to make changes and develop it to ensure that your goals are met so that you can get maximum ROI. We can create an in-depth analysis which is significant for any SEO. We understand that SEO is the main arena for competition in sales especially in the modern-day so we place the utmost importance on a clean and ethical white hat SEO strategy that will increase traffic and quality leads for your business. No outsourcing or no external work. We are waiting for you.</p>
                
-<h3>Hire Waywedesign for your SEO Service Partner
+<div className="col-md-6 align-self-center  ">
+<h3 className="py-2">Hire Waywedesign for your SEO Service Partner
 
 </h3>
              <p>Our SEO services help you create a strong online presence that makes way for customers to your website. Waywedesign is led by an experienced managing team of Digital Marketing veterans that founded the firm on the principle of providing honest and amazing search engine optimization service.  We guarantee that our SEO strategies will deliver real results for our clients. For all your online marketing solutions hire us!
 </p>  
+</div>
+<div className="col-md-6 align-self-center">
+<Image style={{width:"100%",height:"100%"}} src={seoSecond} alt="smm services" />
+
+</div>
                 </div>
             </div>
 
