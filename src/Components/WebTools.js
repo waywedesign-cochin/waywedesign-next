@@ -10,7 +10,7 @@ const WebTools = () => {
 <div className="brand-two__inner">
   <Swiper className="thm-swiper__slider swiper-container"
   autoplay={{
-    delay: 4000,
+    delay: 1000,
     disableOnInteraction: false,
   }}
   spaceBetween={100}
