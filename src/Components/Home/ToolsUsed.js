@@ -6,7 +6,7 @@ const ToolsUsed = () => {
     <div className='py-2'>
     <section className="brand-two" style={{boxShadow: "0px 0px 17px -4px rgba(71,71,71,1)"}}>
 <div className="container" >
-<h5 className="section-title__title_tools text-center">Our Technologies </h5>
+<h5 className="section-title__title text-center py-3">Our Technologies </h5>
 <div className="brand-two__inner">
   <Swiper className="thm-swiper__slider swiper-container"
   autoplay={{

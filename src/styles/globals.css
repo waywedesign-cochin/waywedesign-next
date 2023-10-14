@@ -154,6 +154,7 @@ canvas {
   vertical-align: middle;
   -webkit-appearance: none;
   border: none;
+  font-family:var(--thm-font);
   outline: none !important;
   background-color: var(--thm-primary);
   color: var(--thm-base);
@@ -1821,7 +1822,7 @@ background: linear-gradient(17deg, rgba(24,143,244,1) 0%, rgba(12,76,144,1) 48%,
 
 .feature-one__text h3 {
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 30px;
   margin-bottom: 4px;
 }
@@ -2114,7 +2115,7 @@ background: linear-gradient(17deg, rgba(24,143,244,1) 0%, rgba(12,76,144,1) 48%,
 
 .services-one__single {
   position: relative;
-  height: 435px;
+  height: 415px;
   overflow: hidden;
   z-index: 1;
 }
@@ -2240,10 +2241,10 @@ background: linear-gradient(17deg, rgba(24,143,244,1) 0%, rgba(12,76,144,1) 48%,
 
 .services-one__title {
   font-size: 24px;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 26px;
-  margin-top: 26px;
-  margin-bottom: 16px;
+  margin-top: 5px;
+  margin-bottom: 5px;
   z-index: 3;
 }
 
@@ -2367,7 +2368,7 @@ background: linear-gradient(17deg, rgba(24,143,244,1) 0%, rgba(12,76,144,1) 48%,
 .share-the-joy__title {
   font-size: 50px;
   color: var(--thm-base);
-  font-weight: 600;
+  font-weight: 400;
   line-height: 60px;
   margin-bottom: 59px;
 }
@@ -2761,6 +2762,7 @@ background: linear-gradient(17deg, rgba(24,143,244,1) 0%, rgba(12,76,144,1) 48%,
 }
 .section-title__title_tools{
   font-size: 32px;
+  font-weight:400;
   padding:10px 0px;
 }
 .improve-one__right .section-title__tagline {
@@ -5060,7 +5062,7 @@ background: linear-gradient(38deg, rgba(24,143,244,1) 0%, rgba(12,93,160,1) 48%,
 .cta-two__title {
   font-size: 50px;
   color: var(--thm-base);
-  font-weight: 600;
+  font-weight: 400;
   line-height: 60px;
 }
 
