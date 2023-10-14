@@ -20,77 +20,40 @@ const SmmCompanyKochi = () => {
         transition={{ duration: 1 }}
       >
         <Head>
-          <Head>
-            <title>
-             Best SMM Company in Cochin | SMM  Company in Kochi
-            </title>
+        <Head>
+      <title> Social Media Marketing Company Kochi | #1 Social Media Services</title>
+       <meta   name="description" content="Waywedesign is a social media marketing company in Kochi that helps new businesses make the right connections. Grow your business with ROI-driven services." />
 
-            <meta
-              name="description"
-              content="We are award-wining web design & development company in Kochi, Kerala. We specialise in web design, and SEO-friendly websites with 100% satisfaction."
-            />
-            <meta name="robots" content="index, follow" />
-            <meta
-              name="googlebot"
-              content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
-            />
-            <meta
-              name="bingbot"
-              content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
-            />
-            <link
-              rel="canonical"
-              href="https://waywedesign.com/seo-company-in-kochi"
-            />
-            <meta property="og:locale" content="en_US" />
-            <meta property="og:type" content="website" />
-            <meta
-              property="og:title"
-              content="Best Seo Company Kochi"
-            />
-            <meta
-              property="og:description"
-              content="Visit the Best Web Develpoment company in kochi and Web Design company in kochi"
-            />
-            <meta
-              property="og:url"
-              content="https://waywedesign.com/web-development-company-in-kochi"
-            />
-            <meta property="og:image" content="" />
-            <meta property="og:image:width" content="1024" />
-            <meta property="og:image:height" content="1024" />
-            <meta
-              property="og:image:alt"
-              content="Web Design and Development  Company in Kochi"
-            />
-            <meta property="og:image:type" content="image/png" />
-            <meta property="og:site_name" content="WayWeDesign" />
-            <meta
-              property="article:publisher"
-              content="https://www.facebook.com/waywedesign"
-            />
-            <meta
-              property="article:modified_time"
-              content="2023-06-05T08:16:17+00:00"
-            />
-            <meta name="twitter:card" content="summary_large_image" />
-            <meta name="twitter:creator" content="@waywedesign" />
-            <meta name="twitter:site" content="@waywedesign" />
 
-            <script type="application/ld+json">
-{
-`{
-  "@context": "http://schema.org", 
-  "@type": "WebPage",
-   "name": "Best Web Design and Development Company Kochi", 
-   "description": "Visit the Best Web Develpoment company in kochi and Web Design company in kochi",
-    "url": "https://waywedesign.com/web-development-company-in-kochi"
-}`
-}
+       <meta   name="robots" content="index, follow" />
+       <meta   name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+       <meta   name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 
-</script>
- 
-          </Head>
+       <link   rel="canonical" href=" https://waywedesign.com/social-media-marketing-services-kochi" />
+
+
+       <meta   property="og:locale" content="en_US" />
+       <meta   property="og:type" content="website" />
+       <meta   property="og:title" content=" Social Media Marketing Company Kochi | #1 Social Media Services" />
+       <meta   property="og:description" content="Waywedesign is a social media marketing company in Kochi that helps new businesses make the right connections. Grow your business with ROI-driven services.
+" />
+       <meta   property="og:url" content="https://waywedesign.com/social-media-marketing-services-kochi" />
+       <meta property="og:image"   content="https://waywedesign.com/_ipx/w_3840,q_75/%2F_next%2Fstatic%2Fmedia%2Fsmm-second.66ceaf43.jpg?url=%2F_next%2Fstatic%2Fmedia%2Fsmm-second.66ceaf43.jpg&w=3840&q=75" />
+     <meta property="og:image:width" content="1024" />
+       <meta property="og:image:height" content="1024" />
+       <meta property="og:image:alt" content="Social Media Marketing Company" />
+       <meta property="og:image:type" content="image/png" />
+       <meta   property="og:site_name" content="WayWeDesign" />
+
+       <meta   property="article:publisher" content="https://www.facebook.com/waywedesign" />
+       <meta   property="article:modified_time" content="2023-06-05T08:16:17+00:00" />
+       <meta   name="twitter:card" content="summary_large_image" />
+       <meta   name="twitter:creator" content="@waywedesign" />
+       <meta   name="twitter:site" content="@waywedesign" />
+
+ </Head>
+
+
         </Head>
         <Menu />
         <MobileMenu />
