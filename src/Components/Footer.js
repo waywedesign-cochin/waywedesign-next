@@ -22,22 +22,22 @@ const Footer = () => {
                 />
                 <div className="row">
                   <div data-aos="fade-up"
-                    className="col-xl-5 col-lg-6 col-md-6 wow fadeInUp"
+                    className="col-xl-6 col-lg-6 col-md-6 wow fadeInUp"
                     data-wow-delay="100ms"
                   >
                     <div className="footer-widget__column footer-widget__about">
                       <div className="footer-widget__about-logo">
                         <Link href="/">
-                          <Image  width="150" height="150"
+                          <Image  width="100" height="100"
                             src={logo}
                             alt="logo"
                           />
                         </Link>
                       </div>
-                      <p className="footer-widget__about-text " style={{fontSize:"14px",textAlign:"justify"}}>
-                      Way WeDesign, the  best IT/ ITES provider in Cochin, with over 5 years of experience, is dedicated to delivering tecnology-powered solutions globally. Our relentless pursuit of excellence and investment in state-of-the-art resources keep us on technology's leading edge. Strong client relationships drive demand for our services in Enterprise Mobility, Web Technologies, Internet Marketing, and more. We're committed to crafting customized solutions that align with your unique needs and goals.
+                      <p className="footer-widget__about-text " style={{fontSize:"14px",textAlign:"justify",fontWeight:"300"}}>
+                      Way WeDesign, the  best IT/ ITES provider in Cochin, with over 5 years of experience, is dedicated to delivering tecnology-powered solutions globally. 
 
-
+                      Our relentless pursuit of excellence and investment in state-of-the-art resources keep us on technology's leading edge. Strong client relationships drive demand for our services in Enterprise Mobility, Web Technologies, Internet Marketing, and more. We're committed to crafting customized solutions that align with your unique needs and goals.
                       </p>
                       <div className="footer-widget__about-social">
                       <Link target={"_blank"} href="https://wa.me/+917994643673">
@@ -66,7 +66,7 @@ const Footer = () => {
                     </div>
                   </div>
                   <div data-aos="fade-up-right"
-                    className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
+                    className="col-xl-2 col-lg-6 col-md-6 wow fadeInUp"
                     data-wow-delay="200ms"
                   >
                     <div className="footer-widget__column footer-widget__links clearfix">
@@ -103,13 +103,14 @@ const Footer = () => {
                      
                     </div>
                   </div>
+                  
                   <div data-aos="fade-up-right"
-                    className="col-xl-3 col-lg-6 col-md-6 wow fadeInUp"
+                    className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
                     data-wow-delay="300ms"
                   >
                     <div className="footer-widget__column footer-widget__contact">
                       <h3 className="footer-widget__title">Contact</h3>
-                      <h5 className="text-white">India</h5>
+                      <h5 className="text-white fs-6 fw-light">India</h5>
                       <p className="footer-widget__contact-text " style={{textAlign:"left",fontSize:"14px"}}>
                       Way WeDesign,
                       47/1403A,Ivees, MRERA-69, Chalikkavattom, Vennala
@@ -123,7 +124,7 @@ const Footer = () => {
                           </div>
                           <div className="text">
                             <p>
-                              <a href="mailto:contact@waywedesign.com">
+                              <a className="fw-light" href="mailto:contact@waywedesign.com">
                               contact@waywedesign.com
                               </a>
                             </p>
@@ -136,13 +137,13 @@ const Footer = () => {
                           </div>
                           <div className="text">
                             <p>
-                              <a href="tel:+917994643673">+91 799 464 3673</a>
+                              <a className="fw-light" href="tel:+917994643673">+91 799 464 3673</a>
                             </p>
                           </div>
                         </li>
                       </ul>
                       <br></br>
-                      <h5 className="text-white">UAE</h5>
+                      <h5 className="text-white fs-6 fw-light">UAE</h5>
                       <p className="footer-widget__contact-text" style={{fontSize:"14px"}}>
                       Dusseldorf Business Point,
 Al Barsha 1, Dubai, United Arab Emirates
@@ -157,7 +158,7 @@ P.O.BOX: 5003517
                           </div>
                           <div className="text">
                             <p>
-                              <a href="tel: +971562171439"> +971 562 171 439</a>
+                              <a className="fw-light" href="tel: +971562171439"> +971 562 171 439</a>
                             </p>
                           </div>
                         </li>
