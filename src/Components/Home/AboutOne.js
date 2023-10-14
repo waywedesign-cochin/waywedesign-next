@@ -20,8 +20,8 @@ const AboutOne = () => {
               >
                 <div className="about-one__img-box">
                   <div className="about-one__img">
-                    <Image
-                      src={aboutImge}                      alt="about-image"
+                    <Image className="about-one__img"
+                      src={aboutImge}  alt="about-image"
                     />
                   </div>
                   

@@ -24,7 +24,6 @@ const webDevelopmentCompanyKochi = () => {
         exit={{ opacity: 0, x: 100 }}
         transition={{ duration: 1 }}
       >
-        <Head>
           <Head>
             <title>
               Web Designing Company in Cochin | Web Development Company in Kochi{" "}
@@ -95,7 +94,6 @@ const webDevelopmentCompanyKochi = () => {
 
 </script>
  
-          </Head>
         </Head>
         <Menu />
         <MobileMenu />
