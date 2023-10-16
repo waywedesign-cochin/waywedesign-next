@@ -16,7 +16,7 @@ const MainPage = () => {
   <link rel="apple-touch-icon" href="/assets/images/logo.png" />
   <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
 
-  <title> Best IT/ITES Provider & Digital Marketing Company in Kochi </title>
+  <title>Leading Digital Marketing providers & Best Digital Marketing Company in Kochi</title>
   <meta   name="description" content="Best IT/ITES provider & Digital Marketing company in Kochi. We offer services including digital marketing, SEO, SMM, web development, graphic designing & more." />
   <meta   name="robots" content="index, follow" />
   <meta   name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
