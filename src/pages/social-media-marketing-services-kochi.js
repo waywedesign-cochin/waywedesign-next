@@ -20,7 +20,6 @@ const SmmCompanyKochi = () => {
         transition={{ duration: 1 }}
       >
         <Head>
-        <Head>
       <title> Social Media Marketing Company Kochi | #1 Social Media Services</title>
        <meta   name="description" content="Waywedesign is a social media marketing company in Kochi that helps new businesses make the right connections. Grow your business with ROI-driven services." />
 
@@ -50,9 +49,6 @@ const SmmCompanyKochi = () => {
        <meta   name="twitter:card" content="summary_large_image" />
        <meta   name="twitter:creator" content="@waywedesign" />
        <meta   name="twitter:site" content="@waywedesign" />
-
- </Head>
-
 
         </Head>
         <Menu />

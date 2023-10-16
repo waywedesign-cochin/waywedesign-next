@@ -22,7 +22,6 @@ const SeoCompanyKochi = () => {
         exit={{ opacity: 0, x: 100 }}
         transition={{ duration: 1 }}
       >
-        <Head>
           <Head>
           <title> Best SEO Company in Kochi, Kerala | Rank No 1 | SEO Services</title>
        <meta   name="description" content="SEO Company - Top SEO company in Kochi, providing reliable Digital Marketing & SEO services across India. Speak with our expert for a free consultation" />
@@ -54,7 +53,6 @@ const SeoCompanyKochi = () => {
        <meta   name="twitter:site" content="@waywedesign" />
 
 
-          </Head>
         </Head>
         <Menu />
         <MobileMenu />
