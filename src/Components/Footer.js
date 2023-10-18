@@ -3,6 +3,7 @@ import  Link  from 'next/link'
 import Image from 'next/image'
 import logo from '../images/logo.png'
 import whatsapp from "../images/whatsapp.png";
+import elioplusBadge from "../images/elioplus_badge.png";
 
 const Footer = () => {
   return (
@@ -161,6 +162,15 @@ P.O.BOX: 5003517
                               <a className="fw-light" href="tel: +971562171439"> +971 562 171 439</a>
                             </p>
                           </div>
+                        </li>
+                        <li className="pt-3">
+                          
+                        <Link traget="blank" href="https://elioplus.com/profiles/channel-partners/159961/way-wedesign">
+                          <Image  
+                            src={elioplusBadge}
+                            alt="logo"
+                          />
+                        </Link>
                         </li>
                       </ul>
                       
