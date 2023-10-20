@@ -224,7 +224,7 @@ canvas {
 
 .section-title__title, .section-title__title_counter {
   margin: 0;
-  font-weight: 400;
+  font-weight: 600;
   color: var(--thm-black);
   font-size: 50px;
   line-height: 60px;
@@ -2241,7 +2241,7 @@ background: linear-gradient(17deg, rgba(24,143,244,1) 0%, rgba(12,76,144,1) 48%,
 
 .services-one__title {
   font-size: 24px;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 26px;
   margin-top: 5px;
   margin-bottom: 5px;
@@ -2368,7 +2368,7 @@ background: linear-gradient(17deg, rgba(24,143,244,1) 0%, rgba(12,76,144,1) 48%,
 .share-the-joy__title {
   font-size: 50px;
   color: var(--thm-base);
-  font-weight: 400;
+  font-weight: 600;
   line-height: 60px;
   margin-bottom: 59px;
 }
@@ -2762,7 +2762,7 @@ background: linear-gradient(17deg, rgba(24,143,244,1) 0%, rgba(12,76,144,1) 48%,
 }
 .section-title__title_tools{
   font-size: 32px;
-  font-weight:400;
+  font-weight:600;
   padding:10px 0px;
 }
 .improve-one__right .section-title__tagline {
@@ -3138,7 +3138,7 @@ background: linear-gradient(17deg, rgba(24,143,244,1) 0%, rgba(12,76,144,1) 48%,
 
 .news-one__title {
   font-size: 24px;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 32px;
 }
 
@@ -5062,7 +5062,7 @@ background: linear-gradient(38deg, rgba(24,143,244,1) 0%, rgba(12,93,160,1) 48%,
 .cta-two__title {
   font-size: 50px;
   color: var(--thm-base);
-  font-weight: 400;
+  font-weight: 600;
   line-height: 60px;
 }
 
