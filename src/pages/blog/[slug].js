@@ -95,17 +95,17 @@ const BlogDetail = ({ blog }) => {
          <div className="row">
            <div className="col-xl-8 col-lg-7">
              <div className="news-details__left">
-               <div className="news-details__img">
-                 <img src={blog.coverPhoto.url} alt="cover photo" />
-                 <div className="news-details__date-box">
-                   <p>{blog.datePublished}</p>
-                 </div>
-               </div>
+              
                <div className="news-details__content">
+                 
+                 <h1 className="news-details__title" >{blog.title}</h1>
                  <ul className="list-unstyled news-details__meta">
                    <li><a href="news-details.html"><i className="far fa-user-circle" /> by {blog.author.name}</a></li>
+                   <li><a href="news-details.html"><i className="fa-solid fa-calendar-days" /> {blog.datePublished}</a></li>
                  </ul>
-                 <h1 className="news-details__title" >{blog.title}</h1>
+                 <div className="news-details__img">
+                 <img className="rounded" src={blog.coverPhoto.url} alt="cover photo" />
+               </div>
                  {/* <p className="news-details__text-1"  >{blog.content.text}</p> */}
                  <RichText style={ptag} content={blog.content.raw.children}/>
                </div>
