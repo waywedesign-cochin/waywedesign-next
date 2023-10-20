@@ -26,7 +26,7 @@ const CustomService = () => {
            {/*Services One Single*/}
            <div className="services-one__single">
              <div className="services-one__icon" >
-            <Image className= "service-custom-icon" width="60" height="60" src={appdevelopment} alt="service image" />
+            <Image className= "service-custom-icon" width="60" height="60" src={appdevelopment} alt="service image one" />
                         </div>
              <h3 className="services-one__title">
                <Link href="/software-development-platform">
@@ -46,7 +46,7 @@ const CustomService = () => {
            {/*Services One Single*/}
            <div className="services-one__single">
            <div className="services-one__icon" >
-            <Image className="service-custom-icon" width="60" height="60" src={socialmedia} alt="service image" />
+            <Image className="service-custom-icon" width="60" height="60" src={socialmedia} alt="service image two" />
                         </div>
              <h3 className="services-one__title">
                <Link href="/digital-marketing">
@@ -66,7 +66,7 @@ const CustomService = () => {
            {/*Services One Single*/}
            <div className="services-one__single">
            <div className="services-one__icon" >
-            <Image className="service-custom-icon" width="60" height="60" src={migrating} alt="service image" />
+            <Image className="service-custom-icon" width="60" height="60" src={migrating} alt="service image three" />
                         </div>
              <h3 className="services-one__title">
                <Link href="cloud-service">
@@ -87,7 +87,7 @@ const CustomService = () => {
            {/*Services One Single*/}
            <div className="services-one__single">
            <div className="services-one__icon" >
-            <Image className="service-custom-icon" width="60" height="60" src={uiux} alt="service image" />
+            <Image className="service-custom-icon" width="60" height="60" src={uiux} alt="service image four" />
                         </div>
              <h3 className="services-one__title">
                <Link href="/ui-ux-design">
@@ -108,7 +108,7 @@ const CustomService = () => {
            {/*Services One Single*/}
            <div className="services-one__single">
            <div className="services-one__icon" >
-            <Image className= "service-custom-icon" width="60" height="60" src={hrm} alt="service image" />
+            <Image className= "service-custom-icon" width="60" height="60" src={hrm} alt="service image five" />
                         </div>
              <h3 className="services-one__title">
                <Link href="hrm">
@@ -131,7 +131,7 @@ const CustomService = () => {
            {/*Services One Single*/}
            <div className="services-one__single">
            <div className="services-one__icon" >
-            <Image className= "service-custom-icon" width="60" height="60" src={academy} alt="service image" />
+            <Image className= "service-custom-icon" width="60" height="60" src={academy} alt="service image six" />
                         </div>
              <h3 className="services-one__title">
                <Link href='digital-marketing-academy'>

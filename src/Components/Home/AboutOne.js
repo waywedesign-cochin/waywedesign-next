@@ -21,7 +21,7 @@ const AboutOne = () => {
                 <div className="about-one__img-box">
                   <div className="about-one__img">
                     <Image className="about-one__img"
-                      src={aboutImge}  alt="about-image"
+                      src={aboutImge}  alt="about us image"
                     />
                   </div>
                   

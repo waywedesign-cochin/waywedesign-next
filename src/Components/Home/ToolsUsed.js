@@ -71,44 +71,44 @@ const ToolsUsed = () => {
 }}'>
     <div className="swiper-wrapper">
       <SwiperSlide className="swiper-slide">
-        <img className='techno-img' src="/assets/images/techno/angular.png" alt="tool used" />
+        <img className='techno-img' src="/assets/images/techno/angular.png" alt=" angular" />
       </SwiperSlide>{/* /.swiper-slide */}
       <SwiperSlide className="swiper-slide">
-        <img className='techno-img' style={{width:"150px"}} src="/assets/images/techno/aws.png" alt="tool used" />
+        <img className='techno-img' style={{width:"150px"}} src="/assets/images/techno/aws.png" alt=" aws" />
       </SwiperSlide>{/* /.swiper-slide */}
       <SwiperSlide className="swiper-slide">
-        <img className='techno-img' src="/assets/images/techno/azure.png" alt="tool used" />
+        <img className='techno-img' src="/assets/images/techno/azure.png" alt="azure" />
       </SwiperSlide>{/* /.swiper-slide */}
       <SwiperSlide className="swiper-slide">
-        <img className='techno-img' src="/assets/images/techno/css.png" alt="tool used" />
+        <img className='techno-img' src="/assets/images/techno/css.png" alt="css" />
       </SwiperSlide>{/* /.swiper-slide */}
       <SwiperSlide className="swiper-slide">
-        <img className='techno-img' src="/assets/images/techno/goole-cloud.png" alt="tool used" />
+        <img className='techno-img' src="/assets/images/techno/goole-cloud.png" alt="google cloud" />
       </SwiperSlide>{/* /.swiper-slide */}
       <SwiperSlide className="swiper-slide">
-        <img className='techno-img' src="/assets/images/techno/html-5.png" alt="tool used" />
+        <img className='techno-img' src="/assets/images/techno/html-5.png" alt="html" />
       </SwiperSlide>{/* /.swiper-slide */}
       <SwiperSlide className="swiper-slide">
-        <img className='techno-img' src="/assets/images/techno/java.png" alt="tool used" />
+        <img className='techno-img' src="/assets/images/techno/java.png" alt="java" />
       </SwiperSlide>{/* /.swiper-slide */}
       <SwiperSlide className="swiper-slide">
-        <img className='techno-img' src="/assets/images/techno/js.png" alt="tool used" />
+        <img className='techno-img' src="/assets/images/techno/js.png" alt="javascript" />
       </SwiperSlide>{/* /.swiper-slide */}
       <SwiperSlide className="swiper-slide">
-        <img className='techno-img' src="/assets/images/techno/php.png" alt="tool used" />
+        <img className='techno-img' src="/assets/images/techno/php.png" alt="php" />
       </SwiperSlide>{/* /.swiper-slide */}
       <SwiperSlide className="swiper-slide">
        
-        <img className='techno-img' src="/assets/images/techno/python.png" alt="tool used" />
+        <img className='techno-img' src="/assets/images/techno/python.png" alt="phyton" />
       </SwiperSlide>
       <SwiperSlide>
-        <img className='techno-img' src="/assets/images/techno/react.png" alt="tool used" />
+        <img className='techno-img' src="/assets/images/techno/react.png" alt="react" />
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
-              <img className='techno-img' src="/assets/images/techno/sql.png" alt="tool used" />
+              <img className='techno-img' src="/assets/images/techno/sql.png" alt="sql" />
             </SwiperSlide>{/* /.swiper-slide */}
         <SwiperSlide className="swiper-slide">
-              <img className='techno-img' src="/assets/images/techno/wordpress.png" alt="tool used" />
+              <img className='techno-img' src="/assets/images/techno/wordpress.png" alt="wordpress" />
             </SwiperSlide>{/* /.swiper-slide */}
         
     </div>
