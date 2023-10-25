@@ -100,6 +100,12 @@ const Footer = () => {
                         <li>
                           <Link href="/digital-marketing-academy">Digital Academy</Link>
                         </li>
+                        <li>
+                          <Link href="/privacy-policy">Privacy Policy</Link>
+                        </li>
+                        <li>
+                          <Link target="blank" href="https://merchant.razorpay.com/policy/K4BTjlmcMwC07W/shipping">Shipping & Delivery Policy</Link>
+                        </li>
                       </ul>
                      
                     </div>
