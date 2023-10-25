@@ -165,7 +165,7 @@ P.O.BOX: 5003517
                         </li>
                         <li className="pt-3">
                           
-                        <Link traget="blank" href="https://elioplus.com/profiles/channel-partners/159961/way-wedesign">
+                        <Link rel="nofollow" traget="blank" href="https://elioplus.com/profiles/channel-partners/159961/way-wedesign">
                           <Image  
                             src={elioplusBadge}
                             alt="logo"
