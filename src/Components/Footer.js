@@ -23,7 +23,7 @@ const Footer = () => {
                 />
                 <div className="row">
                   <div data-aos="fade-up"
-                    className="col-xl-6 col-lg-6 col-md-6 wow fadeInUp"
+                    className="col-xl-5 col-lg-6 col-md-6 wow fadeInUp"
                     data-wow-delay="100ms"
                   >
                     <div className="footer-widget__column footer-widget__about">
@@ -67,7 +67,7 @@ const Footer = () => {
                     </div>
                   </div>
                   <div data-aos="fade-up-right"
-                    className="col-xl-2 col-lg-6 col-md-6 wow fadeInUp"
+                    className="col-xl-3 col-lg-6 col-md-6 wow fadeInUp"
                     data-wow-delay="200ms"
                   >
                     <div className="footer-widget__column footer-widget__links clearfix">
