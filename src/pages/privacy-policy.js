@@ -38,7 +38,7 @@ const PrivacyPolicy =()=>{
        <meta   name="twitter:creator" content="@waywedesign" />
        <meta   name="twitter:site" content="@waywedesign" />
 
-          </Head>
+        </Head>
         <Menu />
         <MobileMenu />
         <div className="container">

@@ -70,7 +70,7 @@ const JobDetails = () => {
   <RichText className={ptag} content={jobPost.jobDescription.raw.children}/>
             </div>
             <div className="col-md-6">
-              <h2 className="pt-4">Apply For This Job</h2>
+              <h3 className="pt-4">Apply For This Job</h3>
             <form
               action="/careers"
 
