@@ -91,8 +91,8 @@ const DigitalMarketing = () => {
                     and products more efficiently. </p>
                     <p className="service-details__text ">
 
-                    Way Wedesign is a dynamic, versatile, and full-service
-                    digital marketing company that is always in pursuit to offer
+                    Way Wedesign is a dynamic, versatile, and full-service <Link  to="/blog/the-history-and-evolution-of-digital-marketing"> digital marketing</Link>
+                    company that is always in pursuit to offer
                     reliable and result-oriented digital marketing services. We
                     trust our own <Link href="/search-engine-optimization">search engine optimization (SEO)</Link>  and marketing
                     strategies to drive new customers to your website. With
