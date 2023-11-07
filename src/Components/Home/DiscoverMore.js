@@ -13,7 +13,7 @@ const DiscoverMore = () => {
                 <div className="col-xl-7">
                   <div className="share-the-joy__left">
                     <h2 className="share-the-joy__title">
-                     We are providing an end-to-end services to help you find Online
+                    We offer end-to-end solutions to grow and manage your digital presence.
 
                     </h2>
                     <Link href="contact" className="share-the-joy__btn thm-btn">

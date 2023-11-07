@@ -183,7 +183,7 @@ const SMM = () => {
               <li><Link href="#ssm-company">1. Social Media Marketing Company in Kochi, Kerala 
  <span className="icon-right-arrow" /></Link>
               </li>
-              <li><Link href="#smm-needs">2. Why your company needs Social Media Marketing (SMM)? 
+              <li><Link href="#smm-needs">2. Why your company needs <Link href="/social-media-marketing-services-kochi">Social Media Marketing (SMM) </Link>? 
 <span className="icon-right-arrow" /></Link>
               </li>
               <li><Link href="#key-benifits">3. Key Benefits of Social Media Marketing? 
