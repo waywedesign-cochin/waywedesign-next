@@ -24,8 +24,8 @@ const MainPage = () => {
   <link   rel="canonical" href="https://waywedesign.com" />
   <meta   property="og:locale" content="en_US" />
   <meta   property="og:type" content="website" />
-  <meta   property="og:title" content="ITES and Digital Marketing Services | Digital Marketing Company" />
-  <meta   property="og:description" content="We provide ITES and digital marketing services, including web development, SEO, social media marketing, and more. Contact us today to learn more!" />
+  <meta   property="og:title" content="Leading Digital Marketing providers & Best Digital Marketing Company in Kochi" />
+  <meta   property="og:description" content="Best IT/ITES provider & Digital Marketing company in Kochi. We offer services including digital marketing, SEO, SMM, web development, graphic designing & more." />
   <meta   property="og:url" content="https://waywedesign.com" />
   <meta property="og:image" content="https://waywedesign.com/assets/images/logo-wwd.png" />
   <meta property="og:image:width" content="1024" />
