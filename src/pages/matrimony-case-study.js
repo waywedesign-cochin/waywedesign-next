@@ -24,8 +24,30 @@ const Matrimony = () => {
       transition={{ duration: 1 }}
     >
       <Head>
-        <title>Matrimony - Case Study</title>
-        <meta name="description" content="Erp Crm Solution" />
+      <title>
+      Matrimony Case Studies: Real Success Stories and Strategies
+
+
+        </title>
+        <meta
+          name="description"
+          content="Explore Matrimony case studies, uncover real success stories, and effective strategies to inspire your journey.
+
+          "
+        />
+        <meta name="robots" content="index, follow" />
+        <meta
+          name="googlebot"
+          content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+        />
+        <meta
+          name="bingbot"
+          content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+        />
+        <link
+          rel="canonical"
+          href="https://waywedesign.com/matrimony-case-study "
+        />
       </Head>
       <Menu />
       <MobileMenu />

@@ -26,8 +26,28 @@ const engineeringConsultancy = () => {
       transition={{ duration: 1 }}
     >
       <Head>
-        <title>Engineering Consultancy - Case Study</title>
-        <meta name="description" content="Erp Crm Solution" />
+      <title>
+      Engineering Consultancy Case Studies | Real Success Stories
+
+        </title>
+        <meta
+          name="description"
+          content="Discover how our engineering consultancy services have delivered real results for clients. Explore case studies showcasing our expertise and solutions
+          "
+        />
+        <meta name="robots" content="index, follow" />
+        <meta
+          name="googlebot"
+          content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+        />
+        <meta
+          name="bingbot"
+          content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+        />
+        <link
+          rel="canonical"
+          href="https://waywedesign.com/engineering-consultancy-case-study"
+        />
       </Head>
       <Menu />
       <MobileMenu />

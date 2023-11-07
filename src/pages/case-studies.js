@@ -11,11 +11,11 @@ const caseStudies = () => {
       
       <Head>
         <title>
-          Best Digital Marketing Company in Bangalore, India | IT/ITES Providers{" "}
+        Case Study: Transforming WayWeDesign's Success with Innovative Solutions
         </title>
         <meta
           name="description"
-          content="Looking for the best digital marketing company in Bangalore? Look no further! Our team of experts is here to take your online presence to new heights"
+          content="Explore our in-depth case study, showcasing real-world success stories and proven strategies. Discover how our solutions helped clients achieve their goals."
         />
         <meta name="robots" content="index, follow" />
         <meta
@@ -28,21 +28,23 @@ const caseStudies = () => {
         />
         <link
           rel="canonical"
-          href="https://waywedesign.com/best-digital-marketing-company-bangalore"
+          href="https://waywedesign.com/case-studies"
         />
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content=" Best Digital Marketing Company in Bangalore | IT/ITES Providers"
+          content="Case Study: Transforming WayWeDesign's Success with Innovative Solutions
+          "
         />
         <meta
           property="og:description"
-          content="Looking for the best digital marketing company in Bangalore? Look no further! Our team of experts is here to take your online presence to new heights"
+          content="Explore our in-depth case study, showcasing real-world success stories and proven strategies. Discover how our solutions helped clients achieve their goals.
+          "
         />
         <meta
           property="og:url"
-          content="https://waywedesign.com/best-digital-marketing-company-bangalore"
+          content="https://waywedesign.com/case-studies"
         />
         <meta property="og:site_name" content="waywedesign.com" />
         <meta

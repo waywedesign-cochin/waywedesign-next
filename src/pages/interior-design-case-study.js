@@ -23,8 +23,31 @@ const InteriorDesign = () => {
       transition={{ duration: 1 }}
     >
       <Head>
-        <title>Interior Design - Case Study</title>
-        <meta name="description" content="Erp Crm Solution" />
+      <title>
+      Interior Design Case Studies: Transforming Spaces with Creative Solutions
+
+
+        </title>
+        <meta
+          name="description"
+          content="Discover inspiring interior design case studies that showcase remarkable transformations and innovative solutions. Get inspired by our successful projects.
+
+
+          "
+        />
+        <meta name="robots" content="index, follow" />
+        <meta
+          name="googlebot"
+          content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+        />
+        <meta
+          name="bingbot"
+          content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+        />
+        <link
+          rel="canonical"
+          href="https://waywedesign.com/interior-design-case-study"
+        />
       </Head>
       <Menu />
       <MobileMenu />
