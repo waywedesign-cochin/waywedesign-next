@@ -1,0 +1,38 @@
+/* YourFormStyles.css */
+
+.comment-one_landingPage__form {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  
+  .comment-form_landingPage__input-box_landingPage,
+  .comment-form__input-box_landingPage {
+    width: 100%;
+  }
+  
+  .comment-form_landingPage__input-box_landingPage input,
+  .comment-form__input-box_landingPage input,
+  .comment-form_landingPage__input-box_landingPage textarea,
+  .comment-form__input-box_landingPage textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .comment-form_landingPage__btn {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 1px 1px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .comment-form_landingPage__btn:hover {
+    background-color: #45a049;
+  }
+  

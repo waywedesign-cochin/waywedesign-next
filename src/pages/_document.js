@@ -6,10 +6,10 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-      <script
+      {/* <script
             async
             src="https://www.googletagmanager.com/gtag/js?id=G-7007M491Z3"
-          ></script>
+          ></script> */}
           <script
             dangerouslySetInnerHTML={{
               __html: `

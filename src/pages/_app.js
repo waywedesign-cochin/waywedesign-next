@@ -1,6 +1,7 @@
 import '@/styles/globals.css'
 import '@/styles/responsive.css'
 import '@/styles/CardBangalore.css'
+import '@/styles/landingPageStyles.css'
 import '@/styles/caseStudies.css'
 import '@/styles/NavStyle.css'
 import '@/styles/webDevelopmentCompany.css'
@@ -25,6 +26,6 @@ import seoCompanyInKochi from './seo-company-in-kochi';
 
 
 
-export default function App({ Component, pageProps }) {
+export default function App({ Component, pageProps }){
   return <Component {...pageProps} />
 }
