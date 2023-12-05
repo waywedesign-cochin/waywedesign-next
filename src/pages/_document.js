@@ -6,25 +6,40 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-      {/* <script
-            async
-            src="https://www.googletagmanager.com/gtag/js?id=G-7007M491Z3"
-          ></script> */}
-          <script
-            dangerouslySetInnerHTML={{
-              __html: `
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-7007M491Z3"
+        ></script>
+        <script
+          dangerouslySetInnerHTML={ {
+            __html: `
                 window.dataLayer = window.dataLayer || [];
                 function gtag(){dataLayer.push(arguments);}
                 gtag('js', new Date());
                 gtag('config', 'G-7007M491Z3');
               `,
-            }}
-          ></script>
-      <Script dangerouslySetInnerHTML={{ __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+          } }
+        ></script>
+        {/* <Script dangerouslySetInnerHTML={{ __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-537W3XM');`}}></Script>
+})(window,document,'script','dataLayer','GTM-537W3XM');`}}></Script> */}
+        <script
+          dangerouslySetInnerHTML={ {
+            __html: `
+                (function(w,d,s,l,i){
+                  w[l]=w[l]||[];
+                  w[l].push({'gtm.start': new Date().getTime(), event:'gtm.js'});
+                  var f=d.getElementsByTagName(s)[0],
+                  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';
+                  j.async=true;
+                  j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
+                  f.parentNode.insertBefore(j,f);
+                })(window,document,'script','dataLayer','GTM-537W3XM');
+              `,
+          } }
+        ></script>
         <link
           href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
           rel="stylesheet"
@@ -46,9 +61,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
           rel="stylesheet"
         ></link>
-        <link rel="preconnect" href="https://fonts.googleapis.com"/>
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap" rel="stylesheet"></link>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap" rel="stylesheet"></link>
         <link rel="icon" href="/assets/images/logo.png" />
         <link rel="shortcut icon" href="/images/favicon.ico" />
         <link
@@ -77,11 +92,27 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       />
       <Script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js" />
       <body>
-      <noscript dangerouslySetInnerHTML={{ __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-537W3XM"
-height="0" width="0" style="display:none;visibility:hidden"></iframe>`}}></noscript>
+        <noscript dangerouslySetInnerHTML={ {
+          __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-537W3XM"
+height="0" width="0" style="display:none;visibility:hidden"></iframe>`} }></noscript>
+        <script
+          dangerouslySetInnerHTML={ {
+            __html: `
+                (function(w,d,s,l,i){
+                  w[l]=w[l]||[];
+                  w[l].push({'gtm.start': new Date().getTime(), event:'gtm.js'});
+                  var f=d.getElementsByTagName(s)[0],
+                  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';
+                  j.async=true;
+                  j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
+                  f.parentNode.insertBefore(j,f);
+                })(window,document,'script','dataLayer','GTM-537W3XM');
+              `,
+          } }
+        ></script>
         <Main />
         <NextScript />
-        <PhoneIcon/>
+        <PhoneIcon />
 
       </body>
     </Html>
