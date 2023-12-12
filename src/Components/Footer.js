@@ -149,6 +149,54 @@ const Footer = () => {
                           </div>
                         </li>
                       </ul>
+                      <ul className="list-unstyled footer-widget__contact-list">
+                        <li>
+                          <div className="icon">
+                            <span className="icon-email" />
+                          </div>
+                          <div className="text">
+                            <p>
+                              <a className="fw-light" href="mailto:sales@waywedesign.com">
+                              sales@waywedesign.com
+                              </a>
+                            </p>
+                          </div>
+                        </li>
+                        <li>
+                          <div className="icon">
+                            <span className="icon-telephone" />
+                          </div>
+                          <div className="text">
+                            <p>
+                              <a className="fw-light" href="tel:+917994645676">+91 7994645676</a>
+                            </p>
+                          </div>
+                        </li>
+                      </ul>
+                      <ul className="list-unstyled footer-widget__contact-list">
+                        <li>
+                          <div className="icon">
+                            <span className="icon-email" />
+                          </div>
+                          <div className="text">
+                            <p>
+                              <a className="fw-light" href="mailto:hrd@waywedesign.com">
+                              hrd@waywedesign.com
+                              </a>
+                            </p>
+                          </div>
+                        </li>
+                        <li>
+                          <div className="icon">
+                            <span className="icon-telephone" />
+                          </div>
+                          <div className="text">
+                            <p>
+                              <a className="fw-light" href="tel:+917994643780">+91 7994643780</a>
+                            </p>
+                          </div>
+                        </li>
+                      </ul>
                       <br></br>
                       <h5 className="text-white fs-6 fw-light">UAE</h5>
                       <p className="footer-widget__contact-text" style={{fontSize:"14px"}}>
