@@ -104,7 +104,7 @@ const DigitalMarketingBangalore = () => {
               <p className="text-white">
               Discover the complete range of digital marketing services for your business at Way WeDesign, one of the best digital marketing company located in Bangalore
               </p>
-              <button class="thm-btn bangalore-button">Contact Us</button>
+              <a href="https://waywedesign.com/contact"><button class="thm-btn bangalore-button">Contact Us</button></a>
             </div>
             <div className="col-md-6 self-align-center order-lg-1 order-0">
               <img
