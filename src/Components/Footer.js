@@ -1,7 +1,7 @@
 import React from 'react'
 import  Link  from 'next/link'
 import Image from 'next/image'
-import logo from '../images/logo.png'
+import logo from '@/images/christmas logo.png'
 import whatsapp from "../images/whatsapp.png";
 import elioplusBadge from "../images/elioplus_badge.png";
 
