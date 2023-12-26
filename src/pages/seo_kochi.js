@@ -5,7 +5,7 @@ import Menu from "@/Components/Navbar";
 import Head from "next/head";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import seoAudit from "../styles/includes/icon 1.png";
+import seoAudit from "../styles/includes/iconimg.png";
 import seoKeyword from "../styles/includes/2.png";
 import seoOptimisation from "../styles/includes/3.png";
 import contentStrategy from "../styles/includes/4.png";
