@@ -349,7 +349,7 @@ Join Way WeDesign on the journey to elevate your digital presence. We're not jus
             <div className="about-image">
                 {/* <img src="includes/about-02.png" alt="About Us Image"/> */}
                 <Image
-                src={ aboutUs }
+                src={aboutUs}
                 alt='Image 1'
               />
             </div>
@@ -362,7 +362,7 @@ Join Way WeDesign on the journey to elevate your digital presence. We're not jus
           <div className='seo-container1'>
             <div className='seo-box'>
               <Image
-                src={ seoAudit }
+                src={seoAudit}
                 alt='Image 1'
               />
               {/* <img src="includes/icon 1.png" alt="Image 1"/> */ }
@@ -382,7 +382,7 @@ Join Way WeDesign on the journey to elevate your digital presence. We're not jus
             </div>
             <div className='seo-box'>
               <Image
-                src={ seoKeyword }
+                src={seoKeyword}
                 alt='Image 2'
               />
               {/* <img src="includes/2.png" alt="Image 2"/> */ }
@@ -405,7 +405,7 @@ Join Way WeDesign on the journey to elevate your digital presence. We're not jus
             </div>
             <div className='seo-box'>
               <Image
-                src={ seoOptimisation }
+                src={seoOptimisation}
                 alt='Image 3'
               />
               {/* <img src="includes/3.png" alt="Image 3"/> */ }
@@ -426,7 +426,7 @@ Join Way WeDesign on the journey to elevate your digital presence. We're not jus
             </div>
             <div className='seo-box'>
               <Image
-                src={ contentStrategy }
+                src={contentStrategy}
                 alt='Image 4'
               />
               {/* <img src="includes/4.png" alt="Image 4"/> */ }
@@ -447,7 +447,7 @@ Join Way WeDesign on the journey to elevate your digital presence. We're not jus
             </div>
             <div className='seo-box'>
               <Image
-                src={ linkBuilding }
+                src={linkBuilding}
                 alt='Image 1'
               />
               {/* <img src="includes/5.png" alt="Image 5"/> */ }
@@ -469,7 +469,7 @@ Join Way WeDesign on the journey to elevate your digital presence. We're not jus
             </div>
             <div className='seo-box'>
               <Image
-                src={ report }
+                src={report}
                 alt='Image 1'
               />
               {/* <img src="includes/6.png" alt="Image 6"/> */ }
@@ -506,7 +506,7 @@ Join Way WeDesign on the journey to elevate your digital presence. We're not jus
     <div className="background-container1">
         <div className="box">
             <Image
-                src={ software }
+                src={software}
                 alt='Image 1'
               />
              <h3> Software & Platform Development</h3>
@@ -516,7 +516,7 @@ Join Way WeDesign on the journey to elevate your digital presence. We're not jus
             
             <h3>
             <Image
-                src={ digitalMarketing }
+                src={digitalMarketing}
                 alt='Image 2'
               />
             Digital Marketing</h3>
@@ -526,7 +526,7 @@ Join Way WeDesign on the journey to elevate your digital presence. We're not jus
             
             <h3>
             <Image
-                src={ cloudService }
+                src={cloudService}
                 alt='Image 1'
               />
             Cloud Service</h3>
@@ -536,7 +536,7 @@ Join Way WeDesign on the journey to elevate your digital presence. We're not jus
             
             <h3>
             <Image
-                src={ UIUXDesign }
+                src={UIUXDesign}
                 alt='Image 1'
               />
             UI UX Design</h3>
@@ -546,7 +546,7 @@ Join Way WeDesign on the journey to elevate your digital presence. We're not jus
             
             <h3>
             <Image
-                src={ HRM }
+                src={HRM}
                 alt='Image 1'
               />
             HRM</h3>
@@ -556,7 +556,7 @@ Join Way WeDesign on the journey to elevate your digital presence. We're not jus
             
             <h3>
             <Image
-                src={ academy }
+                src={academy}
                 alt='Image 1'
               />
             Digital Marketing Acacademy</h3>
@@ -572,7 +572,7 @@ Join Way WeDesign on the journey to elevate your digital presence. We're not jus
             <div className="feature-column">
                 {/* <img src="includes/free consultation.png" alt="Feature 1 Icon"/> */}
                 <Image
-                src={ freeConsultation }
+                src={freeConsultation}
                 alt='Image 1'
               />
                 <h4>Book A Free Consultation</h4>
@@ -590,7 +590,7 @@ Join Way WeDesign on the journey to elevate your digital presence. We're not jus
             <div className="feature-column">
                 {/* <img src="includes/kickstart.png" alt="Feature 3 Icon"/> */}
                 <Image
-                src={ kickStart }
+                src={kickStart}
                 alt='Image 1'
               />
                 <h4>Kick Start</h4>
