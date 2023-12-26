@@ -21,7 +21,6 @@ import freeConsultation from '../styles/includes/free consultation.png'
 import planOfAction from '../styles/includes/plan of action.png'
 import kickStart from '../styles/includes/kickstart.png'
 import aboutUs from '../styles/includes/about-02.png'
-// import christmas from '../styles/includes/christmasimg.png'
 import chris from '../styles/includes/christmasimg.png'
 import Slider from "react-slick";
 import emailjs from '@emailjs/browser';
@@ -679,7 +678,7 @@ Join Way WeDesign on the journey to elevate your digital presence. We're not jus
               alt=''
             /> */}
                <Image
-                src={ christmas }
+                src={chris}
                 alt='Image 1'
                 className="logoBox"
               />
