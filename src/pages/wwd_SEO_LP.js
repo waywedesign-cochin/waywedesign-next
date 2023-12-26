@@ -204,11 +204,10 @@ const wwd_SEO_LP = () => {
       <div>
       <header className={`sticky-header ${isScrolled ? 'scrolled' : ''}`}>
         <div className="logo-container1">
-            {/* <img src="includes/christmas (1).png" alt="Logo"/> */}
             <Image
                 src={chris}
                 alt='Image 1'
-                width={125} height={125}
+                width={125}
               />
             
         </div>
