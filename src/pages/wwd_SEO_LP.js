@@ -21,7 +21,8 @@ import freeConsultation from '../styles/includes/free consultation.png'
 import planOfAction from '../styles/includes/plan of action.png'
 import kickStart from '../styles/includes/kickstart.png'
 import aboutUs from '../styles/includes/about-02.png'
-import christmas from '../styles/includes/christmas (1).png'
+// import christmas from '../styles/includes/christmasimg.png'
+import chris from '../styles/includes/christmasimg.png'
 import Slider from "react-slick";
 import emailjs from '@emailjs/browser';
 import "slick-carousel/slick/slick.css";
@@ -205,9 +206,9 @@ const wwd_SEO_LP = () => {
         <div className="logo-container1">
             {/* <img src="includes/christmas (1).png" alt="Logo"/> */}
             <Image
-                src={ christmas }
+                src={chris}
                 alt='Image 1'
-                width={125}
+                width={125} height={125}
               />
             
         </div>
