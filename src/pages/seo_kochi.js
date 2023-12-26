@@ -16,9 +16,9 @@ import digitalMarketing from '../styles/includes/D2.png'
 import cloudService from '../styles/includes/D3.png'
 import UIUXDesign from '../styles/includes/D4.png'
 import academy from '../styles/includes/D5.png'
-import HRM from '../styles/includes/D5 (1).png'
-import freeConsultation from '../styles/includes/free consultation.png'
-import planOfAction from '../styles/includes/plan of action.png'
+import HRM from '../styles/includes/D5img.png'
+import freeConsultation from '../styles/includes/freeconsultation.png'
+import planOfAction from '../styles/includes/planofaction.png'
 import kickStart from '../styles/includes/kickstart.png'
 import aboutUs from '../styles/includes/about-02.png'
 import chris from '../styles/includes/christmasimg.png'
@@ -581,7 +581,7 @@ Join Way WeDesign on the journey to elevate your digital presence. We're not jus
             <div className="feature-column">
                 {/* <img src="includes/plan of action.png" alt="Feature 2 Icon"/> */}
                 <Image
-                src={ planOfAction }
+                src={planOfAction}
                 alt='Image 1'
               />
                 <h4>Review The Plan of Action</h4>
