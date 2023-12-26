@@ -20,6 +20,7 @@ import '@/vendors/reey-font/stylesheet.css'
 import '@/vendors/twentytwenty/twentytwenty.css'
 import '@/vendors/bootstrap-select/css/bootstrap-select.min.css'
 import '@/vendors/jquery-ui/jquery-ui.css'
+import '@/styles/wwdLandingStyles.css'
 import caseStudies from './case-studies';
 import seoCompanyInKochi from './seo-company-in-kochi';
 

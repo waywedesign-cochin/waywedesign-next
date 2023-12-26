@@ -3543,7 +3543,11 @@ background: linear-gradient(17deg, rgba(24,143,244,1) 0%, rgba(12,76,144,1) 48%,
   display: block;
   z-index: 2;
 }
-
+.site-footer__bottom-center{
+  display: flex;
+justify-content: center;
+text-align: center;
+}
 .site-footer__bottom-container {
   position: relative;
   display: block;

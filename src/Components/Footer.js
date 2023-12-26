@@ -110,6 +110,9 @@ const Footer = () => {
                         <li>
                           <Link target="blank" href="https://merchant.razorpay.com/policy/K4BTjlmcMwC07W/shipping">Shipping & Delivery Policy</Link>
                         </li>
+                        <li>
+                            <Link href="/terms-and-conditions">Terms &amp; Condition</Link>
+                          </li>
                       </ul>
                      
                     </div>
@@ -245,14 +248,14 @@ P.O.BOX: 5003517
                 <div className="row">
                   <div className="col-xl-12">
                     <div className="site-footer__bottom-inner">
-                      <div className="site-footer__bottom-left">
+                      <div className="site-footer__bottom-center">
                         <p className="site-footer__bottom-text">
                           © All Copyright <span className="dynamic-year"></span>
                           {/* /.dynamic-year */} by{" "}
                           <Link href="/">Way WeDesign</Link>
                         </p>
                       </div>
-                      <div className="site-footer__bottom-right">
+                      {/* <div className="site-footer__bottom-right">
                         <ul className="list-unstyled site-footer__bottom-menu">
                           <li>
                             <Link href="/terms-and-conditions">Terms &amp; Condition</Link>
@@ -260,7 +263,7 @@ P.O.BOX: 5003517
                           
                           
                         </ul>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </div>
