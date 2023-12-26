@@ -28,7 +28,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import AboutSlider from "@/Components/Home/AboutSlider";
 import Link from 'next/link';
-const wwd_SEO_LP = () => {
+const seo_kochi = () => {
   const form = useRef();
   const sendEmail = ( e ) => {
     e.preventDefault();
@@ -56,6 +56,26 @@ const wwd_SEO_LP = () => {
         }
       );
   };
+
+  // const handleInput = (e) => {
+  //  const input = e.currentTarget;
+  //  const cursorPosition = input.selectionStart || 0;
+  //  input.value = input.value.
+  // }
+
+  const [email, setEmail] = useState("")
+  const [phoneNumber, setPhoneNumber] = useState("")
+
+  const handleEmailChange = (e) => {
+    e.preventDefault()
+    setEmail(e.target.value)
+  }
+
+  const handlePhoneChange = (e) => {
+    e.preventDefault()
+    setPhoneNumber(e.target.value)
+  }
+
   const [ showPopUp, setShowPopUp ] = useState( true );
   const [ isVisible, setIsVisible ] = useState( false );
   function openForm() {
@@ -282,6 +302,7 @@ const wwd_SEO_LP = () => {
                   id='fullName'
                   className="mt-2"
                   required
+            
                 />
                 <label
                   for=''
@@ -294,6 +315,10 @@ const wwd_SEO_LP = () => {
                   id='email_id'
                   className="mt-2"
                   required
+                  minLength={10}
+                  value={email}
+                  onChange={handleEmailChange}
+                  
                 />
                 <label
                   for=''
@@ -306,7 +331,14 @@ const wwd_SEO_LP = () => {
                   type='tel'
                   id='phone'
                   className="mt-2"
-                  required></input>
+                  required
+                  minLength={10}
+                  value={phoneNumber}
+                  onChange={handlePhoneChange}
+                  >
+
+
+                  </input>
                 <label
                   for=''
                   className='ms-2 text-white'>
@@ -517,7 +549,7 @@ Join Way WeDesign on the journey to elevate your digital presence. We're not jus
             <h3>
             <Image
                 src={digitalMarketing}
-                alt='Image 2'
+                alt='Image 1'
               />
             Digital Marketing</h3>
             <p>Boost your online presence and reach your target audience through our comprehensive digital marketing services.</p>
@@ -627,6 +659,9 @@ Join Way WeDesign on the journey to elevate your digital presence. We're not jus
                 id='email_id'
                 className="mt-2"
                 required
+                minLength={10}
+                  value={email}
+                  onChange={handleEmailChange}
               />
               <label for=''>
                 <i className='fa-solid fa-envelope'></i>Email
@@ -637,7 +672,11 @@ Join Way WeDesign on the journey to elevate your digital presence. We're not jus
                 type='tel'
                 id='phone'
                 className="mt-2"
-                required></input>
+                required
+                minLength={10}
+                  value={phoneNumber}
+                  onChange={handlePhoneChange}
+                ></input>
               <label for=''>
                 <i className='fa-solid fa-mobile'></i> Number
               </label>
@@ -702,6 +741,9 @@ Join Way WeDesign on the journey to elevate your digital presence. We're not jus
                     id='email_id'
                     className="mt-2"
                     required
+                    minLength={10}
+                  value={email}
+                  onChange={handleEmailChange}
                   />
                   <label for=''>
                     <i className='fa-solid fa-envelope'></i> Email
@@ -712,7 +754,11 @@ Join Way WeDesign on the journey to elevate your digital presence. We're not jus
                     type='tel'
                     id='phone'
                     className="mt-2"
-                    required></input>
+                    required
+                    minLength={10}
+                  value={phoneNumber}
+                  onChange={handlePhoneChange}
+                    ></input>
                   <label for=''>
                     <i className='fa-solid fa-mobile'></i>Number
                   </label>
@@ -743,4 +789,4 @@ Join Way WeDesign on the journey to elevate your digital presence. We're not jus
   );
 };
 
-export default wwd_SEO_LP;
+export default seo_kochi;
