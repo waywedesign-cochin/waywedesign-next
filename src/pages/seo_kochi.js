@@ -32,7 +32,7 @@ const seo_kochi = () => {
   const form = useRef();
   const sendEmail = ( e ) => {
     e.preventDefault();
-
+    console.log('1234 landingPage',form.current)
     emailjs
       .sendForm(
         "service_sjigqr3",
@@ -65,7 +65,8 @@ const seo_kochi = () => {
 
   const [email, setEmail] = useState("")
   const [phoneNumber, setPhoneNumber] = useState("")
-
+  const [name, setName] = useState("")
+  const [company, setCompany] = useState("")
   const handleEmailChange = (e) => {
     e.preventDefault()
     setEmail(e.target.value)
@@ -74,6 +75,15 @@ const seo_kochi = () => {
   const handlePhoneChange = (e) => {
     e.preventDefault()
     setPhoneNumber(e.target.value)
+  }
+  const handleNameChange = (e) => {
+    e.preventDefault()
+    setName(e.target.value)
+  }
+
+  const handleCompanyChange = (e) => {
+    e.preventDefault()
+    setCompany(e.target.value)
   }
 
   const [ showPopUp, setShowPopUp ] = useState( true );
@@ -85,19 +95,6 @@ const seo_kochi = () => {
   function closeForm() {
     setIsVisible( false );
   }
-  const handleInputFocus = ( e ) => {
-    e.target.parentElement.classList.add( 'input-filled' );
-  };
-
-  const handleInputBlur = ( e ) => {
-    if ( e.target.value === '' ) {
-      e.target.parentElement.classList.remove( 'input-filled' );
-    }
-  };
-  const handleInputChange = ( e ) => {
-    setFullName( e.target.value );
-  };
-
   const [isScrolled, setIsScrolled] = useState(false);
   useEffect(() => {
     const handleScroll = () => {
@@ -288,28 +285,28 @@ const seo_kochi = () => {
           </div>
           
           <div className='container1 right formContainer'>
-          <form
+            <h5>Schedule a Consultation</h5>
+            <form
                 method="post"
                  ref={form} 
                  onSubmit={sendEmail}
                   className="comment-one__form contact-form-validated"
                   >
-            <h5>Schedule a Consultation</h5>
             <div className='contact-hero1-form'>
-              <div className='input-group'>
-                <input
-                  type='text'
-                  id='fullName'
-                  className="mt-2"
-                  required
-            
-                />
-                <label
-                  for=''
-                  className='ms-2 text-white'>
-                  <i className='fa-solid fa-user'></i> Name
-                </label>
-              </div>
+               <div className='input-group'>
+                  <input
+                   
+                    id='fullName'
+                    className="mt-2"
+                    name="name"
+                    value={name}
+                    onChange={handleNameChange}
+                    required
+                  />
+                  <label for=''>
+                    <i className='fa-solid fa-user'></i> Name
+                  </label>
+                </div>
               <div className='input-group'>
                 <input
                   id='email_id'
@@ -317,6 +314,7 @@ const seo_kochi = () => {
                   required
                   minLength={10}
                   value={email}
+                  name="email"
                   onChange={handleEmailChange}
                   
                 />
@@ -334,10 +332,9 @@ const seo_kochi = () => {
                   required
                   minLength={10}
                   value={phoneNumber}
+                  name="phone"
                   onChange={handlePhoneChange}
                   >
-
-
                   </input>
                 <label
                   for=''
@@ -347,9 +344,12 @@ const seo_kochi = () => {
               </div>
               <div className='input-group'>
                 <input
-                  type='text'
+             
                   id='Companyname'
                   className="mt-2"
+                  name="company"
+                  value={company}
+                  onChange={handleCompanyChange}
                   required
                 />
                 <label
@@ -648,6 +648,7 @@ Join Way WeDesign on the journey to elevate your digital presence. We're not jus
                 type='text'
                 id='fullName'
                 className="mt-2"
+                name="name"
                 required
               />
               <label for=''>
@@ -661,6 +662,7 @@ Join Way WeDesign on the journey to elevate your digital presence. We're not jus
                 required
                 minLength={10}
                   value={email}
+                  name="email"
                   onChange={handleEmailChange}
               />
               <label for=''>
@@ -674,6 +676,7 @@ Join Way WeDesign on the journey to elevate your digital presence. We're not jus
                 className="mt-2"
                 required
                 minLength={10}
+                name="phone"
                   value={phoneNumber}
                   onChange={handlePhoneChange}
                 ></input>
@@ -685,6 +688,7 @@ Join Way WeDesign on the journey to elevate your digital presence. We're not jus
               <input
                 type='text'
                 id='Companyname'
+                name="company"
                 className="mt-2"
                 required
               />
@@ -703,19 +707,9 @@ Join Way WeDesign on the journey to elevate your digital presence. We're not jus
             </button>
           </div>
         </div></form>
-        <form
-                method="post"
-                 ref={form} 
-                 onSubmit={sendEmail}
-                  className="comment-one__form contact-form-validated"
-                 
-                  >
+      
         <div className={ `login-popup ${showPopUp ? 'show' : ''}` }>
           <div className='box'>
-            {/* <img
-              src='includes/christmas (1).png'
-              alt=''
-            /> */}
                <Image
                 src={chris}
                 alt='Image 1'
@@ -724,12 +718,19 @@ Join Way WeDesign on the journey to elevate your digital presence. We're not jus
             <div className='form'>
               <h2>Schedule a Consultation</h2>
               <div className='close'><a onClick={ () => setShowPopUp( false ) }>&times;</a></div>
+              <form
+                method="post"
+                 ref={form} 
+                 onSubmit={sendEmail}    
+                 className="comment-one__form contact-form-validated"       
+                  >
               <div className='form-popup-container1'>
                 <div className='input-group'>
                   <input
                     type='text'
                     id='fullName'
                     className="mt-2"
+                    name="name"
                     required
                   />
                   <label for=''>
@@ -743,7 +744,8 @@ Join Way WeDesign on the journey to elevate your digital presence. We're not jus
                     required
                     minLength={10}
                   value={email}
-                  onChange={handleEmailChange}
+                  name="email"
+                  // onChange={handleEmailChange}
                   />
                   <label for=''>
                     <i className='fa-solid fa-envelope'></i> Email
@@ -756,8 +758,9 @@ Join Way WeDesign on the journey to elevate your digital presence. We're not jus
                     className="mt-2"
                     required
                     minLength={10}
+                    name="phone"
                   value={phoneNumber}
-                  onChange={handlePhoneChange}
+                  // onChange={handlePhoneChange}
                     ></input>
                   <label for=''>
                     <i className='fa-solid fa-mobile'></i>Number
@@ -768,6 +771,7 @@ Join Way WeDesign on the journey to elevate your digital presence. We're not jus
                     type='text'
                     id='Companyname'
                     className="mt-2"
+                    name="company"
                     required
                   />
                   <label for=''>
@@ -778,9 +782,10 @@ Join Way WeDesign on the journey to elevate your digital presence. We're not jus
                   <i className='fa-solid fa-paper-plane'></i> Submit
                 </button>
               </div>
+              </form>
             </div>
           </div>
-        </div></form>
+        </div>
         
       </div>
       <div className="result" />
