@@ -30,45 +30,18 @@ import AboutSlider from "@/Components/Home/AboutSlider";
 import Link from 'next/link';
 const seo_kochi = () => {
   const form = useRef();
-  const sendEmail = ( e ) => {
-    e.preventDefault();
-    console.log('1234 landingPage',form.current)
-    emailjs
-      .sendForm(
-        "service_sjigqr3",
-        "contact_waywedesign",
-        form.current,
-        "uZZ825vdRXTX6_btT"
-      )
-      .then(
-        ( result ) => {
-          form.current.reset();
-
-          document.querySelector( ".result" ).innerHTML =
-            "Message sent successfully!"; // shows success message
-          setTimeout( () => {
-            document.querySelector( ".result" ).style.display = "none"; // hides success message after 2 seconds
-          }, 3000 );
-        },
-        ( error ) => {
-          document.querySelector( ".result" ).innerHTML =
-            "Failed to send message. Please try again."; // shows error message
-        }
-      );
-  };
-
-  // const handleInput = (e) => {
-  //  const input = e.currentTarget;
-  //  const cursorPosition = input.selectionStart || 0;
-  //  input.value = input.value.
-  // }
+  const form2 = useRef();
+  const form3 = useRef();
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
   const [email, setEmail] = useState("")
   const [phoneNumber, setPhoneNumber] = useState("")
   const [name, setName] = useState("")
   const [company, setCompany] = useState("")
+  const [isValidEmail, setIsValidEmail] = useState(false)
   const handleEmailChange = (e) => {
     e.preventDefault()
+    setIsValidEmail(emailRegex.test(e.target.value));
     setEmail(e.target.value)
   }
 
@@ -85,8 +58,15 @@ const seo_kochi = () => {
     e.preventDefault()
     setCompany(e.target.value)
   }
+const resetForm = () =>{
+  setCompany(e.target.value);
+  setPhoneNumber(e.target.value);
+  setEmail(e.target.value);
+  setName(e.target.value);
 
+}
   const [ showPopUp, setShowPopUp ] = useState( true );
+  const [ showResult, setShowResult ] = useState( false );
   const [ isVisible, setIsVisible ] = useState( false );
   function openForm() {
     setIsVisible( true )
@@ -96,6 +76,101 @@ const seo_kochi = () => {
     setIsVisible( false );
   }
   const [isScrolled, setIsScrolled] = useState(false);
+
+
+  const sendEmail = ( e ) => {
+    e.preventDefault();
+    console.log('1234 landingPage',email,isValidEmail)
+    emailjs
+      .sendForm(
+        "service_sjigqr3",
+        "contact_waywedesign",
+        form.current,
+        "uZZ825vdRXTX6_btT"
+      )
+      .then(
+        ( result ) => {
+          form.current.reset();
+          setShowResult(true);
+          // document.querySelector(".result").style.display = "block";
+          document.querySelector( ".result" ).innerHTML =
+            "Message sent successfully!"; // shows success message
+          setTimeout( () => {
+            setShowResult(false);
+            // document.querySelector( ".result" ).style.display = "none"; // hides success message after 2 seconds
+          }, 3000 );
+        },
+        ( error ) => {
+          setShowResult(false);
+          // document.querySelector(".result").style.display = "block";
+          document.querySelector( ".result" ).innerHTML =
+            "Failed to send message. Please try again."; // shows error message
+        }
+      );
+  };
+  const sendEmail2 = ( e ) => {
+    e.preventDefault();
+    console.log('1234 landingPage',form2.current)
+    emailjs
+      .sendForm(
+        "service_sjigqr3",
+        "contact_waywedesign",
+        form2.current,
+        "uZZ825vdRXTX6_btT"
+      )
+      .then(
+        ( result ) => {
+          form2.current.reset();
+          setShowResult(true);
+          document.querySelector( ".result" ).innerHTML =
+            "Message sent successfully!"; // shows success message
+          setTimeout( () => {
+            setShowResult(false);
+            document.querySelector( ".result" ).style.display = "none"; // hides success message after 2 seconds
+          }, 3000 );
+        },
+        ( error ) => {
+          setShowResult(false);
+          document.querySelector( ".result" ).innerHTML =
+            "Failed to send message. Please try again."; // shows error message
+        }
+      );
+  };
+  const sendEmail3 = ( e ) => {
+    e.preventDefault();
+    console.log('1234 landingPage',form3.current)
+    emailjs
+      .sendForm(
+        "service_sjigqr3",
+        "contact_waywedesign",
+        form3.current,
+        "uZZ825vdRXTX6_btT"
+      )
+      .then(
+        ( result ) => {
+          form3.current.reset();
+          setShowResult(true);
+          document.querySelector( ".result" ).innerHTML =
+            "Message sent successfully!"; // shows success message
+          setTimeout( () => {
+            setShowResult(false);
+            document.querySelector( ".result" ).style.display = "none"; // hides success message after 2 seconds
+          }, 3000 );
+        },
+        ( error ) => {
+          setShowResult(false);
+          document.querySelector( ".result" ).innerHTML =
+            "Failed to send message. Please try again."; // shows error message
+        }
+      );
+  };
+  // const handleInput = (e) => {
+  //  const input = e.currentTarget;
+  //  const cursorPosition = input.selectionStart || 0;
+  //  input.value = input.value.
+  // }
+
+  
   useEffect(() => {
     const handleScroll = () => {
       const scrollY = window.scrollY;
@@ -227,15 +302,6 @@ const seo_kochi = () => {
               />
             
         </div>
-        {/* <nav>
-            <ul>
-              <li><a href="">Home</a></li>
-              <li><a href="#about">About Us</a></li>
-              <li><a href="#strategy">Our Strategies</a></li>
-              <li><a href="#solution">Our Solutions</a></li>
-              <li><a href="#contact">Contact Us</a></li>
-            </ul>
-          </nav> */}
            <nav>
       <ul>
         <li><Link href="#">Home</Link></li>
@@ -285,11 +351,12 @@ const seo_kochi = () => {
           </div>
           
           <div className='container1 right formContainer'>
+          <div className='form'>
             <h5>Schedule a Consultation</h5>
             <form
                 method="post"
-                 ref={form} 
-                 onSubmit={sendEmail}
+                 ref={form2} 
+                 onSubmit={sendEmail2}
                   className="comment-one__form contact-form-validated"
                   >
             <div className='contact-hero1-form'>
@@ -363,6 +430,7 @@ const seo_kochi = () => {
               </button>
             </div>
             </form>
+            </div>
           </div>
       
         </section>
@@ -630,11 +698,11 @@ Join Way WeDesign on the journey to elevate your digital presence. We're not jus
             </div>
         </div>
     </div>
-</section>
+      </section>
         <form
                 method="post"
-                 ref={form} 
-                 onSubmit={sendEmail}
+                 ref={form3} 
+                 onSubmit={sendEmail3}
                   className="comment-one__form contact-form-validated"
                  
                   >
@@ -706,7 +774,8 @@ Join Way WeDesign on the journey to elevate your digital presence. We're not jus
               <i className='fa-solid fa-circle-xmark'></i>&nbsp; Close
             </button>
           </div>
-        </div></form>
+        </div>
+        </form>
       
         <div className={ `login-popup ${showPopUp ? 'show' : ''}` }>
           <div className='box'>
@@ -745,7 +814,7 @@ Join Way WeDesign on the journey to elevate your digital presence. We're not jus
                     minLength={10}
                   value={email}
                   name="email"
-                  // onChange={handleEmailChange}
+                  onChange={handleEmailChange}
                   />
                   <label for=''>
                     <i className='fa-solid fa-envelope'></i> Email
@@ -760,7 +829,7 @@ Join Way WeDesign on the journey to elevate your digital presence. We're not jus
                     minLength={10}
                     name="phone"
                   value={phoneNumber}
-                  // onChange={handlePhoneChange}
+                  onChange={handlePhoneChange}
                     ></input>
                   <label for=''>
                     <i className='fa-solid fa-mobile'></i>Number
@@ -786,10 +855,13 @@ Join Way WeDesign on the journey to elevate your digital presence. We're not jus
             </div>
           </div>
         </div>
+        <div className={ `loginResult-popup ${showResult ? 'show' : ''}` }>
+            <div className="box1"><div className="result text-white">Message sent successfully</div></div>
+        </div>
         
       </div>
-      <div className="result" />
-      <Footer />
+     <section id='contact'>
+      <Footer /></section>
     </>
   );
 };
