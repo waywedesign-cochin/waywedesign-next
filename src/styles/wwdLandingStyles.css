@@ -1220,3 +1220,6 @@ input:focus~label,input:valid~label,textarea:focus~label,textarea:valid~label{
     color: #000000;
 }
 
+.result{
+    padding: 50px;
+}
