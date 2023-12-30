@@ -8,6 +8,7 @@ import  Breadcrumbs  from '@/Components/Breadcrumbs';
 import  Menu  from '@/Components/Navbar';
 import  Footer  from '@/Components/Footer';
 import  MobileMenu  from '@/Components/MobileMenu';
+import lead from '@/pages/lead-generation'
 
 
 const Careers = () => {
@@ -71,9 +72,28 @@ const Careers = () => {
       <br></br>
       <Link href={slugLink} >More Details <i className="fas fa-long-arrow-alt-right"></i></Link>
       </div>
+
+
       </div>
+      
     )
+    
 })}
+
+<div className="col-md-4 py-1">
+<div className="card p-4">
+<h5><b>Lead Generation executive</b></h5>
+      <br></br>
+      <h6>Lead Generation executive</h6>
+      <br></br>
+      <h6>Full Time</h6>
+      <br></br>
+      <h6>Kochi</h6>
+      <br></br>
+      <Link href={'#'}>More Details <i className="fas fa-long-arrow-alt-right"></i></Link>
+
+</div>
+</div>
 
       </div>
       
