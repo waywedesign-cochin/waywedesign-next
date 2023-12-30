@@ -2,18 +2,18 @@ import { motion } from "framer-motion";
 import { useState } from "react";
 import { useEffect } from "react";
 import { request } from 'graphql-request';
-import Link from "next/link"; 
+import Link from "next/link";
 import Head from "next/head";
-import  Breadcrumbs  from '@/Components/Breadcrumbs';
-import  Menu  from '@/Components/Navbar';
-import  Footer  from '@/Components/Footer';
-import  MobileMenu  from '@/Components/MobileMenu';
+import Breadcrumbs from '@/Components/Breadcrumbs';
+import Menu from '@/Components/Navbar';
+import Footer from '@/Components/Footer';
+import MobileMenu from '@/Components/MobileMenu';
 import lead from '@/pages/lead-generation'
 
 
 const Careers = () => {
   const [jobPost, setJobPost] = useState([])
-  
+
   useEffect(() => {
     const fetchPosts = async () => {
       const response = await request(
@@ -34,7 +34,7 @@ const Careers = () => {
       );
       setJobPost(response.jobs);
     };
-    
+
     fetchPosts();
   }, []);
 
@@ -45,60 +45,45 @@ const Careers = () => {
       exit={{ opacity: 0, x: 100 }}
       transition={{ duration: 1 }}
     >
-        <Menu/>
-        <MobileMenu />
+      <Menu />
+      <MobileMenu />
 
       <Head>
         <title>Careers - Way WeDesign</title>
         <meta name="description" content="Careers" />
       </Head>
-      
+
       <Breadcrumbs pageurl="careers" subtitle="CAREERS" />
       <div className="container">
         <div className="row">
-        {jobPost && jobPost.map((post, index) => {
-              const slugLink = `/careers/${post.link}`; // Update this line
-              return (
-      <div className="col-md-4 py-3">
-      <div className="card p-4" index={index}>
-      
-      <h5><b>{post.jobTitle}</b></h5>
-      <br></br>
-      <h6>{post.jobCategory}</h6>
-      <br></br>
-      <h6>{post.jobType}</h6>
-      <br></br>
-      <h6>{post.jobLocation}</h6>
-      <br></br>
-      <Link href={slugLink} >More Details <i className="fas fa-long-arrow-alt-right"></i></Link>
-      </div>
+          {jobPost && jobPost.map((post, index) => {
+            const slugLink = `/careers/${post.link}`; // Update this line
+            return (
+              <div className="col-md-4 py-3">
+                <div className="card p-4" index={index}>
+
+                  <h5><b>{post.jobTitle}</b></h5>
+                  <br></br>
+                  <h6>{post.jobCategory}</h6>
+                  <br></br>
+                  <h6>{post.jobType}</h6>
+                  <br></br>
+                  <h6>{post.jobLocation}</h6>
+                  <br></br>
+                  <Link href={slugLink} >More Details <i className="fas fa-long-arrow-alt-right"></i></Link>
+                </div>
 
 
-      </div>
-      
-    )
-    
-})}
+              </div>
 
-<div className="col-md-4 py-1">
-<div className="card p-4">
-<h5><b>Lead Generation executive</b></h5>
-      <br></br>
-      <h6>Lead Generation executive</h6>
-      <br></br>
-      <h6>Full Time</h6>
-      <br></br>
-      <h6>Kochi</h6>
-      <br></br>
-      <Link href={'#'}>More Details <i className="fas fa-long-arrow-alt-right"></i></Link>
+            )
 
-</div>
-</div>
+          })}
+
+        </div>
 
       </div>
-      
-      </div>
-      <Footer/>
+      <Footer />
     </motion.div>
   );
 };

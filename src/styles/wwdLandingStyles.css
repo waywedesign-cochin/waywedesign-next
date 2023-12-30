@@ -205,6 +205,7 @@ p {
     transform: scale(1.05);
     background-color: #113176;
     color: #fff;
+    
 }
 
 .seo-box img {
@@ -1222,4 +1223,6 @@ input:focus~label,input:valid~label,textarea:focus~label,textarea:valid~label{
 
 .result{
     padding: 50px;
+    background-color: #113176;
+    width: 100%;
 }

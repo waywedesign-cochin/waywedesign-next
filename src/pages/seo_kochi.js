@@ -83,26 +83,26 @@ const resetForm = () =>{
     console.log('1234 landingPage',email,isValidEmail)
     emailjs
       .sendForm(
-        "service_sjigqr3",
-        "contact_waywedesign",
+        "service_tlv1ztb",
+        "template_earca72",
         form.current,
-        "uZZ825vdRXTX6_btT"
+        "G79luOLoWDIpanYzY"
       )
       .then(
         ( result ) => {
           form.current.reset();
           setShowResult(true);
-          // document.querySelector(".result").style.display = "block";
+          document.querySelector(".result").style.display = "block";
           document.querySelector( ".result" ).innerHTML =
             "Message sent successfully!"; // shows success message
           setTimeout( () => {
             setShowResult(false);
-            // document.querySelector( ".result" ).style.display = "none"; // hides success message after 2 seconds
+            document.querySelector( ".result" ).style.display = "none"; // hides success message after 2 seconds
           }, 3000 );
         },
         ( error ) => {
           setShowResult(false);
-          // document.querySelector(".result").style.display = "block";
+          document.querySelector(".result").style.display = "block";
           document.querySelector( ".result" ).innerHTML =
             "Failed to send message. Please try again."; // shows error message
         }
@@ -113,10 +113,10 @@ const resetForm = () =>{
     console.log('1234 landingPage',form2.current)
     emailjs
       .sendForm(
-        "service_sjigqr3",
-        "contact_waywedesign",
+        "service_tlv1ztb",
+        "template_earca72",
         form2.current,
-        "uZZ825vdRXTX6_btT"
+        "G79luOLoWDIpanYzY"
       )
       .then(
         ( result ) => {
@@ -141,10 +141,10 @@ const resetForm = () =>{
     console.log('1234 landingPage',form3.current)
     emailjs
       .sendForm(
-        "service_sjigqr3",
-        "contact_waywedesign",
+        "service_tlv1ztb",
+        "template_earca72",
         form3.current,
-        "uZZ825vdRXTX6_btT"
+        "G79luOLoWDIpanYzY"
       )
       .then(
         ( result ) => {
@@ -164,6 +164,34 @@ const resetForm = () =>{
         }
       );
   };
+  // const sendEmail3 = ( e ) => {
+  //   e.preventDefault();
+  //   console.log('1234 landingPage',form3.current)
+  //   emailjs
+  //     .sendForm(
+  //       "service_sjigqr3",
+  //       "contact_waywedesign",
+  //       form3.current,
+  //       "uZZ825vdRXTX6_btT"
+  //     )
+  //     .then(
+  //       ( result ) => {
+  //         form3.current.reset();
+  //         setShowResult(true);
+  //         document.querySelector( ".result" ).innerHTML =
+  //           "Message sent successfully!"; // shows success message
+  //         setTimeout( () => {
+  //           setShowResult(false);
+  //           document.querySelector( ".result" ).style.display = "none"; // hides success message after 2 seconds
+  //         }, 3000 );
+  //       },
+  //       ( error ) => {
+  //         setShowResult(false);
+  //         document.querySelector( ".result" ).innerHTML =
+  //           "Failed to send message. Please try again."; // shows error message
+  //       }
+  //     );
+  // };
   // const handleInput = (e) => {
   //  const input = e.currentTarget;
   //  const cursorPosition = input.selectionStart || 0;
@@ -349,14 +377,14 @@ const resetForm = () =>{
               </Slider>{ " " }
             </div>
           </div>
-          
+          {/* first form */}
           <div className='container1 right formContainer'>
           <div className='form'>
             <h5>Schedule a Consultation</h5>
             <form
                 method="post"
-                 ref={form2} 
-                 onSubmit={sendEmail2}
+                 ref={form} 
+                 onSubmit={sendEmail}
                   className="comment-one__form contact-form-validated"
                   >
             <div className='contact-hero1-form'>
@@ -701,8 +729,8 @@ Join Way WeDesign on the journey to elevate your digital presence. We're not jus
       </section>
         <form
                 method="post"
-                 ref={form3} 
-                 onSubmit={sendEmail3}
+                 ref={form2} 
+                 onSubmit={sendEmail2}
                   className="comment-one__form contact-form-validated"
                  
                   >
