@@ -83,7 +83,7 @@ const resetForm = () =>{
     console.log('1234 landingPage',email,isValidEmail)
     emailjs
       .sendForm(
-        "service_tlv1ztb",
+        "service_wccf4ri",
         "template_earca72",
         form.current,
         "G79luOLoWDIpanYzY"
@@ -113,7 +113,7 @@ const resetForm = () =>{
     console.log('1234 landingPage',form2.current)
     emailjs
       .sendForm(
-        "service_tlv1ztb",
+        "service_wccf4ri",
         "template_earca72",
         form2.current,
         "G79luOLoWDIpanYzY"
@@ -141,7 +141,7 @@ const resetForm = () =>{
     console.log('1234 landingPage',form3.current)
     emailjs
       .sendForm(
-        "service_tlv1ztb",
+        "service_wccf4ri",
         "template_earca72",
         form3.current,
         "G79luOLoWDIpanYzY"
