@@ -8,7 +8,6 @@ import Breadcrumbs from '@/Components/Breadcrumbs';
 import Menu from '@/Components/Navbar';
 import Footer from '@/Components/Footer';
 import MobileMenu from '@/Components/MobileMenu';
-import lead from '@/pages/lead-generation'
 
 
 const Careers = () => {
