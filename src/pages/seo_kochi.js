@@ -330,7 +330,7 @@ const resetForm = () =>{
               />
             
         </div>
-           <nav>
+           <nav className="nav-menu">
       <ul>
         <li><Link href="#">Home</Link></li>
         <li><Link href="#about">About Us</Link></li>
@@ -339,8 +339,8 @@ const resetForm = () =>{
         <li><Link href="#contact">Contact Us</Link></li>
       </ul>
     </nav>
-          {isScrolled ? <button className="seoaudit seoauditButton" onClick={()=>openForm()}>Free SEO Audit</button>
-        : <div className="seoaudit seoauditButton" /> 
+          {isScrolled ? <button className="header-btn" onClick={()=>openForm()}>Free SEO Audit</button>
+        : <div className="header-btn" /> 
         }
     </header>
         <section
@@ -453,7 +453,7 @@ const resetForm = () =>{
                   <i className='fa-solid fa-building'></i> Company
                 </label>
               </div>
-              <button type="submit" className="p-0">
+              <button type="submit" className="p-0 submit-btn">
                 <i className='fa-solid fa-paper-plane'></i> Submit
               </button>
             </div>
@@ -792,7 +792,7 @@ Join Way WeDesign on the journey to elevate your digital presence. We're not jus
                 <i className='fa-solid fa-building'></i> Company
               </label>
             </div>
-            <button type="submit">
+            <button type="submit" className="p-0 submit-btn">
               <i className='fa-solid fa-paper-plane'></i> Submit
             </button>
             <button
@@ -875,7 +875,7 @@ Join Way WeDesign on the journey to elevate your digital presence. We're not jus
                     <i className='fa-solid fa-building'></i> Company
                   </label>
                 </div>
-                <button type="submit">
+                <button type="submit" className="p-0 submit-btn">
                   <i className='fa-solid fa-paper-plane'></i> Submit
                 </button>
               </div>
