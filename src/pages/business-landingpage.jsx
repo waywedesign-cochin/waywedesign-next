@@ -9,8 +9,8 @@ import "slick-carousel/slick/slick-theme.css";
 import logo from '@/styles/landing/logoround.png'
 import { Button } from 'react-bootstrap';
 import ssl from '@/styles/landing/ssl.png'
-import leads from '@/styles/landing/business leads.png'
-import content from '@/styles/landing/content optimization.png'
+import eybi from '@/styles/landing/eybi.png'
+import bcwo from '@/styles/landing/bcwo.png'
 import visuals from '@/styles/landing/visuals.png'
 import cta from '@/styles/landing/call to action.png'
 import advancedform from '@/styles/landing/advanced form design.png'
@@ -416,11 +416,11 @@ export const business_landingpage = () => {
             <h4>Stay Secure with SSL</h4>
           </div>
           <div className='lp-third-column'>
-            <Image src={leads} width={200} height={200}></Image>
+            <Image src={eybi} width={200} height={200}></Image>
             <h4>Enrich your Business leads</h4>
           </div>
           <div className='lp-third-column'>
-            <Image src={content} width={200} height={200}></Image>
+            <Image src={bcwo} width={200} height={200}></Image>
             <h4>Better Content with optimization</h4>
           </div>
         </div>
