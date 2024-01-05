@@ -1,4 +1,4 @@
-import React, { useRef, useState,useEffect } from "react";
+import React, { useRef, useState, useEffect } from "react";
 import Footer from "@/Components/Footer";
 import MobileMenu from "@/Components/MobileMenu";
 import Menu from "@/Components/Navbar";
@@ -58,29 +58,29 @@ const seo_kochi = () => {
     e.preventDefault()
     setCompany(e.target.value)
   }
-const resetForm = () =>{
-  setCompany(e.target.value);
-  setPhoneNumber(e.target.value);
-  setEmail(e.target.value);
-  setName(e.target.value);
+  const resetForm = () => {
+    setCompany(e.target.value);
+    setPhoneNumber(e.target.value);
+    setEmail(e.target.value);
+    setName(e.target.value);
 
-}
-  const [ showPopUp, setShowPopUp ] = useState( true );
-  const [ showResult, setShowResult ] = useState( false );
-  const [ isVisible, setIsVisible ] = useState( false );
+  }
+  const [showPopUp, setShowPopUp] = useState(true);
+  const [showResult, setShowResult] = useState(false);
+  const [isVisible, setIsVisible] = useState(false);
   function openForm() {
-    setIsVisible( true )
+    setIsVisible(true)
   }
 
   function closeForm() {
-    setIsVisible( false );
+    setIsVisible(false);
   }
   const [isScrolled, setIsScrolled] = useState(false);
 
 
-  const sendEmail = ( e ) => {
+  const sendEmail = (e) => {
     e.preventDefault();
-    console.log('1234 landingPage',email,isValidEmail)
+    console.log('1234 landingPage', email, isValidEmail)
     emailjs
       .sendForm(
         "service_wccf4ri",
@@ -89,28 +89,28 @@ const resetForm = () =>{
         "G79luOLoWDIpanYzY"
       )
       .then(
-        ( result ) => {
+        (result) => {
           form.current.reset();
           setShowResult(true);
           document.querySelector(".result").style.display = "block";
-          document.querySelector( ".result" ).innerHTML =
+          document.querySelector(".result").innerHTML =
             "Message sent successfully!"; // shows success message
-          setTimeout( () => {
+          setTimeout(() => {
             setShowResult(false);
-            document.querySelector( ".result" ).style.display = "none"; // hides success message after 2 seconds
-          }, 3000 );
+            document.querySelector(".result").style.display = "none"; // hides success message after 2 seconds
+          }, 3000);
         },
-        ( error ) => {
+        (error) => {
           setShowResult(false);
           document.querySelector(".result").style.display = "block";
-          document.querySelector( ".result" ).innerHTML =
+          document.querySelector(".result").innerHTML =
             "Failed to send message. Please try again."; // shows error message
         }
       );
   };
-  const sendEmail2 = ( e ) => {
+  const sendEmail2 = (e) => {
     e.preventDefault();
-    console.log('1234 landingPage',form2.current)
+    console.log('1234 landingPage', form2.current)
     emailjs
       .sendForm(
         "service_wccf4ri",
@@ -119,26 +119,26 @@ const resetForm = () =>{
         "G79luOLoWDIpanYzY"
       )
       .then(
-        ( result ) => {
+        (result) => {
           form2.current.reset();
           setShowResult(true);
-          document.querySelector( ".result" ).innerHTML =
+          document.querySelector(".result").innerHTML =
             "Message sent successfully!"; // shows success message
-          setTimeout( () => {
+          setTimeout(() => {
             setShowResult(false);
-            document.querySelector( ".result" ).style.display = "none"; // hides success message after 2 seconds
-          }, 3000 );
+            document.querySelector(".result").style.display = "none"; // hides success message after 2 seconds
+          }, 3000);
         },
-        ( error ) => {
+        (error) => {
           setShowResult(false);
-          document.querySelector( ".result" ).innerHTML =
+          document.querySelector(".result").innerHTML =
             "Failed to send message. Please try again."; // shows error message
         }
       );
   };
-  const sendEmail3 = ( e ) => {
+  const sendEmail3 = (e) => {
     e.preventDefault();
-    console.log('1234 landingPage',form3.current)
+    console.log('1234 landingPage', form3.current)
     emailjs
       .sendForm(
         "service_wccf4ri",
@@ -147,19 +147,19 @@ const resetForm = () =>{
         "G79luOLoWDIpanYzY"
       )
       .then(
-        ( result ) => {
+        (result) => {
           form3.current.reset();
           setShowResult(true);
-          document.querySelector( ".result" ).innerHTML =
+          document.querySelector(".result").innerHTML =
             "Message sent successfully!"; // shows success message
-          setTimeout( () => {
+          setTimeout(() => {
             setShowResult(false);
-            document.querySelector( ".result" ).style.display = "none"; // hides success message after 2 seconds
-          }, 3000 );
+            document.querySelector(".result").style.display = "none"; // hides success message after 2 seconds
+          }, 3000);
         },
-        ( error ) => {
+        (error) => {
           setShowResult(false);
-          document.querySelector( ".result" ).innerHTML =
+          document.querySelector(".result").innerHTML =
             "Failed to send message. Please try again."; // shows error message
         }
       );
@@ -198,7 +198,7 @@ const resetForm = () =>{
   //  input.value = input.value.
   // }
 
-  
+
   useEffect(() => {
     const handleScroll = () => {
       const scrollY = window.scrollY;
@@ -228,7 +228,7 @@ const resetForm = () =>{
     <>
       <Head>
         <title>
-          { " " }
+          {" "}
           Best SEO Company in Kochi, Kerala | Rank No 1 | SEO Services
         </title>
         <meta
@@ -321,44 +321,44 @@ const resetForm = () =>{
         />
       </Head>
       <div>
-      <header className={`sticky-header ${isScrolled ? 'scrolled' : ''}`}>
-        <div className="logo-container1">
+        <header className={`sticky-header ${isScrolled ? 'scrolled' : ''}`}>
+          <div className="logo-container1">
             <Image
-                src={chris}
-                alt='Image 1'
-                width={125}
-              />
-            
-        </div>
-           <nav className="nav-menu">
-      <ul>
-        <li><Link href="#">Home</Link></li>
-        <li><Link href="#about">About Us</Link></li>
-        <li><Link href="#strategy">Our Strategies</Link></li>
-        <li><Link href="#solution">Our Solutions</Link></li>
-        <li><Link href="#contact">Contact Us</Link></li>
-      </ul>
-    </nav>
-          {isScrolled ? <button className="header-btn" onClick={()=>openForm()}>Free SEO Audit</button>
-        : <div className="header-btn" /> 
-        }
-    </header>
+              src={chris}
+              alt='Image 1'
+              width={125}
+            />
+
+          </div>
+          <nav className="nav-menu">
+            <ul>
+              <li><Link href="#">Home</Link></li>
+              <li><Link href="#about">About Us</Link></li>
+              <li><Link href="#strategy">Our Strategies</Link></li>
+              <li><Link href="#solution">Our Solutions</Link></li>
+              <li><Link href="#contact">Contact Us</Link></li>
+            </ul>
+          </nav>
+          {isScrolled ? <button className="header-btn" onClick={() => openForm()}>Free SEO Audit</button>
+            : <div className="header-btn" />
+          }
+        </header>
         <section
           className='hero1'
           id='home'>
           <div className='container1 left'>
             <div className='carousel1-hero1-container1'>
               <Slider
-                slidesToShow={ 1 }
-                slidesToScroll={ 1 }
-                autoplay={ true }
-                autoplaySpeed={ 2000 }
-                dots={ false }
-                arrows={ false }>
+                slidesToShow={1}
+                slidesToScroll={1}
+                autoplay={true}
+                autoplaySpeed={2000}
+                dots={false}
+                arrows={false}>
                 <div>
                   <h2>
-                    { " " }
-                    SEO Strategies Experience Higher Level of Website Traffic{ " " }
+                    {" "}
+                    SEO Strategies Experience Higher Level of Website Traffic{" "}
                   </h2>
                   <h3>
                     Implementing SEO Strategies for Sustainable Business Growth
@@ -374,115 +374,115 @@ const resetForm = () =>{
                     Brand recognition and visibility through targeted marketing
                   </h3>
                 </div>
-              </Slider>{ " " }
+              </Slider>{" "}
             </div>
           </div>
           {/* first form */}
           <div className='container1 right formContainer'>
-          <div className='form'>
-            <h5>Schedule a Consultation</h5>
-            <form
+            <div className='form'>
+              <h5>Schedule a Consultation</h5>
+              <form
                 method="post"
-                 ref={form} 
-                 onSubmit={sendEmail}
-                  className="comment-one__form contact-form-validated"
-                  >
-            <div className='contact-hero1-form'>
-               <div className='input-group'>
-                  <input
-                   
-                    id='fullName'
-                    className="mt-2"
-                    name="name"
-                    value={name}
-                    onChange={handleNameChange}
-                    required
-                  />
-                  <label for=''>
-                    <i className='fa-solid fa-user'></i> Name
-                  </label>
+                ref={form}
+                onSubmit={sendEmail}
+                className="comment-one__form contact-form-validated"
+              >
+                <div className='contact-hero1-form'>
+                  <div className='input-group'>
+                    <input
+
+                      id='fullName'
+                      className="mt-2"
+                      name="name"
+                      value={name}
+                      onChange={handleNameChange}
+                      required
+                    />
+                    <label for=''>
+                      <i className='fa-solid fa-user'></i> Name
+                    </label>
+                  </div>
+                  <div className='input-group'>
+                    <input
+                      id='email_id'
+                      className="mt-2"
+                      required
+                      minLength={10}
+                      value={email}
+                      name="email"
+                      onChange={handleEmailChange}
+
+                    />
+                    <label
+                      for=''
+                      className='ms-2 text-white'>
+                      <i className='fa-solid fa-envelope'></i> Email
+                    </label>
+                  </div>
+                  <div className='input-group'>
+                    <input
+                      type='tel'
+                      id='phone'
+                      className="mt-2"
+                      required
+                      minLength={10}
+                      value={phoneNumber}
+                      name="phone"
+                      onChange={handlePhoneChange}
+                    >
+                    </input>
+                    <label
+                      for=''
+                      className='ms-2 text-white'>
+                      <i className='fa-solid fa-mobile'></i> Number
+                    </label>
+                  </div>
+                  <div className='input-group'>
+                    <input
+
+                      id='Companyname'
+                      className="mt-2"
+                      name="company"
+                      value={company}
+                      onChange={handleCompanyChange}
+                      required
+                    />
+                    <label
+                      for=''
+                      className='ms-2 text-white'>
+                      <i className='fa-solid fa-building'></i> Company
+                    </label>
+                  </div>
+                  <button type="submit" className="p-0 submit-btn">
+                    <i className='fa-solid fa-paper-plane'></i> Submit
+                  </button>
                 </div>
-              <div className='input-group'>
-                <input
-                  id='email_id'
-                  className="mt-2"
-                  required
-                  minLength={10}
-                  value={email}
-                  name="email"
-                  onChange={handleEmailChange}
-                  
-                />
-                <label
-                  for=''
-                  className='ms-2 text-white'>
-                  <i className='fa-solid fa-envelope'></i> Email
-                </label>
-              </div>
-              <div className='input-group'>
-                <input
-                  type='tel'
-                  id='phone'
-                  className="mt-2"
-                  required
-                  minLength={10}
-                  value={phoneNumber}
-                  name="phone"
-                  onChange={handlePhoneChange}
-                  >
-                  </input>
-                <label
-                  for=''
-                  className='ms-2 text-white'>
-                  <i className='fa-solid fa-mobile'></i> Number
-                </label>
-              </div>
-              <div className='input-group'>
-                <input
-             
-                  id='Companyname'
-                  className="mt-2"
-                  name="company"
-                  value={company}
-                  onChange={handleCompanyChange}
-                  required
-                />
-                <label
-                  for=''
-                  className='ms-2 text-white'>
-                  <i className='fa-solid fa-building'></i> Company
-                </label>
-              </div>
-              <button type="submit" className="p-0 submit-btn">
-                <i className='fa-solid fa-paper-plane'></i> Submit
-              </button>
-            </div>
-            </form>
+              </form>
             </div>
           </div>
-      
+
         </section>
         <section className="about-section entrance-animation visible" id="about">
-        <div className="about-container1">
+          <div className="about-container1">
             <div className="about-content">
-                <h2>About Us</h2>
-                <p>
-                    At Way WeDesign, with a rich history spanning over 5 years, we've solidified our position as a leading IT/ITES provider, serving clients worldwide.  We're not just about services; we're passionate about driving business innovation through the power of digital marketing.
-Our dynamic team is at the forefront of technology, staying abreast of the latest digital marketing trends and advancements. We're dedicated to offering our clients the most effective and up-to-date strategies to boost their online presence and drive results.
-Equipped with state-of-the-art facilities and technologies, we're committed to providing innovative digital marketing solutions that propel your business forward. Customer satisfaction is at the core of our approach, and we understand the importance of building strong digital relationships.
-Join Way WeDesign on the journey to elevate your digital presence. We're not just a service provider; we're your partners in navigating the ever-evolving landscape of digital marketing, ensuring your success in the digital realm.
+              <h2>About Us</h2>
+              <p>
+                At Way WeDesign, with a rich history spanning over 5 years, we've solidified our position as a leading IT/ITES provider, serving clients worldwide.  We're not just about services; we're passionate about driving business innovation through the power of digital marketing.
+                Our dynamic team is at the forefront of technology, staying abreast of the latest digital marketing trends and advancements. We're dedicated to offering our clients the most effective and up-to-date strategies to boost their online presence and drive results.
+                Equipped with state-of-the-art facilities and technologies, we're committed to providing innovative digital marketing solutions that propel your business forward. Customer satisfaction is at the core of our approach, and we understand the importance of building strong digital relationships.
+                Join Way WeDesign on the journey to elevate your digital presence. We're not just a service provider; we're your partners in navigating the ever-evolving landscape of digital marketing, ensuring your success in the digital realm.
 
-                </p>
+              </p>
             </div>
             <div className="about-image">
-                {/* <img src="includes/about-02.png" alt="About Us Image"/> */}
-                <Image
+              {/* <img src="includes/about-02.png" alt="About Us Image"/> */}
+              <Image
                 src={aboutUs}
                 alt='Image 1'
               />
             </div>
-        </div>
-    </section>
+          </div>
+        </section>
         <section
           className='seo-section entrance-animation'
           id='strategy'>
@@ -493,7 +493,7 @@ Join Way WeDesign on the journey to elevate your digital presence. We're not jus
                 src={seoAudit}
                 alt='Image 1'
               />
-              {/* <img src="includes/icon 1.png" alt="Image 1"/> */ }
+              {/* <img src="includes/icon 1.png" alt="Image 1"/> */}
               <h3>Technical SEO Audit</h3>
               <p>
                 We use Ahrefs and Screaming Frog to analyze your website,
@@ -504,7 +504,7 @@ Join Way WeDesign on the journey to elevate your digital presence. We're not jus
               </p>
               <button
                 className='open-button'
-                onClick={ () => openForm() }>
+                onClick={() => openForm()}>
                 Get Free Proposal
               </button>
             </div>
@@ -513,10 +513,10 @@ Join Way WeDesign on the journey to elevate your digital presence. We're not jus
                 src={seoKeyword}
                 alt='Image 2'
               />
-              {/* <img src="includes/2.png" alt="Image 2"/> */ }
+              {/* <img src="includes/2.png" alt="Image 2"/> */}
               <h3>SEO Keyword Search</h3>
               <p>
-                { " " }
+                {" "}
                 Our SEO strategists use tools like SEMRush, industry insights,
                 and competitive analysis to find high-search-volume keywords
                 relevant to your business. Through this research, content gaps
@@ -527,7 +527,7 @@ Join Way WeDesign on the journey to elevate your digital presence. We're not jus
               <button
                 className='open-button'
                 id='seobutton'
-                onClick={ () => openForm() }>
+                onClick={() => openForm()}>
                 Get Free Proposal
               </button>
             </div>
@@ -536,7 +536,7 @@ Join Way WeDesign on the journey to elevate your digital presence. We're not jus
                 src={seoOptimisation}
                 alt='Image 3'
               />
-              {/* <img src="includes/3.png" alt="Image 3"/> */ }
+              {/* <img src="includes/3.png" alt="Image 3"/> */}
               <h3>On-page SEO Optimization</h3>
               <p>
                 Our SEO experts will map your relevant business keywords and
@@ -548,7 +548,7 @@ Join Way WeDesign on the journey to elevate your digital presence. We're not jus
               <button
                 className='open-button'
                 id='seobutton'
-                onClick={ () => openForm() }>
+                onClick={() => openForm()}>
                 Get Free Proposal
               </button>
             </div>
@@ -557,7 +557,7 @@ Join Way WeDesign on the journey to elevate your digital presence. We're not jus
                 src={contentStrategy}
                 alt='Image 4'
               />
-              {/* <img src="includes/4.png" alt="Image 4"/> */ }
+              {/* <img src="includes/4.png" alt="Image 4"/> */}
               <h3>Content Strategy</h3>
               <p>
                 Our SEO content strategy starts with audience analysis and
@@ -569,7 +569,7 @@ Join Way WeDesign on the journey to elevate your digital presence. We're not jus
               <button
                 className='open-button'
                 id='seobutton'
-                onClick={ () => openForm() }>
+                onClick={() => openForm()}>
                 Get Free Proposal
               </button>
             </div>
@@ -578,7 +578,7 @@ Join Way WeDesign on the journey to elevate your digital presence. We're not jus
                 src={linkBuilding}
                 alt='Image 1'
               />
-              {/* <img src="includes/5.png" alt="Image 5"/> */ }
+              {/* <img src="includes/5.png" alt="Image 5"/> */}
               <h3>Off-page SEO Link Building</h3>
               <p>
                 Backlinks are like votes of confidence for Google, indicating
@@ -591,7 +591,7 @@ Join Way WeDesign on the journey to elevate your digital presence. We're not jus
               <button
                 className='open-button'
                 id='seobutton'
-                onClick={ () => openForm() }>
+                onClick={() => openForm()}>
                 Get Free Proposal
               </button>
             </div>
@@ -600,7 +600,7 @@ Join Way WeDesign on the journey to elevate your digital presence. We're not jus
                 src={report}
                 alt='Image 1'
               />
-              {/* <img src="includes/6.png" alt="Image 6"/> */ }
+              {/* <img src="includes/6.png" alt="Image 6"/> */}
               <h3>Consulting & Monthly Reporting</h3>
               <p>
                 Our SEO account manager will not simply set it and forget it.
@@ -613,7 +613,7 @@ Join Way WeDesign on the journey to elevate your digital presence. We're not jus
               <button
                 className='open-button'
                 id='seobutton'
-                onClick={ () => openForm() }>
+                onClick={() => openForm()}>
                 Get Free Proposal
               </button>
             </div>
@@ -625,271 +625,271 @@ Join Way WeDesign on the journey to elevate your digital presence. We're not jus
             <h4>Connect with our digital marketing expert<br /> to boost your business and join the best agency.</h4>
             <div className="cta-buttons">
               <a href="tel:+917994643673" className="cta-button">Call - 799 464 3673</a>
-              <button className="open-button" onClick={ () => setIsVisible( true ) }>Get Free Proposal</button>
+              <button className="open-button" onClick={() => setIsVisible(true)}>Get Free Proposal</button>
             </div>
           </div>
         </section>
         <section className="background-section entrance-animation visible" id="solution">
-    <h2>DISCOVER THE RIGHT SOLUTIONS FOR YOUR BUSINESS</h2>
-    <div className="background-container1">
-        <div className="box">
-            <Image
+          <h2>DISCOVER THE RIGHT SOLUTIONS FOR YOUR BUSINESS</h2>
+          <div className="background-container1">
+            <div className="box">
+              <Image
                 src={software}
                 alt='Image 1'
               />
-             <h3> Software & Platform Development</h3>
-            <p>Unlock the full potential of your business with customized software development solutions tailored to your unique needs and requirements</p>
-        </div>
-        <div className="box">
-            
-            <h3>
-            <Image
-                src={digitalMarketing}
-                alt='Image 1'
-              />
-            Digital Marketing</h3>
-            <p>Boost your online presence and reach your target audience through our comprehensive digital marketing services.</p>
-        </div>
-        <div className="box">
-            
-            <h3>
-            <Image
-                src={cloudService}
-                alt='Image 1'
-              />
-            Cloud Service</h3>
-            <p>Explore our comprehensive range of cloud services offering secure data storage, scalable computing power, and seamless application deployment</p>
-        </div>
-        <div className="box">
-            
-            <h3>
-            <Image
-                src={UIUXDesign}
-                alt='Image 1'
-              />
-            UI UX Design</h3>
-            <p>Unlock the potential of your digital products with our bespoke UI/UX design services, ensuring optimal user engagement and brand loyalty</p>
-        </div>
-        <div className="box">
-            
-            <h3>
-            <Image
-                src={HRM}
-                alt='Image 1'
-              />
-            HRM</h3>
-            <p>Discover our comprehensive HRM services, providing strategic talent management solutions to optimize your workforce and drive business success</p>
-        </div>
-        <div className="box">
-            
-            <h3>
-            <Image
-                src={academy}
-                alt='Image 1'
-              />
-            Digital Marketing Acacademy</h3>
-            <p>Discover the secrets of successful digital marketing at our academy and gain the skills to thrive in the online world</p>
-        </div>
-    </div>
-      </section>
-      <section className="feature-section entrance-animation visible">
-    <div className="feature-container">
-        <h2 className="feature-h2">Our SEO  Process</h2>
-        <h3 className="feature-h3">We follow a well-defined, systematic process to work with our clients.</h3>
-        <div className="feature-row">
-            <div className="feature-column">
+              <h3> Software & Platform Development</h3>
+              <p>Unlock the full potential of your business with customized software development solutions tailored to your unique needs and requirements</p>
+            </div>
+            <div className="box">
+
+              <h3>
+                <Image
+                  src={digitalMarketing}
+                  alt='Image 1'
+                />
+                Digital Marketing</h3>
+              <p>Boost your online presence and reach your target audience through our comprehensive digital marketing services.</p>
+            </div>
+            <div className="box">
+
+              <h3>
+                <Image
+                  src={cloudService}
+                  alt='Image 1'
+                />
+                Cloud Service</h3>
+              <p>Explore our comprehensive range of cloud services offering secure data storage, scalable computing power, and seamless application deployment</p>
+            </div>
+            <div className="box">
+
+              <h3>
+                <Image
+                  src={UIUXDesign}
+                  alt='Image 1'
+                />
+                UI UX Design</h3>
+              <p>Unlock the potential of your digital products with our bespoke UI/UX design services, ensuring optimal user engagement and brand loyalty</p>
+            </div>
+            <div className="box">
+
+              <h3>
+                <Image
+                  src={HRM}
+                  alt='Image 1'
+                />
+                HRM</h3>
+              <p>Discover our comprehensive HRM services, providing strategic talent management solutions to optimize your workforce and drive business success</p>
+            </div>
+            <div className="box">
+
+              <h3>
+                <Image
+                  src={academy}
+                  alt='Image 1'
+                />
+                Digital Marketing Acacademy</h3>
+              <p>Discover the secrets of successful digital marketing at our academy and gain the skills to thrive in the online world</p>
+            </div>
+          </div>
+        </section>
+        <section className="feature-section entrance-animation visible">
+          <div className="feature-container">
+            <h2 className="feature-h2">Our SEO  Process</h2>
+            <h3 className="feature-h3">We follow a well-defined, systematic process to work with our clients.</h3>
+            <div className="feature-row">
+              <div className="feature-column">
                 {/* <img src="includes/free consultation.png" alt="Feature 1 Icon"/> */}
                 <Image
-                src={freeConsultation}
-                alt='Image 1'
-              />
+                  src={freeConsultation}
+                  alt='Image 1'
+                />
                 <h4>Book A Free Consultation</h4>
                 <p>We will learn about your business, problems, objectives and your expectations</p>
-            </div>
-            <div className="feature-column">
+              </div>
+              <div className="feature-column">
                 {/* <img src="includes/plan of action.png" alt="Feature 2 Icon"/> */}
                 <Image
-                src={planOfAction}
-                alt='Image 1'
-              />
+                  src={planOfAction}
+                  alt='Image 1'
+                />
                 <h4>Review The Plan of Action</h4>
                 <p>We will walk you through the plan of action that will help you to achieve your goals.</p>
-            </div>
-            <div className="feature-column">
+              </div>
+              <div className="feature-column">
                 {/* <img src="includes/kickstart.png" alt="Feature 3 Icon"/> */}
                 <Image
-                src={kickStart}
-                alt='Image 1'
-              />
+                  src={kickStart}
+                  alt='Image 1'
+                />
                 <h4>Kick Start</h4>
                 <p>While you focus on your business, we will kick start the marketing campaigns to grow your business online.</p>
+              </div>
             </div>
-        </div>
-    </div>
-      </section>
+          </div>
+        </section>
         <form
-                method="post"
-                 ref={form2} 
-                 onSubmit={sendEmail2}
-                  className="comment-one__form contact-form-validated"
-                 
-                  >
-        <div
-          // className='form-popup'
-          className={ isVisible === true ? 'form-popup visible' : 'form-popup hidden' }
-          id='myForm'>
-          <div className='form-container1'>
-            <div className='input-group'>
-              <input
-                type='text'
-                id='fullName'
-                className="mt-2"
-                name="name"
-                required
-              />
-              <label for=''>
-                <i className='fa-solid fa-user'></i> Name
-              </label>
-            </div>
-            <div className='input-group'>
-              <input
-                id='email_id'
-                className="mt-2"
-                required
-                minLength={10}
+          method="post"
+          ref={form2}
+          onSubmit={sendEmail2}
+          className="comment-one__form contact-form-validated"
+
+        >
+          <div
+            // className='form-popup'
+            className={isVisible === true ? 'form-popup visible' : 'form-popup hidden'}
+            id='myForm'>
+            <div className='form-container1'>
+              <div className='input-group'>
+                <input
+                  type='text'
+                  id='fullName'
+                  className="mt-2"
+                  name="name"
+                  required
+                />
+                <label for=''>
+                  <i className='fa-solid fa-user'></i> Name
+                </label>
+              </div>
+              <div className='input-group'>
+                <input
+                  id='email_id'
+                  className="mt-2"
+                  required
+                  minLength={10}
                   value={email}
                   name="email"
                   onChange={handleEmailChange}
-              />
-              <label for=''>
-                <i className='fa-solid fa-envelope'></i>Email
-              </label>
-            </div>
-            <div className='input-group'>
-              <input
-                type='tel'
-                id='phone'
-                className="mt-2"
-                required
-                minLength={10}
-                name="phone"
+                />
+                <label for=''>
+                  <i className='fa-solid fa-envelope'></i>Email
+                </label>
+              </div>
+              <div className='input-group'>
+                <input
+                  type='tel'
+                  id='phone'
+                  className="mt-2"
+                  required
+                  minLength={10}
+                  name="phone"
                   value={phoneNumber}
                   onChange={handlePhoneChange}
                 ></input>
-              <label for=''>
-                <i className='fa-solid fa-mobile'></i> Number
-              </label>
+                <label for=''>
+                  <i className='fa-solid fa-mobile'></i> Number
+                </label>
+              </div>
+              <div className='input-group'>
+                <input
+                  type='text'
+                  id='Companyname'
+                  name="company"
+                  className="mt-2"
+                  required
+                />
+                <label for=''>
+                  <i className='fa-solid fa-building'></i> Company
+                </label>
+              </div>
+              <button type="submit" className="p-0 submit-btn">
+                <i className='fa-solid fa-paper-plane'></i> Submit
+              </button>
+              <button
+                type='button'
+                className='btn cancel'
+                onClick={() => closeForm()}>
+                <i className='fa-solid fa-circle-xmark'></i>&nbsp; Close
+              </button>
             </div>
-            <div className='input-group'>
-              <input
-                type='text'
-                id='Companyname'
-                name="company"
-                className="mt-2"
-                required
-              />
-              <label for=''>
-                <i className='fa-solid fa-building'></i> Company
-              </label>
-            </div>
-            <button type="submit" className="p-0 submit-btn">
-              <i className='fa-solid fa-paper-plane'></i> Submit
-            </button>
-            <button
-              type='button'
-              className='btn cancel'
-              onClick={()=>closeForm()}>
-              <i className='fa-solid fa-circle-xmark'></i>&nbsp; Close
-            </button>
           </div>
-        </div>
         </form>
-      
-        <div className={ `login-popup ${showPopUp ? 'show' : ''}` }>
+
+        <div className={`login-popup ${showPopUp ? 'show' : ''}`}>
           <div className='box'>
-               <Image
-                src={chris}
-                alt='Image 1'
-                className="logoBox"
-              />
+            <Image
+              src={chris}
+              alt='Image 1'
+              className="logoBox"
+            />
             <div className='form'>
               <h2>Schedule a Consultation</h2>
-              <div className='close'><a onClick={ () => setShowPopUp( false ) }>&times;</a></div>
+              <div className='close'><a onClick={() => setShowPopUp(false)}>&times;</a></div>
               <form
                 method="post"
-                 ref={form} 
-                 onSubmit={sendEmail}    
-                 className="comment-one__form contact-form-validated"       
-                  >
-              <div className='form-popup-container1'>
-                <div className='input-group'>
-                  <input
-                    type='text'
-                    id='fullName'
-                    className="mt-2"
-                    name="name"
-                    required
-                  />
-                  <label for=''>
-                    <i className='fa-solid fa-user'></i> Name
-                  </label>
-                </div>
-                <div className='input-group'>
-                  <input
-                    id='email_id'
-                    className="mt-2"
-                    required
-                    minLength={10}
-                  value={email}
-                  name="email"
-                  onChange={handleEmailChange}
-                  />
-                  <label for=''>
-                    <i className='fa-solid fa-envelope'></i> Email
-                  </label>
-                </div>
-                <div className='input-group'>
-                  <input
-                    type='tel'
-                    id='phone'
-                    className="mt-2"
-                    required
-                    minLength={10}
-                    name="phone"
-                  value={phoneNumber}
-                  onChange={handlePhoneChange}
+                ref={form}
+                onSubmit={sendEmail}
+                className="comment-one__form contact-form-validated"
+              >
+                <div className='form-popup-container1'>
+                  <div className='input-group'>
+                    <input
+                      type='text'
+                      id='fullName'
+                      className="mt-2"
+                      name="name"
+                      required
+                    />
+                    <label for=''>
+                      <i className='fa-solid fa-user'></i> Name
+                    </label>
+                  </div>
+                  <div className='input-group'>
+                    <input
+                      id='email_id'
+                      className="mt-2"
+                      required
+                      minLength={10}
+                      value={email}
+                      name="email"
+                      onChange={handleEmailChange}
+                    />
+                    <label for=''>
+                      <i className='fa-solid fa-envelope'></i> Email
+                    </label>
+                  </div>
+                  <div className='input-group'>
+                    <input
+                      type='tel'
+                      id='phone'
+                      className="mt-2"
+                      required
+                      minLength={10}
+                      name="phone"
+                      value={phoneNumber}
+                      onChange={handlePhoneChange}
                     ></input>
-                  <label for=''>
-                    <i className='fa-solid fa-mobile'></i>Number
-                  </label>
+                    <label for=''>
+                      <i className='fa-solid fa-mobile'></i>Number
+                    </label>
+                  </div>
+                  <div className='input-group'>
+                    <input
+                      type='text'
+                      id='Companyname'
+                      className="mt-2"
+                      name="company"
+                      required
+                    />
+                    <label for=''>
+                      <i className='fa-solid fa-building'></i> Company
+                    </label>
+                  </div>
+                  <button type="submit" className="p-0 submit-btn">
+                    <i className='fa-solid fa-paper-plane'></i> Submit
+                  </button>
                 </div>
-                <div className='input-group'>
-                  <input
-                    type='text'
-                    id='Companyname'
-                    className="mt-2"
-                    name="company"
-                    required
-                  />
-                  <label for=''>
-                    <i className='fa-solid fa-building'></i> Company
-                  </label>
-                </div>
-                <button type="submit" className="p-0 submit-btn">
-                  <i className='fa-solid fa-paper-plane'></i> Submit
-                </button>
-              </div>
               </form>
             </div>
           </div>
         </div>
-        <div className={ `loginResult-popup ${showResult ? 'show' : ''}` }>
-            <div className="box1"><div className="result text-white">Message sent successfully</div></div>
+        <div className={`loginResult-popup ${showResult ? 'show' : ''}`}>
+          <div className="box1"><div className="result text-white">Message sent successfully</div></div>
         </div>
-        
+
       </div>
-     <section id='contact'>
-      <Footer /></section>
+      <section id='contact'>
+        <Footer /></section>
     </>
   );
 };

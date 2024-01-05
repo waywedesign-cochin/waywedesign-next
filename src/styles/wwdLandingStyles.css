@@ -108,14 +108,14 @@
 .carousel1-hero1-container1 h3{
     color: #ffffff;
 }
-  .right{
+.right{
     margin-left: 50px;
 
     background-color:#113176a9;
     border-radius: 10px;
     box-shadow: 0 15px 35px rgba(255, 255, 255, 0.5);
-  }
-  .contact-hero1-form{
+}
+.contact-hero1-form{
     display: flex;
     flex-direction: column;
 }
