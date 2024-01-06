@@ -265,6 +265,7 @@ input:focus~label,input:valid~label,textarea:focus~label,textarea:valid~label{
     background-size: contain;
     background-position:right;
     background-repeat: no-repeat;
+    background-color: #113176;
 }
 .second-content{
     width: 50%;
@@ -312,6 +313,7 @@ input:focus~label,input:valid~label,textarea:focus~label,textarea:valid~label{
     justify-items: center;
     height: 80vh;
     padding-top: 100px;
+    background-color: #113176;
 }
 .lp-third-row{
     display: flex;
@@ -343,6 +345,7 @@ input:focus~label,input:valid~label,textarea:focus~label,textarea:valid~label{
     align-items: center;
     height: 90vh;
     padding-top: 50px;
+    background-color: #113176;
 }
 .lp-fourth-section h2{
     color: white;
@@ -400,7 +403,7 @@ input:focus~label,input:valid~label,textarea:focus~label,textarea:valid~label{
     justify-items: center;
     gap: 30px;
     padding: 50px;
-
+    background-color: #113176;
 }
 .lp-fifth-section h2{
     color: white;
@@ -436,6 +439,7 @@ input:focus~label,input:valid~label,textarea:focus~label,textarea:valid~label{
     justify-items: center;
     padding: 50px;
     background-color: rgba(195, 225, 250, 0.452);
+    background-color: #749ffc;
 }
 .lp-sixth-section h2{
     color: white;

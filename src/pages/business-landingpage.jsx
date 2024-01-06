@@ -12,9 +12,9 @@ import ssl from '@/styles/landing/ssl.png'
 import eybi from '@/styles/landing/eybi.png'
 import bcwo from '@/styles/landing/bcwo.png'
 import visuals from '@/styles/landing/visuals.png'
-import cta from '@/styles/landing/call to action.png'
-import advancedform from '@/styles/landing/advanced form design.png'
-import design from '@/styles/landing/responsive design.png'
+import cta from '@/styles/landing/calltoaction.png'
+import advancedform from '@/styles/landing/advancedformdesign.png'
+import design from '@/styles/landing/responsivedesign.png'
 import graphics from '@/styles/landing/graphics.png'
 import emailjs from '@emailjs/browser';
 
@@ -65,6 +65,8 @@ export const business_landingpage = () => {
   function closelpForm() {
     setlpIsVisible(false);
   }
+
+
   const [isScrolled, setlpIsScrolled] = useState(false);
 
 
@@ -285,20 +287,21 @@ export const business_landingpage = () => {
                 arrows={false}>
                 <div>
                   <h2>
-                    SEO Strategies Experience Higher Level of Website Traffic
+                  Transform Your Business with a Stunning Landing Pages
                   </h2>
                   <h3>
-                    Implementing SEO Strategies for Sustainable Business Growth
+                  Revitalize your brand with visually stunning and effective landing pages that captivate
                   </h3>
                 </div>
                 <div>
-                  <h2> Strategic SEO Solutions for Measurable Success</h2>
-                  <h3>Improve your rankings and increase sales</h3>
+                  <h2>Responsive & high-converting landing pages
+                    </h2>
+                  <h3>Boost conversions with responsive and high-performing landing pages for optimal user engagement</h3>
                 </div>
                 <div>
-                  <h2> Connections and interactions with your audience</h2>
+                  <h2> Transform Your Google AdWords Strategy with Our Services</h2>
                   <h3>
-                    Brand recognition and visibility through targeted marketing
+                  Optimize Google Ad strategy with our expert services for maximum impact and results
                   </h3>
                 </div>
               </Slider>
@@ -458,9 +461,9 @@ export const business_landingpage = () => {
         <button className='fourth-cta-btn' onClick={() => openlpForm()}>
         Create Your Landing Page
         </button>
-        <button className='fourth-cta-btn'>
-        Call : 1234567890
-        </button>
+        <a href='callto:7994643673'><button className='fourth-cta-btn'>
+        Call : 7994643673
+        </button></a>
         </div>
       </div>
       <div className='lp-fifth-section'>

@@ -10,9 +10,13 @@ import ToolsUsed from '@/Components/Home/ToolsUsed'
 import BannerVideo from '@/Components/Home/BannerVideo'
 import { motion } from "framer-motion";
 
+
+
 const Home = () => {
   return (
-    <>
+    <> 
+    
+
         <BannerVideo/>
         <PartnerSlider/>
         <FeatureOne/>
